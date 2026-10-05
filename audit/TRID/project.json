@@ -1,0 +1,17 @@
+{
+ "run": "ws-run1",
+ "code": "TRID",
+ "project": "gf180mcu-project-trident-gf180-teststructure",
+ "slot_size": "0p5x1",
+ "visibility": "Public",
+ "details": "Test structures to evaluate leakage currents in gf180mcuD technology ",
+ "top": "TOP",
+ "sha256": "7d319382160df1c102aea162015a8cb007dc6d42c7418f0e104e01dd29100673",
+ "layout": "TRID/TOP.gds",
+ "repo": {
+  "host": "github.com",
+  "path": "Scafir/gf180mcu-project-trident-gf180-teststructure",
+  "branch": null,
+  "url_as_listed": "https://github.com/Scafir/gf180mcu-project-trident-gf180-teststructure"
+ }
+}

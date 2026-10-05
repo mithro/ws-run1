@@ -1,0 +1,17 @@
+{
+ "run": "ws-run1",
+ "code": "BTAP",
+ "project": "BreakingTTAPs",
+ "slot_size": "1x1",
+ "visibility": "Public",
+ "details": "Transport Triggered Architecture processor",
+ "top": "chip_top",
+ "sha256": "d0b1e6f2b229b7394b91722dee8c37a8487d59b739d025b69f74f3144fbad024",
+ "layout": "BTAP/chip_top.gds",
+ "repo": {
+  "host": "github.com",
+  "path": "polyfractal/BreakingTTAPs",
+  "branch": null,
+  "url_as_listed": "https://github.com/polyfractal/BreakingTTAPs"
+ }
+}

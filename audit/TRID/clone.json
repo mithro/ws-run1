@@ -1,0 +1,30 @@
+{
+ "run": "ws-run1",
+ "code": "TRID",
+ "errors": [],
+ "submodules": [],
+ "releases": [
+  {
+   "tag": "ws-run-1",
+   "name": "Tapeout at ws-run-1",
+   "published": "2026-07-02T14:23:27Z",
+   "assets": [
+    {
+     "name": "top.layout.filled_db0p001.gds.gz",
+     "size": 18597387
+    },
+    {
+     "name": "top.layout.filled_db0p001.gds.gz.license",
+     "size": 74
+    }
+   ]
+  }
+ ],
+ "url": "https://github.com/Scafir/gf180mcu-project-trident-gf180-teststructure.git",
+ "head": "f81200d5f0b3ed4483dc31e6e41b251acfcf811e",
+ "branch": "main",
+ "head_date": "2026-07-02T16:19:57+02:00",
+ "remote_branches": 3,
+ "tags": 1,
+ "lfs": false
+}

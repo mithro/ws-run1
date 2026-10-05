@@ -1,0 +1,162 @@
+{
+ "run": "ws-run1",
+ "code": "TTPG",
+ "errors": [],
+ "submodules": [
+  {
+   "path": "tt-multiplexer",
+   "url": "https://github.com/TinyTapeout/tt-multiplexer/",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "30c3f44bcb23ffdad2c2f97edd4c4fe3fc6a87bf"
+  },
+  {
+   "path": "tt",
+   "url": "https://github.com/TinyTapeout/tt-support-tools",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "310e50e3b16e3ad0aa9829bc55a6b701f4bb0f80"
+  },
+  {
+   "path": "gf180mcu",
+   "url": "https://github.com/wafer-space/gf180mcu",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "77cb86086e6bcded39e5e3f2d25ab234b6cdee65"
+  },
+  {
+   "path": "librelane",
+   "url": "https://github.com/librelane/librelane",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "e2f0b0e71f0394dc8e3e9b3376a3ceea41837d06"
+  },
+  {
+   "path": "librelane/test/designs",
+   "url": "https://github.com/librelane/librelane-ci-designs.git",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "1ae1cc40c26015a58129be1e2cdcc21de6b5b41e"
+  },
+  {
+   "path": "librelane/test/designs/caravel_user_project_example_full/src",
+   "url": "https://github.com/efabless/caravel_user_project/",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "d9ddc78b65db1d5f8c2871925cdec26bf95b5d53"
+  },
+  {
+   "path": "librelane/test/steps/all",
+   "url": "https://github.com/librelane/librelane-step-unit-tests.git",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "24d88017e62327c1e251fd9c64412ae8b7201cfc"
+  }
+ ],
+ "releases": [
+  {
+   "tag": "tapeout-ws2512",
+   "name": "Wafer Space 2512 (G801) Tapeout",
+   "published": "2025-12-10T18:15:50Z",
+   "assets": [
+    {
+     "name": "foundry_submission.zip",
+     "size": 112651365
+    },
+    {
+     "name": "GDS.zip",
+     "size": 743510333
+    },
+    {
+     "name": "gl_test_vcd.zip",
+     "size": 943602
+    },
+    {
+     "name": "macros.zip",
+     "size": 106751033
+    },
+    {
+     "name": "shuttle_index.zip",
+     "size": 3658
+    },
+    {
+     "name": "tt_gf_wrapper.oas",
+     "size": 16474481
+    },
+    {
+     "name": "tt_gf_wrapper.oas.tt_gf_wrapper.precheck.20251217_132152.log",
+     "size": 1869611
+    },
+    {
+     "name": "tt_gf_wrapper.oas.tt_gf_wrapper.precheck.20251217_132152.output.gds",
+     "size": 491520076
+    },
+    {
+     "name": "tt_gf_wrapper.oas.tt_gf_wrapper.precheck.20251217_132152.runs.tar",
+     "size": 285772292
+    }
+   ]
+  },
+  {
+   "tag": "tapeout-ws2512-powergate",
+   "name": "Wafer Space 2512 (G801) Tapeout with Power Gating and Split rail I/O ",
+   "published": "2025-12-11T05:10:35Z",
+   "assets": [
+    {
+     "name": "foundry_submission.zip",
+     "size": 122853892
+    },
+    {
+     "name": "GDS.zip",
+     "size": 827985124
+    },
+    {
+     "name": "gl_test_vcd.zip",
+     "size": 934807
+    },
+    {
+     "name": "macros.zip",
+     "size": 107400688
+    },
+    {
+     "name": "shuttle_index.zip",
+     "size": 3658
+    },
+    {
+     "name": "tt_gf_wrapper.oas",
+     "size": 16522464
+    },
+    {
+     "name": "tt_gf_wrapper.oas.tt_gf_wrapper.precheck.20251217_132152.log",
+     "size": 1558690
+    },
+    {
+     "name": "tt_gf_wrapper.oas.tt_gf_wrapper.precheck.20251217_132152.output.gds",
+     "size": 544467128
+    },
+    {
+     "name": "tt_gf_wrapper.oas.tt_gf_wrapper.precheck.20251217_132152.runs.tar",
+     "size": 332133722
+    }
+   ]
+  },
+  {
+   "tag": "g801-draft-2",
+   "name": "Second draft submission for wafer.space G801 shuttle",
+   "published": "2025-12-07T20:54:11Z",
+   "assets": [
+    {
+     "name": "tt_gf_wrapper.oas",
+     "size": 17313312
+    }
+   ]
+  }
+ ],
+ "url": "https://github.com/TinyTapeout/tinytapeout-gf-0p2.git",
+ "head": "4150e9654790addc851ad2e6db8d7b6d9663e6ff",
+ "branch": "main",
+ "head_date": "2026-04-29T21:31:42+02:00",
+ "remote_branches": 96,
+ "tags": 3,
+ "lfs": false
+}

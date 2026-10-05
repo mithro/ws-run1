@@ -1,0 +1,36 @@
+{
+ "run": "ws-run1",
+ "code": "AS03",
+ "errors": [],
+ "submodules": [
+  {
+   "path": "macros/MiscStuff/src/external/tt-waferspace-vga-screensaver",
+   "url": "https://github.com/TinyTapeout/tt-waferspace-vga-screensaver",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "ef9a2f006336c53c4f857ffde2e27db73368d254"
+  },
+  {
+   "path": "macros/MiscStuff/src/external/ttgf-vga-tiny-tapeout-animated-logo",
+   "url": "https://github.com/rejunity/ttgf-vga-tiny-tapeout-animated-logo",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "954893ad0ee1b895db4ef5902af7bcea216215e6"
+  },
+  {
+   "path": "macros/MiscStuff/gf180mcu_as_ex_mcu7t5v0",
+   "url": "https://github.com/AvalonSemiconductors/gf180mcu_as_ex_mcu7t5v0",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "5d671a8b9e1c1253fcf25bf46449a886377e9629"
+  }
+ ],
+ "releases": [],
+ "url": "https://github.com/AvalonSemiconductors/ws-submission-2025.git",
+ "head": "ef1e1212213b012c7528f46a6faffb947b0b3e4f",
+ "branch": "main",
+ "head_date": "2026-05-20T01:29:31+02:00",
+ "remote_branches": 2,
+ "tags": 0,
+ "lfs": false
+}

@@ -1,0 +1,113 @@
+{
+ "run": "ws-run1",
+ "code": "CAFE",
+ "errors": [],
+ "submodules": [
+  {
+   "path": "ip/FazyRV",
+   "url": "https://github.com/meiniKi/FazyRV.git",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "78f30d7aeecf0d7a36be1e7a008655ea3a7210ef"
+  },
+  {
+   "path": "ip/FazyRV/riscv-formal",
+   "url": "https://github.com/YosysHQ/riscv-formal.git",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "26d7b41b9dfad72e5e56cabf368c382330a0852c"
+  },
+  {
+   "path": "ip/FazyRV/embench-iot",
+   "url": "git@github.com:embench/embench-iot.git",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "54fd9a0f10aabc662991567ca19ff3e61bfd3939"
+  },
+  {
+   "path": "ip/wb_intercon",
+   "url": "https://github.com/olofk/wb_intercon.git",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "31e17ce183be74d95621702a4e67bfda80fda18c"
+  },
+  {
+   "path": "ip/rggen-verilog-rtl",
+   "url": "https://github.com/rggen/rggen-verilog-rtl.git",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "6c7dc7f117ec3ff66951cefbd429cf863c98c9e5"
+  },
+  {
+   "path": "ip/verilog-arbiter",
+   "url": "https://github.com/bmartini/verilog-arbiter.git",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "782bf8f34244cc6a3f279f2dbac8b5bf3f044132"
+  },
+  {
+   "path": "ip/FazyRV-ccx",
+   "url": "https://github.com/meiniKi/FazyRV.git",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "271205fc50543a6b97b668ca17561c1ffc2d5b90"
+  },
+  {
+   "path": "ip/FazyRV-ccx/riscv-formal",
+   "url": "https://github.com/YosysHQ/riscv-formal.git",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "26d7b41b9dfad72e5e56cabf368c382330a0852c"
+  },
+  {
+   "path": "ip/FazyRV-ccx/embench-iot",
+   "url": "git@github.com:embench/embench-iot.git",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "54fd9a0f10aabc662991567ca19ff3e61bfd3939"
+  },
+  {
+   "path": "ip/ahb3lite_wb_bridge",
+   "url": "https://github.com/meiniKi/ahb3lite_wb_bridge.git",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "db69ebd806f9bf50b02b2ff0f645078d9f47e0d2"
+  },
+  {
+   "path": "ip/EF_UART",
+   "url": "https://github.com/meiniki/EF_UART.git",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "5fa2395251b11fd2122e0fbe6e2b1d1df1776bfe"
+  },
+  {
+   "path": "ip/EF_IP_UTIL",
+   "url": "https://github.com/meiniki/EF_IP_UTIL.git",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "d39ac636305554c2ce9a0dc291b73ab4fcb6f726"
+  },
+  {
+   "path": "ip/EF_SPI",
+   "url": "https://github.com/meiniki/EF_SPI.git",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "35b574b21870a5531b6574b041da6b1ac5e2a5eb"
+  },
+  {
+   "path": "ip/MS_QSPI_XIP_CACHE",
+   "url": "https://github.com/meiniki/MS_QSPI_XIP_CACHE.git",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "48ca5fb1a766dfdceec78451f36bd3e908fa21e4"
+  }
+ ],
+ "releases": [],
+ "url": "https://github.com/meiniKi/gf180mcu-fazyrv-hachure.git",
+ "head": "51047e6350b7add0dfb66be19f4c7b64fe8a6033",
+ "branch": "main",
+ "head_date": "2025-12-15T08:04:59+01:00",
+ "remote_branches": 7,
+ "tags": 2,
+ "lfs": false
+}

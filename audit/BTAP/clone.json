@@ -1,0 +1,14 @@
+{
+ "run": "ws-run1",
+ "code": "BTAP",
+ "errors": [],
+ "submodules": [],
+ "releases": [],
+ "url": "https://github.com/polyfractal/BreakingTTAPs.git",
+ "head": "8f357d6ffb794d70623ff18029c7638c322340e8",
+ "branch": "main",
+ "head_date": "2025-12-22T14:41:22-08:00",
+ "remote_branches": 3,
+ "tags": 0,
+ "lfs": false
+}

@@ -1,0 +1,29 @@
+CODE,LICENSE,OTHER_SPDX,PROJECT_NAME,REPOSITORY_URL
+2975,GPL-3.0-only,GPL-3.0-only,Cloneless1,https://github.com/ThorbenMoos/Cloneless1
+AS03,Apache-2.0,,WS-Multi,https://github.com/AvalonSemiconductors/ws-submission-2025/
+BRWN,proprietary,,FA25_Engn2912e_Saligane_Brown,
+BTAP,CERN-OHL-S-2.0,CERN-OHL-S-2.0,BreakingTTAPs,
+CAFE,Apache-2.0,,FazyRV Hachure,https://github.com/meiniKi/gf180mcu-fazyrv-hachure
+CHES,Apache-2.0,,chess-move-generator,https://github.com/Ravenslofty/gf180mcu-chess
+GD02,Apache-2.0,,Racquet Half r1p0 (1/2 slot),https://github.com/gregdavill/gf180mcu-racquet-0.5x1
+GD03,Apache-2.0,,Racquet r2p0 - 23 core SoC,https://github.com/gregdavill/gf180mcu-racquet/
+GD04,BSD-3-Clause,,Racquet Wide 1x0.5,https://github.com/gregdavill/gf180mcu-racquet-1x0.5
+HZ80,Apache-2.0,,FOSSi open-source replacement for Z80 classic 8-bit CPU (0.5 x 1 slot),https://github.com/rejunity/ws0-z80-open-silicon-gf180mcu
+ISHI,Apache-2.0,,ISHI-KAI's Multiple Users Project,https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_WaferSapce-GF180-1
+JKU1,Apache-2.0,,gf180mcu-jku-projects,https://github.com/iic-jku/gf180mcu-jku-projects
+JKU2,Apache-2.0,,gf180mcu-jku-atbs-adc,https://github.com/iic-jku/gf180mcu-jku-atbs-adc
+KIAN,Apache-2.0,,KianV: A 32-bit RISC-V Linux SoC taped out on GF180MCU,https://github.com/splinedrive/gf180mcu-kianv-rv32ima-sv32/
+MOLE,Apache-2.0,,FABulous FPGA,https://github.com/mole99/gf180mcu-fabulous-fpga
+MOS2,MIT,,AutoMOS-Chipathon-2025 full size,https://github.com/AutoMOS-project/AutoMOS-chipathon2025/tree/update-for-ws
+OCD1,Apache-2.0,,openframe_caravel_picorv32,https://github.com/RTimothyEdwards/gf180mcu_ocd_openframe
+OCD2,Apache-2.0,,ocd_sram_test,https://github.com/RTimothyEdwards/gf180mcu_ocd_sram_test
+RBOY,Apache-2.0,,RISCBoy-180,https://github.com/wren6991/riscboy-180
+RZ80,Apache-2.0,,FOSSi open-source replacement for Z80 classic 8-bit CPU,https://github.com/rejunity/ws0-z80-open-silicon-gf180mcu?tab=readme-ov-file
+TQVA,Apache-2.0,,TinyQV - Crowdsourced Risc-V SoC,https://github.com/MichaelBell/ws01-tinyQV
+TQVB,Apache-2.0,,TinyQV - Crowdsourced Risc-V SoC (0.5x1),https://github.com/MichaelBell/ws01-tinyQV
+TQVC,Apache-2.0,,TinyQV - Crowdsourced Risc-V SoC (1x0.5),https://github.com/MichaelBell/ws01-tinyQV
+TRID,CERN-OHL-W-2.0,CERN-OHL-W-2.0,gf180mcu-project-trident-gf180-teststructure,https://github.com/Scafir/gf180mcu-project-trident-gf180-teststructure
+TTP2,Apache-2.0,,Tiny Tapeout GF 0.2,https://github.com/TinyTapeout/tinytapeout-gf-0p2
+TTPG,Apache-2.0,,Tiny Tapeout GF 0p2 - Power Gated Variant,https://github.com/TinyTapeout/tinytapeout-gf-0p2
+TZ01,Apache-2.0,,TillitisZedulo-testchip2025,https://github.com/ZeduloTech/gf180mcu-testchip2025
+WSLG,Apache-2.0,,Wafer.Space Logo,https://github.com/89Mods/ws-logo-die

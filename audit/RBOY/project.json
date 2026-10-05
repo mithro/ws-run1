@@ -1,0 +1,17 @@
+{
+ "run": "ws-run1",
+ "code": "RBOY",
+ "project": "RISCBoy-180",
+ "slot_size": "1x1",
+ "visibility": "Public",
+ "details": "A video games console on a chip. RISC-V CPU, RISC-V APU and custom graphics hardware. ",
+ "top": "chip_top",
+ "sha256": "2ac546347fc4c827c04b004fe697ee8c25355e3ea0d11fc44b5e4039c5c95273",
+ "layout": "RBOY/chip_top.gds",
+ "repo": {
+  "host": "github.com",
+  "path": "wren6991/riscboy-180",
+  "branch": null,
+  "url_as_listed": "https://github.com/wren6991/riscboy-180"
+ }
+}

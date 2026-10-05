@@ -1,0 +1,17 @@
+{
+ "run": "ws-run1",
+ "code": "CHES",
+ "project": "chess-move-generator",
+ "slot_size": "1x1",
+ "visibility": "Public",
+ "details": "Eight-core chess move generator.",
+ "top": "chip_top",
+ "sha256": "a57360efc7db09712afa9f5c9a7587076b32c8e38d1e38d6712665728a973f96",
+ "layout": "CHES/chip_top.gds",
+ "repo": {
+  "host": "github.com",
+  "path": "Ravenslofty/gf180mcu-chess",
+  "branch": null,
+  "url_as_listed": "https://github.com/Ravenslofty/gf180mcu-chess"
+ }
+}

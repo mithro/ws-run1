@@ -1,0 +1,26 @@
+{
+ "run": "ws-run1",
+ "code": "CHES",
+ "errors": [],
+ "submodules": [],
+ "releases": [
+  {
+   "tag": "G801CHES",
+   "name": "G801CHES",
+   "published": "2025-12-03T23:52:47Z",
+   "assets": [
+    {
+     "name": "chip_top.gds.gz",
+     "size": 50369408
+    }
+   ]
+  }
+ ],
+ "url": "https://github.com/Ravenslofty/gf180mcu-chess.git",
+ "head": "b73046558e5ac6f6f1900c55da827a3a985204a7",
+ "branch": "main",
+ "head_date": "2025-12-11T15:36:36+01:00",
+ "remote_branches": 3,
+ "tags": 1,
+ "lfs": false
+}

@@ -1,0 +1,12 @@
+{
+ "run": "ws-run1",
+ "code": "BRWN",
+ "project": "FA25_Engn2912e_Saligane_Brown",
+ "slot_size": "1x1",
+ "visibility": "Public",
+ "details": "FA25 ENGN2912e@Brown Course Project",
+ "top": "ENGN2912E_TOP",
+ "sha256": "dcbf5b02fe7e5cd36f78012eebb2b6fd5f4db740c3f56357123b9a304018b1ac",
+ "layout": "BRWN/ENGN2912E_TOP.gds",
+ "repo": null
+}

@@ -1,0 +1,55 @@
+{
+ "run": "ws-run1",
+ "code": "MOS2",
+ "errors": [],
+ "submodules": [
+  {
+   "path": "designs/gLayout",
+   "url": "https://github.com/AutoMOS-project/gLayout-AutoMOS-cp25",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "8c9ab83e6c41209c25b5d4ab7a8672931bbb15ba"
+  },
+  {
+   "path": "designs/globalfoundries-pdk-libs-gf180mcu_fd_pv",
+   "url": "git@github.com:LuighiV/globalfoundries-pdk-libs-gf180mcu_fd_pv.git",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "66f2dfe6a4243cae4ea02de19ec3c0f8d544e356"
+  },
+  {
+   "path": "designs/globalfoundries-pdk-libs-gf180mcu_fd_pv/third_party/make-env",
+   "url": "https://github.com/SymbiFlow/make-env.git",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "33b80bd32c30fb8affd0fd5cda544d1bca075593"
+  },
+  {
+   "path": "designs/gf180mcu",
+   "url": "git@github.com:wafer-space/gf180mcu.git",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "fb4b8f59451d248ef5b310a593759f946a8f6ae8"
+  }
+ ],
+ "releases": [
+  {
+   "tag": "v1.0",
+   "name": "A Track chiptop - DRC clean version ",
+   "published": "2025-10-14T14:54:46Z",
+   "assets": [
+    {
+     "name": "chiptop_A_track_v12_exported.gds",
+     "size": 69408538
+    }
+   ]
+  }
+ ],
+ "url": "https://github.com/AutoMOS-project/AutoMOS-chipathon2025.git",
+ "head": "85e9753659e8d8020e61815895cb84fd032b9b8a",
+ "branch": "update-for-ws",
+ "head_date": "2025-12-18T02:15:15-03:00",
+ "remote_branches": 38,
+ "tags": 2,
+ "lfs": false
+}

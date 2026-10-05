@@ -1,0 +1,14 @@
+{
+ "run": "ws-run1",
+ "code": "OCD1",
+ "errors": [],
+ "submodules": [],
+ "releases": [],
+ "url": "https://github.com/RTimothyEdwards/gf180mcu_ocd_openframe.git",
+ "head": "9ef4567172df1d542023608d6d7c22e664a19b56",
+ "branch": "main",
+ "head_date": "2025-11-30T11:35:58-05:00",
+ "remote_branches": 3,
+ "tags": 0,
+ "lfs": false
+}

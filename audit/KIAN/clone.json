@@ -1,0 +1,21 @@
+{
+ "run": "ws-run1",
+ "code": "KIAN",
+ "errors": [],
+ "submodules": [],
+ "releases": [
+  {
+   "tag": "GF180MCU_Tapeout_Dec2025",
+   "name": "GF180MCU tapeout December 2025 - KIANV RV32IMA",
+   "published": "2025-12-16T21:27:46Z",
+   "assets": []
+  }
+ ],
+ "url": "https://github.com/splinedrive/gf180mcu-kianv-rv32ima-sv32.git",
+ "head": "2483ecb9cc00f52dbc2a226fda348d8c139e707c",
+ "branch": "main",
+ "head_date": "2026-01-15T18:23:21+01:00",
+ "remote_branches": 2,
+ "tags": 1,
+ "lfs": false
+}

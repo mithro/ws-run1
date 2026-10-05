@@ -1,0 +1,17 @@
+{
+ "run": "ws-run1",
+ "code": "TZ01",
+ "project": "TillitisZedulo-testchip2025",
+ "slot_size": "1x1",
+ "visibility": "Public",
+ "details": "eFUSE and SRAM testchip put together by Egorexe and Zedulo team with support from Tillitis ",
+ "top": "chip_top",
+ "sha256": "621d3fa6a887c396db4fa3339694834cf5d40184b9157c40229060424af0f717",
+ "layout": "TZ01/chip_top.gds",
+ "repo": {
+  "host": "github.com",
+  "path": "ZeduloTech/gf180mcu-testchip2025",
+  "branch": null,
+  "url_as_listed": "https://github.com/ZeduloTech/gf180mcu-testchip2025"
+ }
+}

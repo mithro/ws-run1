@@ -1,0 +1,27 @@
+{
+ "run": "ws-run1",
+ "code": "2975",
+ "errors": [],
+ "submodules": [],
+ "releases": [
+  {
+   "tag": "v2",
+   "name": "Cloneless1 v2",
+   "published": "2026-01-24T08:37:34Z",
+   "assets": []
+  },
+  {
+   "tag": "v1",
+   "name": "Cloneless1 v1",
+   "published": "2026-01-08T10:28:37Z",
+   "assets": []
+  }
+ ],
+ "url": "https://github.com/ThorbenMoos/Cloneless1.git",
+ "head": "fdc35ddf99bf0d936911396b2e95981a30878882",
+ "branch": "main",
+ "head_date": "2026-07-30T14:54:29+02:00",
+ "remote_branches": 2,
+ "tags": 2,
+ "lfs": false
+}

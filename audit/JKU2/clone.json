@@ -1,0 +1,21 @@
+{
+ "run": "ws-run1",
+ "code": "JKU2",
+ "errors": [],
+ "submodules": [],
+ "releases": [
+  {
+   "tag": "tapeout-submitted-2025-12-18",
+   "name": "tapeout-submitted-2025-12-18",
+   "published": "2025-12-17T23:11:27Z",
+   "assets": []
+  }
+ ],
+ "url": "https://github.com/iic-jku/gf180mcu-jku-atbs-adc.git",
+ "head": "2fae3a6c0ffdc3f31f901e490ee99b6e1c2d3f79",
+ "branch": "main",
+ "head_date": "2026-10-04T20:51:09+02:00",
+ "remote_branches": 2,
+ "tags": 2,
+ "lfs": false
+}

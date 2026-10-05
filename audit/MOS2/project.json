@@ -1,0 +1,17 @@
+{
+ "run": "ws-run1",
+ "code": "MOS2",
+ "project": "AutoMOS-Chipathon-2025 full size",
+ "slot_size": "1x1",
+ "visibility": "Public",
+ "details": "Embedded Chipathon design",
+ "top": "chip_top",
+ "sha256": "d4cd6202bb5c01d2805b9fd220b53d39ba35c7260eca342a731f64795785cc12",
+ "layout": "MOS2/chip_top.gds",
+ "repo": {
+  "host": "github.com",
+  "path": "AutoMOS-project/AutoMOS-chipathon2025",
+  "branch": "update-for-ws",
+  "url_as_listed": "https://github.com/AutoMOS-project/AutoMOS-chipathon2025/tree/update-for-ws"
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "run": "ws-run1",
+ "code": "AS03",
+ "project": "WS-Multi",
+ "slot_size": "1x1",
+ "visibility": "Public",
+ "details": "Multi-project die",
+ "top": "chip_top",
+ "sha256": "51153e7799aba1c19a5d6ae17b3bb8bc301fb363c1374be11e8ee74a5b0c6a23",
+ "layout": "AS03/chip_top.gds",
+ "repo": {
+  "host": "github.com",
+  "path": "AvalonSemiconductors/ws-submission-2025",
+  "branch": null,
+  "url_as_listed": "https://github.com/AvalonSemiconductors/ws-submission-2025/"
+ }
+}

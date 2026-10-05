@@ -1,0 +1,17 @@
+{
+ "run": "ws-run1",
+ "code": "JKU2",
+ "project": "gf180mcu-jku-atbs-adc",
+ "slot_size": "1x0p5",
+ "visibility": "Public",
+ "details": "This wafer.space tapeout includes the digital core of an ATBS ADC from the IICQC at JKU.",
+ "top": "chip_top",
+ "sha256": "abdbf57879b209b6ab20ab4dd5c1638e4b1ed90ed915d500a704ca3591a7ef4b",
+ "layout": "JKU2/chip_top.gds",
+ "repo": {
+  "host": "github.com",
+  "path": "iic-jku/gf180mcu-jku-atbs-adc",
+  "branch": null,
+  "url_as_listed": "https://github.com/iic-jku/gf180mcu-jku-atbs-adc"
+ }
+}

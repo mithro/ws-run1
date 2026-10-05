@@ -1,0 +1,17 @@
+{
+ "run": "ws-run1",
+ "code": "JKU1",
+ "project": "gf180mcu-jku-projects",
+ "slot_size": "1x1",
+ "visibility": "Public",
+ "details": "This wafer.space tapeout includes various projects from the IICQC at JKU and a TinyWhisper RISC-V from JMU.",
+ "top": "chip_top",
+ "sha256": "774a0d2eb1e944f0f88301dade98448a79674568c452862c8aec0eb313a9d480",
+ "layout": "JKU1/chip_top.gds",
+ "repo": {
+  "host": "github.com",
+  "path": "iic-jku/gf180mcu-jku-projects",
+  "branch": null,
+  "url_as_listed": "https://github.com/iic-jku/gf180mcu-jku-projects"
+ }
+}

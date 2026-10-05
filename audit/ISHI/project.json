@@ -1,0 +1,17 @@
+{
+ "run": "ws-run1",
+ "code": "ISHI",
+ "project": "ISHI-KAI's Multiple Users Project",
+ "slot_size": "1x1",
+ "visibility": "Public",
+ "details": "We, ISHI-KAI, are a community that promotes open source PDK & EDA. This time, we brought together 14 novice semiconductor designers (most of whom were new to semiconductor design), each of whom created an analog circuit, such as an Inverter or OPAMP, ADC, PLL, BGR, CS, made using xschem & klayout with P-Cells . All schematics and layouts are released under an open source license. In addition, pads for probing were added to all circuits, taking into account that only bare dies are received. Since ISHI-KAI has university professors and semiconductor companies as collaborators, we are able to borrow probers through the generosity of professors and companies.Therefore, we plan to run analog circuits by probing. ",
+ "top": "ISHI-KAI_WS_RUN1",
+ "sha256": "270e32b20b8f0fb0d03c35335c15c357edfddf61011f9672aed9fb320617dea0",
+ "layout": "ISHI/ISHI-KAI_WS_RUN1.gds",
+ "repo": {
+  "host": "github.com",
+  "path": "ishi-kai/ISHI-KAI_Multiple_Projects_WaferSapce-GF180-1",
+  "branch": null,
+  "url_as_listed": "https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_WaferSapce-GF180-1"
+ }
+}

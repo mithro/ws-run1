@@ -1,0 +1,12 @@
+{
+ "run": "ws-run1",
+ "code": "MOSB",
+ "project": "MOSbiusV3",
+ "slot_size": "1x1",
+ "visibility": "Public",
+ "details": "",
+ "top": "chip_top",
+ "sha256": "e5f4ff37ef6aaa487ae2c23959f81b9207213b2ac4a470ba2da550cac0002498",
+ "layout": "MOSB/chip_top.gds",
+ "repo": null
+}

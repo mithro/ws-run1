@@ -1,0 +1,17 @@
+{
+ "run": "ws-run1",
+ "code": "TTP2",
+ "project": "Tiny Tapeout GF 0.2",
+ "slot_size": "1x1",
+ "visibility": "Public",
+ "details": "https://tinytapeout.com ",
+ "top": "tt_gf_wrapper",
+ "sha256": "6c2f1172400eabfcc5bbd2259a995ac67ad17f77140ba1e1be1bbdd361f01cc1",
+ "layout": "TTP2/tt_gf_wrapper.gds",
+ "repo": {
+  "host": "github.com",
+  "path": "TinyTapeout/tinytapeout-gf-0p2",
+  "branch": null,
+  "url_as_listed": "https://github.com/TinyTapeout/tinytapeout-gf-0p2"
+ }
+}

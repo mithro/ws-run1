@@ -1,0 +1,17 @@
+{
+ "run": "ws-run1",
+ "code": "KIAN",
+ "project": "KianV: A 32-bit RISC-V Linux SoC taped out on GF180MCU",
+ "slot_size": "1x1",
+ "visibility": "Public",
+ "details": "KianV SV32 (MMU) RV32IMA Zicntr Zicsr Zifencei SSTC Linux/XV6 SoC",
+ "top": "chip_top",
+ "sha256": "9b3936dd4b1688004d86d37af4fcf1f3308e7208ebcc9672989ef0697a7e68c1",
+ "layout": "KIAN/chip_top.gds",
+ "repo": {
+  "host": "github.com",
+  "path": "splinedrive/gf180mcu-kianv-rv32ima-sv32",
+  "branch": null,
+  "url_as_listed": "https://github.com/splinedrive/gf180mcu-kianv-rv32ima-sv32/"
+ }
+}

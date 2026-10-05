@@ -1,0 +1,17 @@
+{
+ "run": "ws-run1",
+ "code": "2975",
+ "project": "Cloneless1",
+ "slot_size": "1x1",
+ "visibility": "Public",
+ "details": "Cloneless1 is a cryptographic ASIC that implements a physically secure block cipher instance with tamper-resistant long-term secret via physically unclonable function and leakage-resilient secret sharing.",
+ "top": "chip_top",
+ "sha256": "af0d087e19471f52ce57399f4e436f8bd9dbedac36f251a3cafdfe1600399b34",
+ "layout": "2975/chip_top.gds",
+ "repo": {
+  "host": "github.com",
+  "path": "ThorbenMoos/Cloneless1",
+  "branch": null,
+  "url_as_listed": "https://github.com/ThorbenMoos/Cloneless1"
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "run": "ws-run1",
+ "code": "RBOY",
+ "errors": [],
+ "submodules": [
+  {
+   "path": "hdl/libfpga",
+   "url": "https://github.com/Wren6991/libfpga.git",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "964ceca7ab31330eda3b65e175afe5ccf23d6ea8"
+  },
+  {
+   "path": "hdl/hazard3",
+   "url": "https://github.com/Wren6991/Hazard3.git",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "ec2f2dc88523ad90d27b412d345677d63b080980"
+  },
+  {
+   "path": "hdl/hazard3/test/sim/riscv-compliance/riscv-arch-test",
+   "url": "https://github.com/wren6991/riscv-arch-test.git",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "96cc931b415618318c1dd1d9e43430d35b82ce6e"
+  },
+  {
+   "path": "hdl/hazard3/scripts",
+   "url": "https://github.com/Wren6991/fpgascripts",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "1e768865928782ec6b0c34e7a30c06857a02155c"
+  },
+  {
+   "path": "hdl/hazard3/test/formal/riscv-formal/riscv-formal",
+   "url": "https://github.com/Wren6991/riscv-formal.git",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "f5306b74fce042efcc8ce979c700582d3441be10"
+  },
+  {
+   "path": "hdl/hazard3/example_soc/libfpga",
+   "url": "https://github.com/Wren6991/libfpga.git",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "9d50e12e01efb59c45f4f71ff5d650a7fb7c6acc"
+  },
+  {
+   "path": "hdl/hazard3/test/sim/riscv-tests/riscv-tests",
+   "url": "https://github.com/Wren6991/riscv-tests.git",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "49a24d7f41e7b422cebeffdc3ba31c8daaf5aa5c"
+  },
+  {
+   "path": "hdl/hazard3/test/sim/riscv-tests/riscv-tests/env",
+   "url": "https://github.com/riscv/riscv-test-env.git",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "6de71edb142be36319e380ce782c3d1830c65d68"
+  },
+  {
+   "path": "hdl/hazard3/test/sim/embench/embench-iot",
+   "url": "https://github.com/Wren6991/embench-iot.git",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "6cdd02eff1f9d21f76e2e89d7056f0c984652dd3"
+  },
+  {
+   "path": "hdl/twowiredebug",
+   "url": "https://github.com/Wren6991/TwoWireDebug.git",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "366a86f383fb414cc5affe5a4b1c31eeca5a6ba0"
+  },
+  {
+   "path": "hdl/riscboy",
+   "url": "https://github.com/Wren6991/RISCBoy.git",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "7d2427ddfa358b3d3998b578d030b3e3c3dcde82"
+  },
+  {
+   "path": "hdl/riscboy/test/execution/riscv_compliance/riscv-compliance",
+   "url": "https://github.com/riscv/riscv-compliance.git",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "4b159d5f43a57d65a3d0faf5d340c0c8526a368b"
+  },
+  {
+   "path": "hdl/riscboy/test/riscv-formal",
+   "url": "https://github.com/Wren6991/riscv-formal.git",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "76fc2ca6e0d7c0dde02f66b62bef9efe9e79c14a"
+  },
+  {
+   "path": "hdl/riscboy/hdl/libfpga",
+   "url": "https://github.com/Wren6991/libfpga.git",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "9e39280a6dc160068b5263c286d379134053db8f"
+  },
+  {
+   "path": "hdl/riscboy/scripts",
+   "url": "https://github.com/Wren6991/fpgascripts.git",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "17847670571b3b6037730182ed0d6182ce2230a6"
+  },
+  {
+   "path": "hdl/riscboy/hdl/hazard5",
+   "url": "https://github.com/Wren6991/Hazard5.git",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "b402a6ba32a6465daf1b26c3fdf6a26957846b97"
+  },
+  {
+   "path": "hdl/riscboy/hdl/hazard5/test/riscv-compliance/riscv-compliance",
+   "url": "https://github.com/riscv/riscv-compliance.git",
+   "ok": true,
+   "seeded_from_mirror": true,
+   "head": "c21a2e86afa3f7d4292a2dd26b759f3f29cde497"
+  },
+  {
+   "path": "fpgascripts",
+   "url": "https://github.com/Wren6991/fpgascripts.git",
+   "ok": true,
+   "seeded_from_mirror": false,
+   "head": "7aefb3c1eff3edfc727cd98c496f652a0c8f88c0"
+  }
+ ],
+ "releases": [
+  {
+   "tag": "v1.0-rc2",
+   "name": "",
+   "published": "2025-12-03T23:29:52Z",
+   "assets": [
+    {
+     "name": "chip_top.gds",
+     "size": 122331624
+    },
+    {
+     "name": "chip_top.nl.v",
+     "size": 21116889
+    },
+    {
+     "name": "chip_top.pnl.v",
+     "size": 33891507
+    }
+   ]
+  },
+  {
+   "tag": "v1.0.rc1",
+   "name": "",
+   "published": "2025-12-03T02:49:37Z",
+   "assets": [
+    {
+     "name": "chip_top.gds",
+     "size": 157496452
+    },
+    {
+     "name": "chip_top.pnl.v",
+     "size": 33631746
+    }
+   ]
+  }
+ ],
+ "url": "https://github.com/Wren6991/RISCBoy-180.git",
+ "head": "8c2bfda6461c97d0459653b91f8bb0727a47bccc",
+ "branch": "main",
+ "head_date": "2026-07-14T22:36:07+01:00",
+ "remote_branches": 3,
+ "tags": 2,
+ "lfs": false
+}

@@ -1,0 +1,17 @@
+{
+ "run": "ws-run1",
+ "code": "MOLE",
+ "project": "FABulous FPGA",
+ "slot_size": "1x1",
+ "visibility": "Public",
+ "details": "An open source FPGA generated using the FABulous eFPGA framework that can be programmed using Yosys and nextpnr. It can be configured via an active or passive SPI interface. In active mode, the bitstream is read from an external SPI flash from one of 16 slots. Specs: 48x I/Os, 480x LUT4, 6x SRAM 512x8, 6x MAC, 12x Register file ",
+ "top": "chip_top",
+ "sha256": "19efec9e7b5f96cefc68375d4f402ea3f204926f8866839a4c71fb74ef49901b",
+ "layout": "MOLE/chip_top.gds",
+ "repo": {
+  "host": "github.com",
+  "path": "mole99/gf180mcu-fabulous-fpga",
+  "branch": null,
+  "url_as_listed": "https://github.com/mole99/gf180mcu-fabulous-fpga"
+ }
+}

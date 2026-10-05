@@ -1,0 +1,17 @@
+{
+ "run": "ws-run1",
+ "code": "GD03",
+ "project": "Racquet r2p0 - 23 core SoC",
+ "slot_size": "1x1",
+ "visibility": "Public",
+ "details": "An SoC based off the award-winning SERV, the world's smallest RISC-V CPU. With all the room available in the full-slot we can fit 23 cores connected to local SRAM. Each core is loaded from SPI FLASH on boot, and connected to a slew of peripherals: uarts, timers and more uarts. A queue peripheral enables both synchronisation and core-core communications.",
+ "top": "chip_top",
+ "sha256": "1c7d0b7d47a83693d76bdc48f0652fd64b07ae1f33f7aa8047055a0c713f98e2",
+ "layout": "GD03/chip_top.gds",
+ "repo": {
+  "host": "github.com",
+  "path": "gregdavill/gf180mcu-racquet",
+  "branch": null,
+  "url_as_listed": "https://github.com/gregdavill/gf180mcu-racquet/"
+ }
+}

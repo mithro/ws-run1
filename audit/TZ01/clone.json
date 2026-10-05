@@ -1,0 +1,14 @@
+{
+ "run": "ws-run1",
+ "code": "TZ01",
+ "errors": [],
+ "submodules": [],
+ "releases": [],
+ "url": "https://github.com/ZeduloTech/gf180mcu-testchip2025.git",
+ "head": "1d1f91d4f36250f1fab631070ca3d700fcf9deb9",
+ "branch": "main",
+ "head_date": "2026-06-17T17:21:27+05:00",
+ "remote_branches": 2,
+ "tags": 0,
+ "lfs": false
+}

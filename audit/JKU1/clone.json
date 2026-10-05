@@ -1,0 +1,21 @@
+{
+ "run": "ws-run1",
+ "code": "JKU1",
+ "errors": [],
+ "submodules": [],
+ "releases": [
+  {
+   "tag": "tapeout-submitted-2025-12-15",
+   "name": "GF180 Tapeout submitted - 2025-12-15",
+   "published": "2025-12-15T12:37:33Z",
+   "assets": []
+  }
+ ],
+ "url": "https://github.com/iic-jku/gf180mcu-jku-projects.git",
+ "head": "ebfc69daad23bf42182ae617398ee436d9ae05b5",
+ "branch": "main",
+ "head_date": "2026-07-03T13:43:48+02:00",
+ "remote_branches": 4,
+ "tags": 1,
+ "lfs": false
+}

@@ -1,0 +1,17 @@
+{
+ "run": "ws-run1",
+ "code": "GD02",
+ "project": "Racquet Half r1p0 (1/2 slot)",
+ "slot_size": "0p5x1",
+ "visibility": "Public",
+ "details": "An SoC based off the award-winning SERV, the world's smallest RISC-V CPU. With all the room available in the full-slot we can fit 9 cores connected to local SRAM. Each core is loaded from SPI FLASH on boot, and connected to some peripherals. A queue peripheral enables both synchronisation and core-core communications. ",
+ "top": "chip_top",
+ "sha256": "5d08605b4b4232ac90e3441d5c62a2787bf7d87e19cad0604f224721359f308d",
+ "layout": "GD02/chip_top.gds",
+ "repo": {
+  "host": "github.com",
+  "path": "gregdavill/gf180mcu-racquet-0.5x1",
+  "branch": null,
+  "url_as_listed": "https://github.com/gregdavill/gf180mcu-racquet-0.5x1"
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "run": "ws-run1",
+ "code": "RZML",
+ "project": "LGN FashionMNIST - Logic Gate Network trained on FashioMNIST",
+ "slot_size": "1x1",
+ "visibility": "Public",
+ "details": "EXPERIMENTAL!!! The world smallest image classifier. Differential Logic / Logic Gate Network trained to classify tiny 28x28 images based on FashionMNIST dataset. ",
+ "top": "chip_top",
+ "sha256": "cc0cee0dd1f44e2519d3ee2bde4f9e7be3c83e58d90aaf4bd8054cd749d7c7b1",
+ "layout": "RZML/chip_top.gds",
+ "repo": {
+  "host": "gitlab.com",
+  "path": "rejunity/ws0-lgn-fxnist-gf180mcu-tapeout",
+  "branch": null,
+  "url_as_listed": "https://gitlab.com/rejunity/ws0-lgn-fxnist-gf180mcu-tapeout"
+ }
+}

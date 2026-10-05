@@ -1,0 +1,16 @@
+{
+ "run": "ws-run1",
+ "code": "RZML",
+ "errors": [],
+ "submodules": [],
+ "releases": [],
+ "url": "https://gitlab.com/rejunity/ws0-lgn-fxnist-gf180mcu-tapeout.git",
+ "head": "ddbd922a1e9d516026e232072ec176e13f02c6ea",
+ "branch": "main",
+ "head_date": "2025-12-20T16:32:27+01:00",
+ "remote_branches": 2,
+ "tags": 0,
+ "lfs": true,
+ "lfs_files": 1,
+ "lfs_missing": 0
+}

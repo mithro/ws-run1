@@ -1,0 +1,17 @@
+{
+ "run": "ws-run1",
+ "code": "OCD2",
+ "project": "ocd_sram_test",
+ "slot_size": "1x0p5",
+ "visibility": "Public",
+ "details": "Test chip for the 3.3V SRAM macros (256 byte, 512 byte, and 1kbyte) from the library gf180mcu_ocd_ip_sram. The test chip consists of one each of the 1kB and 512B SRAM cores and two 256B cores pinned out to individual GPIO pins. Also there is a POR macro with a test output. ",
+ "top": "gf180mcu_ocd_sram_top",
+ "sha256": "ed49ce0e8ed7987906c3224370be20dc53a80bc8623ec24ee28afd034931b585",
+ "layout": "OCD2/gf180mcu_ocd_sram_top.gds",
+ "repo": {
+  "host": "github.com",
+  "path": "RTimothyEdwards/gf180mcu_ocd_sram_test",
+  "branch": null,
+  "url_as_listed": "https://github.com/RTimothyEdwards/gf180mcu_ocd_sram_test"
+ }
+}

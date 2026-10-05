@@ -1,0 +1,34 @@
+{
+ "run": "ws-run1",
+ "code": "MOLE",
+ "errors": [],
+ "submodules": [],
+ "releases": [
+  {
+   "tag": "1.0.0",
+   "name": "Tapeout",
+   "published": "2026-06-14T12:56:41Z",
+   "assets": [
+    {
+     "name": "chip_top.gds",
+     "size": 135780978
+    },
+    {
+     "name": "chip_top_black.png",
+     "size": 9090767
+    },
+    {
+     "name": "chip_top_white.png",
+     "size": 9095582
+    }
+   ]
+  }
+ ],
+ "url": "https://github.com/mole99/gf180mcu-fabulous-fpga.git",
+ "head": "97da81d42c9eca37be496deca176a2a3ca3e621d",
+ "branch": "main",
+ "head_date": "2025-12-16T13:01:18+01:00",
+ "remote_branches": 3,
+ "tags": 1,
+ "lfs": false
+}

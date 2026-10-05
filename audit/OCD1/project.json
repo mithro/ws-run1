@@ -1,0 +1,17 @@
+{
+ "run": "ws-run1",
+ "code": "OCD1",
+ "project": "openframe_caravel_picorv32",
+ "slot_size": "1x1",
+ "visibility": "Public",
+ "details": "Synthesis test of the gf180mcu_ocd_io, gf180mcu_ocd_ip_sram, and gf180mcu_as_sc_mcu7t3v3 libraries with a project framework similar to the Efabless \"openframe\" version of Caravel for sky130. ",
+ "top": "caravel_openframe_top",
+ "sha256": "adf56210beb5711474653d1b4dd34f41e72c7f24bd906205779e4fa8662aeefe",
+ "layout": "OCD1/caravel_openframe_top.gds",
+ "repo": {
+  "host": "github.com",
+  "path": "RTimothyEdwards/gf180mcu_ocd_openframe",
+  "branch": null,
+  "url_as_listed": "https://github.com/RTimothyEdwards/gf180mcu_ocd_openframe"
+ }
+}
