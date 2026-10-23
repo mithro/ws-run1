@@ -1,0 +1,3865 @@
+{
+ "run": "ws-run1",
+ "code": "TRID",
+ "reticle_cell": "TRID_TOP_14_2",
+ "size_um": [
+  1936.0,
+  5122.0
+ ],
+ "origin_um": [
+  0.0,
+  0.0
+ ],
+ "dbu_um": 0.001,
+ "placements_on_reticle": [
+  {
+   "x_mm": 28.004,
+   "y_mm": 5.242,
+   "rotation": "r0"
+  }
+ ],
+ "distinct_cells": 910,
+ "standard_cells": [],
+ "standard_cell_types_top40": [],
+ "sram_macros": [],
+ "io_cells": [
+  {
+   "cell": "gf180mcu_fd_io__asig_5p0_70x100",
+   "placements": 53
+  },
+  {
+   "cell": "gf180mcu_fd_io__cor",
+   "placements": 4
+  },
+  {
+   "cell": "gf180mcu_fd_io__dvdd_70x100",
+   "placements": 6
+  },
+  {
+   "cell": "gf180mcu_fd_io__dvss_70x100",
+   "placements": 6
+  },
+  {
+   "cell": "gf180mcu_fd_io__fill1",
+   "placements": 20
+  },
+  {
+   "cell": "gf180mcu_fd_io__fill10",
+   "placements": 291
+  },
+  {
+   "cell": "gf180mcu_fd_io__fill10_nontop",
+   "placements": 28
+  },
+  {
+   "cell": "gf180mcu_fd_io__fill5",
+   "placements": 21
+  },
+  {
+   "cell": "gf180mcu_fd_io__fill5_nontop",
+   "placements": 50
+  },
+  {
+   "cell": "gf180mcu_fd_io__fillnc",
+   "placements": 30
+  }
+ ],
+ "fill_and_sealring_placements": 2527963,
+ "other_cells_by_placements_top80": [
+  {
+   "cell": "M2_M1_CDNS_4066195314518$13",
+   "placements": 7000,
+   "size_um": [
+    0.38,
+    0.38
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145393$1$1",
+   "placements": 5724,
+   "size_um": [
+    2.24,
+    2.86
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_40661953145496$2$1",
+   "placements": 5432,
+   "size_um": [
+    20.24,
+    0.44
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_40661953145598$2$1",
+   "placements": 5432,
+   "size_um": [
+    20.18,
+    0.38
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_406619531450$13",
+   "placements": 4947,
+   "size_um": [
+    9.12,
+    6.02
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_406619531453$13",
+   "placements": 4947,
+   "size_um": [
+    9.06,
+    5.96
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_4066195314596$1$1$1",
+   "placements": 4770,
+   "size_um": [
+    2.24,
+    6.58
+   ]
+  },
+  {
+   "cell": "POLY_SUB_FILL_1$4$1",
+   "placements": 4656,
+   "size_um": [
+    9.75,
+    18.06
+   ]
+  },
+  {
+   "cell": "simple_via1",
+   "placements": 4618,
+   "size_um": [
+    0.26,
+    0.26
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_40661953145443$2$1",
+   "placements": 4244,
+   "size_um": [
+    9.02,
+    0.44
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_40661953145578$2$1",
+   "placements": 4244,
+   "size_um": [
+    8.96,
+    0.38
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_406619531459$4$1",
+   "placements": 4098,
+   "size_um": [
+    0.38,
+    5.66
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_4066195314598$1$1$1",
+   "placements": 3816,
+   "size_um": [
+    2.24,
+    14.64
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_4066195314518$5$1",
+   "placements": 2940,
+   "size_um": [
+    0.38,
+    0.38
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_4066195314510$4$1",
+   "placements": 2808,
+   "size_um": [
+    0.38,
+    12.92
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_4066195314574$1$1$1",
+   "placements": 2650,
+   "size_um": [
+    2.54,
+    1.46
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_406619531451$13",
+   "placements": 2619,
+   "size_um": [
+    9.12,
+    13.46
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_406619531452$13",
+   "placements": 2619,
+   "size_um": [
+    9.06,
+    13.4
+   ]
+  },
+  {
+   "cell": "M4_M3_MID$1$1",
+   "placements": 2210,
+   "size_um": [
+    99.31,
+    1.0
+   ]
+  },
+  {
+   "cell": "M3_M2_MID$1$1",
+   "placements": 2210,
+   "size_um": [
+    99.31,
+    1.0
+   ]
+  },
+  {
+   "cell": "M5_M4_MID$1$1",
+   "placements": 2210,
+   "size_um": [
+    99.31,
+    1.0
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145392$1$1",
+   "placements": 1908,
+   "size_um": [
+    0.38,
+    15.5
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145141$1$1$1",
+   "placements": 1908,
+   "size_um": [
+    2.54,
+    0.92
+   ]
+  },
+  {
+   "cell": "nmoscap_6p0_CDNS_406619531450$1$1$1",
+   "placements": 1908,
+   "size_um": [
+    17.8,
+    18.11
+   ]
+  },
+  {
+   "cell": "POLY_SUB_FILL$15",
+   "placements": 1750,
+   "size_um": [
+    4.23,
+    8.46
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_4066195314512$13",
+   "placements": 1700,
+   "size_um": [
+    4.1,
+    5.96
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_4066195314557$5$1",
+   "placements": 1560,
+   "size_um": [
+    73.51,
+    6.77
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145158$3$1",
+   "placements": 1344,
+   "size_um": [
+    9.02,
+    0.38
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_406619531456$4$1",
+   "placements": 1164,
+   "size_um": [
+    1.0,
+    5.96
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_406619531454$4$1",
+   "placements": 1164,
+   "size_um": [
+    1.0,
+    5.96
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_406619531459$13",
+   "placements": 1114,
+   "size_um": [
+    0.38,
+    5.66
+   ]
+  },
+  {
+   "cell": "simple_via2",
+   "placements": 1082,
+   "size_um": [
+    0.26,
+    0.26
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145140$2$1",
+   "placements": 1080,
+   "size_um": [
+    10.1,
+    0.38
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145413$1$1",
+   "placements": 1060,
+   "size_um": [
+    2.24,
+    2.24
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145140$1$1",
+   "placements": 1056,
+   "size_um": [
+    10.1,
+    0.38
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_4066195314559$4$1",
+   "placements": 1040,
+   "size_um": [
+    73.57,
+    6.83
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_4066195314586$2$1",
+   "placements": 1032,
+   "size_um": [
+    0.92,
+    0.38
+   ]
+  },
+  {
+   "cell": "M4_M3_MID$1",
+   "placements": 986,
+   "size_um": [
+    99.31,
+    1.0
+   ]
+  },
+  {
+   "cell": "M3_M2_MID$1",
+   "placements": 986,
+   "size_um": [
+    99.31,
+    1.0
+   ]
+  },
+  {
+   "cell": "M5_M4_MID$1",
+   "placements": 986,
+   "size_um": [
+    99.31,
+    1.0
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_4066195314586$1$1",
+   "placements": 984,
+   "size_um": [
+    0.92,
+    0.38
+   ]
+  },
+  {
+   "cell": "M1_PSUB_CDNS_40661953145674$2$1",
+   "placements": 960,
+   "size_um": [
+    0.77,
+    0.77
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145151$1$1$1",
+   "placements": 954,
+   "size_um": [
+    0.38,
+    14.96
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_4066195314514$13",
+   "placements": 900,
+   "size_um": [
+    4.1,
+    14.02
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_4066195314511$2$1",
+   "placements": 850,
+   "size_um": [
+    4.16,
+    6.02
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145386$1$1",
+   "placements": 848,
+   "size_um": [
+    2.0,
+    1.46
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145394$1$1",
+   "placements": 848,
+   "size_um": [
+    1.46,
+    2.54
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145359$1$1$1",
+   "placements": 848,
+   "size_um": [
+    1.62,
+    2.86
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_4066195314558$5$1",
+   "placements": 845,
+   "size_um": [
+    73.51,
+    14.58
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145391$1$1",
+   "placements": 742,
+   "size_um": [
+    1.62,
+    15.88
+   ]
+  },
+  {
+   "cell": "POLY_SUB_FILL$5$1",
+   "placements": 735,
+   "size_um": [
+    4.23,
+    8.46
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_4066195314512$4$1",
+   "placements": 714,
+   "size_um": [
+    4.1,
+    5.96
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_4066195314510$13",
+   "placements": 702,
+   "size_um": [
+    0.38,
+    12.92
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145787$2$1",
+   "placements": 672,
+   "size_um": [
+    5.24,
+    0.38
+   ]
+  },
+  {
+   "cell": "M1_PSUB_CDNS_406619531455$4$1",
+   "placements": 624,
+   "size_um": [
+    0.77,
+    284.27
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_4066195314560$4$1",
+   "placements": 585,
+   "size_um": [
+    73.57,
+    14.64
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_406619531457$4$1",
+   "placements": 582,
+   "size_um": [
+    1.04,
+    6.32
+   ]
+  },
+  {
+   "cell": "M1_PSUB_CDNS_406619531458$4$1",
+   "placements": 582,
+   "size_um": [
+    8.77,
+    1.27
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_4066195314557$4$1",
+   "placements": 552,
+   "size_um": [
+    73.51,
+    6.77
+   ]
+  },
+  {
+   "cell": "M1_PSUB_CDNS_4066195314565$1$1$1",
+   "placements": 530,
+   "size_um": [
+    70.33,
+    0.77
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_4066195314594$1$1$1",
+   "placements": 530,
+   "size_um": [
+    1.0,
+    6.58
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_40661953145387$1$1",
+   "placements": 530,
+   "size_um": [
+    1.62,
+    6.58
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_406619531450$1$1",
+   "placements": 476,
+   "size_um": [
+    9.12,
+    6.02
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_406619531453$1$1",
+   "placements": 476,
+   "size_um": [
+    9.06,
+    5.96
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_4066195314513$2$1",
+   "placements": 450,
+   "size_um": [
+    4.16,
+    14.08
+   ]
+  },
+  {
+   "cell": "POLY_SUB_FILL_1$15",
+   "placements": 448,
+   "size_um": [
+    9.75,
+    18.06
+   ]
+  },
+  {
+   "cell": "M1_PSUB_CDNS_40661953145403$1$1",
+   "placements": 424,
+   "size_um": [
+    51.53,
+    0.77
+   ]
+  },
+  {
+   "cell": "M1_NWELL_CDNS_40661953145399$1$2",
+   "placements": 424,
+   "size_um": [
+    52.04,
+    1.28
+   ]
+  },
+  {
+   "cell": "M1_PSUB_CDNS_40661953145404$1$1",
+   "placements": 424,
+   "size_um": [
+    0.77,
+    5.94
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145385$1$1",
+   "placements": 424,
+   "size_um": [
+    2.0,
+    0.92
+   ]
+  },
+  {
+   "cell": "M1_NWELL_CDNS_40661953145217$1$2",
+   "placements": 424,
+   "size_um": [
+    1.28,
+    6.45
+   ]
+  },
+  {
+   "cell": "M1_PSUB_CDNS_4066195314567$1$1$1",
+   "placements": 424,
+   "size_um": [
+    41.19,
+    0.77
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_4066195314595$1$1$1",
+   "placements": 424,
+   "size_um": [
+    2.24,
+    5.96
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_40661953145388$1$1",
+   "placements": 424,
+   "size_um": [
+    1.62,
+    14.64
+   ]
+  },
+  {
+   "cell": "M1_PSUB_CDNS_4066195314566$1$1$1",
+   "placements": 424,
+   "size_um": [
+    0.77,
+    3.59
+   ]
+  },
+  {
+   "cell": "Metal3_Slot$9",
+   "placements": 379,
+   "size_um": [
+    2.0,
+    10.0
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_4066195314514$4$1",
+   "placements": 378,
+   "size_um": [
+    4.1,
+    14.02
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_4066195314559$3$1",
+   "placements": 368,
+   "size_um": [
+    73.57,
+    6.83
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_4066195314511$13",
+   "placements": 357,
+   "size_um": [
+    4.16,
+    6.02
+   ]
+  },
+  {
+   "cell": "nmoscap_6p0_CDNS_406619531454$4$1",
+   "placements": 344,
+   "size_um": [
+    12.8,
+    28.11
+   ]
+  }
+ ],
+ "layers": [
+  {
+   "layer": "0/0",
+   "name": "PR_bndry",
+   "shapes": 1599
+  },
+  {
+   "layer": "12/0",
+   "name": "DNWELL",
+   "shapes": 16
+  },
+  {
+   "layer": "21/0",
+   "name": "Nwell",
+   "shapes": 2788
+  },
+  {
+   "layer": "22/0",
+   "name": "COMP",
+   "shapes": 134073
+  },
+  {
+   "layer": "23/5",
+   "name": "ISOSUB",
+   "shapes": 214
+  },
+  {
+   "layer": "30/0",
+   "name": "Poly2",
+   "shapes": 115776
+  },
+  {
+   "layer": "31/0",
+   "name": "Pplus",
+   "shapes": 10903
+  },
+  {
+   "layer": "32/0",
+   "name": "Nplus",
+   "shapes": 20829
+  },
+  {
+   "layer": "33/0",
+   "name": "Contact",
+   "shapes": 3631250
+  },
+  {
+   "layer": "34/0",
+   "name": "Metal1",
+   "shapes": 814379
+  },
+  {
+   "layer": "34/10",
+   "name": "Metal1_Label",
+   "shapes": 489
+  },
+  {
+   "layer": "35/0",
+   "name": "Via1",
+   "shapes": 992325
+  },
+  {
+   "layer": "36/0",
+   "name": "Metal2",
+   "shapes": 593994
+  },
+  {
+   "layer": "36/3",
+   "name": "Metal2_Slot",
+   "shapes": 284
+  },
+  {
+   "layer": "36/10",
+   "name": "Metal2_Label",
+   "shapes": 1147
+  },
+  {
+   "layer": "37/0",
+   "name": "Pad",
+   "shapes": 102
+  },
+  {
+   "layer": "38/0",
+   "name": "Via2",
+   "shapes": 2573879
+  },
+  {
+   "layer": "40/0",
+   "name": "Via3",
+   "shapes": 7672527
+  },
+  {
+   "layer": "41/0",
+   "name": "Via4",
+   "shapes": 7379597
+  },
+  {
+   "layer": "42/0",
+   "name": "Metal3",
+   "shapes": 574592
+  },
+  {
+   "layer": "42/3",
+   "name": "Metal3_Slot",
+   "shapes": 381
+  },
+  {
+   "layer": "42/10",
+   "name": "Metal3_Label",
+   "shapes": 39967
+  },
+  {
+   "layer": "46/0",
+   "name": "Metal4",
+   "shapes": 555200
+  },
+  {
+   "layer": "46/10",
+   "name": "Metal4_Label",
+   "shapes": 27978
+  },
+  {
+   "layer": "49/0",
+   "name": "SAB",
+   "shapes": 296
+  },
+  {
+   "layer": "55/0",
+   "name": "Dualgate",
+   "shapes": 18837
+  },
+  {
+   "layer": "58/0",
+   "name": "",
+   "shapes": 2552
+  },
+  {
+   "layer": "62/0",
+   "name": "Resistor",
+   "shapes": 36
+  },
+  {
+   "layer": "63/63",
+   "name": "VTEXT",
+   "shapes": 2036
+  },
+  {
+   "layer": "75/0",
+   "name": "FuseTop",
+   "shapes": 2
+  },
+  {
+   "layer": "81/0",
+   "name": "Metal5",
+   "shapes": 365569
+  },
+  {
+   "layer": "81/10",
+   "name": "Metal5_Label",
+   "shapes": 16924
+  },
+  {
+   "layer": "110/5",
+   "name": "RES_MK",
+   "shapes": 276
+  },
+  {
+   "layer": "115/5",
+   "name": "DIODE_MK",
+   "shapes": 960
+  },
+  {
+   "layer": "117/5",
+   "name": "CAP_MK",
+   "shapes": 2
+  },
+  {
+   "layer": "117/10",
+   "name": "MIM_L_MK",
+   "shapes": 2
+  },
+  {
+   "layer": "137/5",
+   "name": "Latchup_MK",
+   "shapes": 424
+  },
+  {
+   "layer": "152/5",
+   "name": "PMNDMY",
+   "shapes": 2
+  },
+  {
+   "layer": "166/5",
+   "name": "MOS_CAP_MK",
+   "shapes": 17614
+  },
+  {
+   "layer": "167/5",
+   "name": "GUARD_RING_MK",
+   "shapes": 1
+  },
+  {
+   "layer": "204/0",
+   "name": "LVPWELL",
+   "shapes": 22867
+  }
+ ],
+ "blocks": [
+  {
+   "cell": "SLOTS$3",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    1058.0,
+    4135.0
+   ],
+   "first_placement_box_um": [
+    442.0,
+    495.0,
+    1500.0,
+    4630.0
+   ],
+   "kind": "block",
+   "child_cells": 5
+  },
+  {
+   "cell": "TEXT$11",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    2415.0,
+    105.0
+   ],
+   "first_placement_box_um": [
+    759.115,
+    696.84,
+    864.115,
+    3111.84
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TEXT$12",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    1245.0,
+    105.0
+   ],
+   "first_placement_box_um": [
+    592.61,
+    700.18,
+    697.61,
+    1945.18
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "gf180mcu_fd_io__cor$14",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 4,
+   "size_um": [
+    355.16,
+    355.16
+   ],
+   "first_placement_box_um": [
+    66.0,
+    4700.84,
+    421.16,
+    5056.0
+   ],
+   "kind": "io",
+   "child_cells": 2
+  },
+  {
+   "cell": "TEXT$10",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    1155.0,
+    105.0
+   ],
+   "first_placement_box_um": [
+    899.715,
+    700.18,
+    1004.715,
+    1855.18
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "gf180mcu_liplib__asig_guard_sense_5p0_pad_70x100_p105",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 2,
+   "size_um": [
+    300.32,
+    391.45
+   ],
+   "first_placement_box_um": [
+    660.34,
+    4705.745,
+    960.66,
+    5097.2
+   ],
+   "kind": "block",
+   "child_cells": 6
+  },
+  {
+   "cell": "gf180mcu_liplib__asig_guard_5p0_pad_70x100",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 2,
+   "size_um": [
+    140.32,
+    392.14
+   ],
+   "first_placement_box_um": [
+    1160.34,
+    4705.06,
+    1300.66,
+    5097.2
+   ],
+   "kind": "block",
+   "child_cells": 7
+  },
+  {
+   "cell": "gf180mcu_liplib__no_esd_guarded_pad_70x100",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 23,
+   "size_um": [
+    85.32,
+    391.2
+   ],
+   "first_placement_box_um": [
+    1520.0,
+    2570.84,
+    1911.2,
+    2656.16
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "gf180mcu_fd_io__asig_5p0_70x100",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 53,
+   "size_um": [
+    78.0,
+    390.0
+   ],
+   "first_placement_box_um": [
+    1520.0,
+    3834.5,
+    1910.0,
+    3912.5
+   ],
+   "kind": "io",
+   "child_cells": 2
+  },
+  {
+   "cell": "gf180mcu_fd_io__dvss_70x100",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 6,
+   "size_um": [
+    78.0,
+    390.0
+   ],
+   "first_placement_box_um": [
+    1520.0,
+    4569.5,
+    1910.0,
+    4647.5
+   ],
+   "kind": "io",
+   "child_cells": 2
+  },
+  {
+   "cell": "gf180mcu_fd_io__dvdd_70x100",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 6,
+   "size_um": [
+    78.0,
+    390.0
+   ],
+   "first_placement_box_um": [
+    1520.0,
+    4464.5,
+    1910.0,
+    4542.5
+   ],
+   "kind": "io",
+   "child_cells": 2
+  },
+  {
+   "cell": "gf180mcu_ws_ip__logo$15",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    143.25,
+    143.25
+   ],
+   "first_placement_box_um": [
+    1766.75,
+    4952.75,
+    1910.0,
+    5096.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "gf180mcu_ws_ip__id$15",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    142.8,
+    142.8
+   ],
+   "first_placement_box_um": [
+    26.0,
+    26.0,
+    168.8,
+    168.8
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "matched_charge_pump_to_pads",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    45.54,
+    444.26
+   ],
+   "first_placement_box_um": [
+    415.785,
+    701.34,
+    461.325,
+    1145.6
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "TEXT$2$2",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    170.0,
+    70.0
+   ],
+   "first_placement_box_um": [
+    423.165,
+    2371.55,
+    593.165,
+    2441.55
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TEXT$5",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    110.0,
+    70.0
+   ],
+   "first_placement_box_um": [
+    1388.6,
+    4573.765,
+    1498.6,
+    4643.765
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TEXT$4",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    110.0,
+    70.0
+   ],
+   "first_placement_box_um": [
+    889.03,
+    4591.85,
+    959.03,
+    4701.85
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TEXT$3$2",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    110.0,
+    70.0
+   ],
+   "first_placement_box_um": [
+    425.85,
+    4573.87,
+    535.85,
+    4643.87
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TEXT$7",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    110.0,
+    70.0
+   ],
+   "first_placement_box_um": [
+    428.1,
+    480.435,
+    538.1,
+    550.435
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TEXT$9",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    110.0,
+    70.0
+   ],
+   "first_placement_box_um": [
+    1388.6,
+    2470.815,
+    1498.6,
+    2540.815
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TEXT$6",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    110.0,
+    70.0
+   ],
+   "first_placement_box_um": [
+    1402.98,
+    480.435,
+    1512.98,
+    550.435
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TEXT$8",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    110.0,
+    70.0
+   ],
+   "first_placement_box_um": [
+    981.345,
+    426.27,
+    1051.345,
+    536.27
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "cap_mim$3",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    17.2,
+    257.2
+   ],
+   "first_placement_box_um": [
+    478.26,
+    2552.4,
+    735.46,
+    2569.6
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "cap_mim",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    65.2,
+    65.2
+   ],
+   "first_placement_box_um": [
+    478.26,
+    2738.4,
+    543.46,
+    2803.6
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "lv_pfet_W160L070",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    214.2,
+    18.19
+   ],
+   "first_placement_box_um": [
+    1502.025,
+    1141.4,
+    1520.215,
+    1355.6
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "hv_pfet_W160L070",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    214.2,
+    18.19
+   ],
+   "first_placement_box_um": [
+    1502.025,
+    1771.4,
+    1520.215,
+    1985.6
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "hv_nfet_W160L070",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    214.2,
+    18.19
+   ],
+   "first_placement_box_um": [
+    1502.025,
+    1456.4,
+    1520.215,
+    1670.6
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "lv_nfet_W160L070",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    214.2,
+    18.19
+   ],
+   "first_placement_box_um": [
+    1502.025,
+    826.4,
+    1520.215,
+    1040.6
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "gf180mcu_fd_io__fill10$14",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 291,
+   "size_um": [
+    10.32,
+    350.0
+   ],
+   "first_placement_box_um": [
+    880.34,
+    66.0,
+    890.66,
+    416.0
+   ],
+   "kind": "io",
+   "child_cells": 3
+  },
+  {
+   "cell": "TEXT$1",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    50.0,
+    70.0
+   ],
+   "first_placement_box_um": [
+    423.165,
+    2579.87,
+    473.165,
+    2649.87
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TEXT",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    50.0,
+    70.0
+   ],
+   "first_placement_box_um": [
+    423.165,
+    2474.065,
+    473.165,
+    2544.065
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "FOUNDRY_ESD_VSS",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    35.78,
+    61.82
+   ],
+   "first_placement_box_um": [
+    1450.545,
+    2596.985,
+    1512.365,
+    2632.765
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "FOUNDRY_ESD_VDD",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    61.31,
+    35.27
+   ],
+   "first_placement_box_um": [
+    1450.8,
+    2492.235,
+    1512.11,
+    2527.505
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "gf180mcu_fd_io__fill5$14",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 21,
+   "size_um": [
+    5.32,
+    350.0
+   ],
+   "first_placement_box_um": [
+    1507.84,
+    4706.0,
+    1513.16,
+    5056.0
+   ],
+   "kind": "io",
+   "child_cells": 5
+  },
+  {
+   "cell": "TEXT$15",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 88,
+   "size_um": [
+    125.0,
+    7.0
+   ],
+   "first_placement_box_um": [
+    1048.73,
+    2448.995,
+    1055.73,
+    2573.995
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "gf180mcu_fd_io__fill1$14",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 20,
+   "size_um": [
+    1.32,
+    350.0
+   ],
+   "first_placement_box_um": [
+    1059.34,
+    4706.0,
+    1060.66,
+    5056.0
+   ],
+   "kind": "io",
+   "child_cells": 4
+  },
+  {
+   "cell": "gf180mcu_fd_io__fillnc$14",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 30,
+   "size_um": [
+    0.42,
+    350.0
+   ],
+   "first_placement_box_um": [
+    1058.24,
+    4706.0,
+    1058.66,
+    5056.0
+   ],
+   "kind": "io",
+   "child_cells": 1
+  },
+  {
+   "cell": "via_dev",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 4,
+   "size_um": [
+    10.0,
+    10.0
+   ],
+   "first_placement_box_um": [
+    1460.03,
+    1876.89,
+    1470.03,
+    1886.89
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "pfet$4",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 3,
+   "size_um": [
+    6.18,
+    5.33
+   ],
+   "first_placement_box_um": [
+    1222.175,
+    4689.155,
+    1228.355,
+    4694.485
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$5",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 2,
+   "size_um": [
+    2.0,
+    2.0
+   ],
+   "first_placement_box_um": [
+    478.86,
+    2575.17,
+    480.86,
+    2577.17
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$3",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 2,
+   "size_um": [
+    2.0,
+    2.0
+   ],
+   "first_placement_box_um": [
+    478.86,
+    2731.17,
+    480.86,
+    2733.17
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$2",
+   "parent": "TRID_TOP_14_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    2.0,
+    2.0
+   ],
+   "first_placement_box_um": [
+    478.86,
+    2548.095,
+    480.86,
+    2550.095
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "Metal3_Slot$9",
+   "parent": "SLOTS$3",
+   "depth": 2,
+   "count_in_parent": 379,
+   "size_um": [
+    2.0,
+    10.0
+   ],
+   "first_placement_box_um": [
+    1342.0,
+    2385.0,
+    1344.0,
+    2395.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "Metal2_Slot$9",
+   "parent": "SLOTS$3",
+   "depth": 2,
+   "count_in_parent": 281,
+   "size_um": [
+    2.0,
+    10.0
+   ],
+   "first_placement_box_um": [
+    1198.0,
+    4485.0,
+    1200.0,
+    4495.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "Metal3_Slot$1$2",
+   "parent": "SLOTS$3",
+   "depth": 2,
+   "count_in_parent": 2,
+   "size_um": [
+    2.0,
+    10.0
+   ],
+   "first_placement_box_um": [
+    1477.0,
+    2606.0,
+    1479.0,
+    2616.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "Metal2_Slot$1$2",
+   "parent": "SLOTS$3",
+   "depth": 2,
+   "count_in_parent": 2,
+   "size_um": [
+    2.0,
+    10.0
+   ],
+   "first_placement_box_um": [
+    806.0,
+    4508.0,
+    808.0,
+    4518.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "Metal2_Slot$2$2",
+   "parent": "SLOTS$3",
+   "depth": 2,
+   "count_in_parent": 1,
+   "size_um": [
+    2.0,
+    10.0
+   ],
+   "first_placement_box_um": [
+    819.0,
+    4515.0,
+    821.0,
+    4525.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "guard_sense_without_pad",
+   "parent": "gf180mcu_liplib__asig_guard_sense_5p0_pad_70x100_p105",
+   "depth": 2,
+   "count_in_parent": 1,
+   "size_um": [
+    150.32,
+    284.93
+   ],
+   "first_placement_box_um": [
+    735.34,
+    4705.745,
+    885.66,
+    4990.675
+   ],
+   "kind": "block",
+   "child_cells": 8
+  },
+  {
+   "cell": "gf180mcu_bondpad_70x100um",
+   "parent": "gf180mcu_liplib__asig_guard_sense_5p0_pad_70x100_p105",
+   "depth": 2,
+   "count_in_parent": 2,
+   "size_um": [
+    78.0,
+    105.33
+   ],
+   "first_placement_box_um": [
+    876.5,
+    4990.675,
+    954.5,
+    5096.0
+   ],
+   "kind": "block",
+   "child_cells": 12
+  },
+  {
+   "cell": "gf180mcu_fd_io__fill10_nontop",
+   "parent": "gf180mcu_liplib__asig_guard_sense_5p0_pad_70x100_p105",
+   "depth": 2,
+   "count_in_parent": 14,
+   "size_um": [
+    10.32,
+    350.0
+   ],
+   "first_placement_box_um": [
+    665.34,
+    4706.0,
+    675.66,
+    5056.0
+   ],
+   "kind": "io",
+   "child_cells": 4
+  },
+  {
+   "cell": "gf180mcu_fd_io__fill5_nontop",
+   "parent": "gf180mcu_liplib__asig_guard_sense_5p0_pad_70x100_p105",
+   "depth": 2,
+   "count_in_parent": 2,
+   "size_um": [
+    5.32,
+    350.0
+   ],
+   "first_placement_box_um": [
+    955.34,
+    4706.0,
+    960.66,
+    5056.0
+   ],
+   "kind": "io",
+   "child_cells": 5
+  },
+  {
+   "cell": "guard_out_diode_vss",
+   "parent": "gf180mcu_liplib__asig_guard_sense_5p0_pad_70x100_p105",
+   "depth": 2,
+   "count_in_parent": 1,
+   "size_um": [
+    17.17,
+    6.17
+   ],
+   "first_placement_box_um": [
+    836.785,
+    4741.51,
+    853.955,
+    4747.68
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "guard_out_diode_vdd",
+   "parent": "gf180mcu_liplib__asig_guard_sense_5p0_pad_70x100_p105",
+   "depth": 2,
+   "count_in_parent": 1,
+   "size_um": [
+    16.94,
+    5.94
+   ],
+   "first_placement_box_um": [
+    767.16,
+    4741.625,
+    784.1,
+    4747.565
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "hbm_guard_full_unit_a",
+   "parent": "gf180mcu_liplib__asig_guard_5p0_pad_70x100",
+   "depth": 2,
+   "count_in_parent": 2,
+   "size_um": [
+    67.31,
+    194.19
+   ],
+   "first_placement_box_um": [
+    1230.5,
+    4794.005,
+    1297.805,
+    4988.2
+   ],
+   "kind": "block",
+   "child_cells": 2
+  },
+  {
+   "cell": "asig_guard_guarded_pad_70x100",
+   "parent": "gf180mcu_liplib__asig_guard_5p0_pad_70x100",
+   "depth": 2,
+   "count_in_parent": 1,
+   "size_um": [
+    115.92,
+    109.22
+   ],
+   "first_placement_box_um": [
+    1172.54,
+    4987.985,
+    1288.46,
+    5097.2
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "capacitor_bank",
+   "parent": "gf180mcu_liplib__asig_guard_5p0_pad_70x100",
+   "depth": 2,
+   "count_in_parent": 2,
+   "size_um": [
+    54.69,
+    79.73
+   ],
+   "first_placement_box_um": [
+    1163.035,
+    4708.49,
+    1217.725,
+    4788.22
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "guard_out_diode_isolated_vss",
+   "parent": "gf180mcu_liplib__asig_guard_5p0_pad_70x100",
+   "depth": 2,
+   "count_in_parent": 1,
+   "size_um": [
+    26.15,
+    15.15
+   ],
+   "first_placement_box_um": [
+    1235.25,
+    4768.48,
+    1261.4,
+    4783.63
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "res_separator",
+   "parent": "gf180mcu_liplib__asig_guard_5p0_pad_70x100",
+   "depth": 2,
+   "count_in_parent": 1,
+   "size_um": [
+    12.7,
+    12.18
+   ],
+   "first_placement_box_um": [
+    1222.55,
+    4781.325,
+    1235.25,
+    4793.505
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "guard_out_diode_vss",
+   "parent": "gf180mcu_liplib__asig_guard_5p0_pad_70x100",
+   "depth": 2,
+   "count_in_parent": 1,
+   "size_um": [
+    17.17,
+    6.17
+   ],
+   "first_placement_box_um": [
+    1239.74,
+    4784.17,
+    1256.91,
+    4790.34
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "guard_out_diode_vdd",
+   "parent": "gf180mcu_liplib__asig_guard_5p0_pad_70x100",
+   "depth": 2,
+   "count_in_parent": 2,
+   "size_um": [
+    16.94,
+    5.94
+   ],
+   "first_placement_box_um": [
+    1204.205,
+    4784.285,
+    1221.145,
+    4790.225
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "5LM_METAL_RAIL_PAD_60$15",
+   "parent": "gf180mcu_liplib__no_esd_guarded_pad_70x100",
+   "depth": 2,
+   "count_in_parent": 1,
+   "size_um": [
+    75.32,
+    284.51
+   ],
+   "first_placement_box_um": [
+    1520.0,
+    2575.84,
+    1804.515,
+    2651.16
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "no_ed_guarded_pad_70x100$1",
+   "parent": "gf180mcu_liplib__no_esd_guarded_pad_70x100",
+   "depth": 2,
+   "count_in_parent": 1,
+   "size_um": [
+    80.4,
+    107.62
+   ],
+   "first_placement_box_um": [
+    1803.575,
+    2573.3,
+    1911.2,
+    2653.7
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "gf180mcu_fd_io__fill5_nontop",
+   "parent": "gf180mcu_liplib__no_esd_guarded_pad_70x100",
+   "depth": 2,
+   "count_in_parent": 2,
+   "size_um": [
+    5.32,
+    350.0
+   ],
+   "first_placement_box_um": [
+    1520.0,
+    2570.84,
+    1870.0,
+    2576.16
+   ],
+   "kind": "io",
+   "child_cells": 5
+  },
+  {
+   "cell": "matched_interface_trap_charge_pumps",
+   "parent": "matched_charge_pump_to_pads",
+   "depth": 2,
+   "count_in_parent": 1,
+   "size_um": [
+    20.54,
+    16.0
+   ],
+   "first_placement_box_um": [
+    440.785,
+    925.5,
+    461.325,
+    941.5
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "pfet$6",
+   "parent": "hv_pfet_W160L070",
+   "depth": 2,
+   "count_in_parent": 1,
+   "size_um": [
+    4.46,
+    3.82
+   ],
+   "first_placement_box_um": [
+    1505.935,
+    1876.27,
+    1509.755,
+    1880.73
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "nfet$1$3",
+   "parent": "hv_nfet_W160L070",
+   "depth": 2,
+   "count_in_parent": 1,
+   "size_um": [
+    3.0,
+    3.39
+   ],
+   "first_placement_box_um": [
+    1506.335,
+    1562.0,
+    1509.725,
+    1565.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "hbm_guard_sense_full_unit_a",
+   "parent": "guard_sense_without_pad",
+   "depth": 3,
+   "count_in_parent": 2,
+   "size_um": [
+    67.64,
+    237.58
+   ],
+   "first_placement_box_um": [
+    744.185,
+    4750.235,
+    811.825,
+    4987.815
+   ],
+   "kind": "block",
+   "child_cells": 2
+  },
+  {
+   "cell": "distributed_isolated_diodevssx22",
+   "parent": "guard_sense_without_pad",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    145.62,
+    64.44
+   ],
+   "first_placement_box_um": [
+    737.69,
+    4866.87,
+    883.31,
+    4931.31
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "distributed_diodevddx22",
+   "parent": "guard_sense_without_pad",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    138.07,
+    56.89
+   ],
+   "first_placement_box_um": [
+    741.465,
+    4931.31,
+    879.535,
+    4988.2
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "matched_resistors",
+   "parent": "guard_sense_without_pad",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    30.22,
+    42.44
+   ],
+   "first_placement_box_um": [
+    795.39,
+    4706.215,
+    825.61,
+    4748.65
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "cdm_isolated_vss_diodex10",
+   "parent": "guard_sense_without_pad",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    39.52,
+    19.85
+   ],
+   "first_placement_box_um": [
+    825.61,
+    4720.61,
+    865.13,
+    4740.46
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "cdm_vdd_diodex10",
+   "parent": "guard_sense_without_pad",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    30.54,
+    10.87
+   ],
+   "first_placement_box_um": [
+    760.36,
+    4725.1,
+    790.9,
+    4735.97
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "simple_via2",
+   "parent": "guard_sense_without_pad",
+   "depth": 3,
+   "count_in_parent": 541,
+   "size_um": [
+    0.26,
+    0.26
+   ],
+   "first_placement_box_um": [
+    872.775,
+    4769.69,
+    873.035,
+    4769.95
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "simple_via1",
+   "parent": "guard_sense_without_pad",
+   "depth": 3,
+   "count_in_parent": 2309,
+   "size_um": [
+    0.26,
+    0.26
+   ],
+   "first_placement_box_um": [
+    885.19,
+    4809.69,
+    885.45,
+    4809.95
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "M4_M3_SIDE$1",
+   "parent": "gf180mcu_bondpad_70x100um",
+   "depth": 3,
+   "count_in_parent": 2,
+   "size_um": [
+    99.68,
+    2.86
+   ],
+   "first_placement_box_um": [
+    951.12,
+    4994.16,
+    953.98,
+    5093.84
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "M3_M2_SIDE$1",
+   "parent": "gf180mcu_bondpad_70x100um",
+   "depth": 3,
+   "count_in_parent": 2,
+   "size_um": [
+    99.68,
+    2.86
+   ],
+   "first_placement_box_um": [
+    951.12,
+    4994.16,
+    953.98,
+    5093.84
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "M5_M4_SIDE$1",
+   "parent": "gf180mcu_bondpad_70x100um",
+   "depth": 3,
+   "count_in_parent": 2,
+   "size_um": [
+    99.68,
+    2.86
+   ],
+   "first_placement_box_um": [
+    951.12,
+    4994.16,
+    953.98,
+    5093.84
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "M5_M4_TOP$1",
+   "parent": "gf180mcu_bondpad_70x100um",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    76.72,
+    2.24
+   ],
+   "first_placement_box_um": [
+    877.1,
+    4991.205,
+    953.82,
+    4993.445
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "M3_M2_TOP$1",
+   "parent": "gf180mcu_bondpad_70x100um",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    76.72,
+    2.24
+   ],
+   "first_placement_box_um": [
+    877.1,
+    4991.205,
+    953.82,
+    4993.445
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "M4_M3_TOP$1",
+   "parent": "gf180mcu_bondpad_70x100um",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    76.72,
+    2.24
+   ],
+   "first_placement_box_um": [
+    877.1,
+    4991.205,
+    953.82,
+    4993.445
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "M4_M3_MID$1",
+   "parent": "gf180mcu_bondpad_70x100um",
+   "depth": 3,
+   "count_in_parent": 34,
+   "size_um": [
+    99.31,
+    1.0
+   ],
+   "first_placement_box_um": [
+    947.99,
+    4994.4,
+    948.99,
+    5093.71
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "M3_M2_MID$1",
+   "parent": "gf180mcu_bondpad_70x100um",
+   "depth": 3,
+   "count_in_parent": 34,
+   "size_um": [
+    99.31,
+    1.0
+   ],
+   "first_placement_box_um": [
+    947.99,
+    4994.4,
+    948.99,
+    5093.71
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "M5_M4_MID$1",
+   "parent": "gf180mcu_bondpad_70x100um",
+   "depth": 3,
+   "count_in_parent": 34,
+   "size_um": [
+    99.31,
+    1.0
+   ],
+   "first_placement_box_um": [
+    947.99,
+    4994.4,
+    948.99,
+    5093.71
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "M3_M2_BOTTOM$1",
+   "parent": "gf180mcu_bondpad_70x100um",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    70.02,
+    1.09
+   ],
+   "first_placement_box_um": [
+    880.455,
+    5094.44,
+    950.475,
+    5095.53
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "M4_M3_BOTTOM$1",
+   "parent": "gf180mcu_bondpad_70x100um",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    70.02,
+    1.09
+   ],
+   "first_placement_box_um": [
+    880.455,
+    5094.44,
+    950.475,
+    5095.53
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "M5_M4_BOTTOM$1",
+   "parent": "gf180mcu_bondpad_70x100um",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    70.02,
+    1.09
+   ],
+   "first_placement_box_um": [
+    880.455,
+    5094.44,
+    950.475,
+    5095.53
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "hbm_esd_diodes",
+   "parent": "hbm_guard_full_unit_a",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    61.82,
+    109.91
+   ],
+   "first_placement_box_um": [
+    1232.63,
+    4794.005,
+    1294.45,
+    4903.915
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "hbm_guard_esd_diodes",
+   "parent": "hbm_guard_full_unit_a",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    63.82,
+    75.57
+   ],
+   "first_placement_box_um": [
+    1231.625,
+    4912.63,
+    1295.445,
+    4988.2
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "gf180mcu_bondpad_70x100um",
+   "parent": "asig_guard_guarded_pad_70x100",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    78.0,
+    105.33
+   ],
+   "first_placement_box_um": [
+    1191.5,
+    4990.675,
+    1269.5,
+    5096.0
+   ],
+   "kind": "block",
+   "child_cells": 12
+  },
+  {
+   "cell": "nmoscap_6p0_CDNS_406619531450$14",
+   "parent": "capacitor_bank",
+   "depth": 3,
+   "count_in_parent": 10,
+   "size_um": [
+    17.8,
+    18.11
+   ],
+   "first_placement_box_um": [
+    1164.3,
+    4769.105,
+    1182.1,
+    4787.215
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "5LM_METAL_RAIL$1$1$1",
+   "parent": "5LM_METAL_RAIL_PAD_60$15",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    75.32,
+    284.51
+   ],
+   "first_placement_box_um": [
+    1520.0,
+    2575.84,
+    1804.515,
+    2651.16
+   ],
+   "kind": "block",
+   "child_cells": 6
+  },
+  {
+   "cell": "gf180mcu_bondpad_70x100um",
+   "parent": "no_ed_guarded_pad_70x100$1",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    78.0,
+    105.33
+   ],
+   "first_placement_box_um": [
+    1804.675,
+    2574.5,
+    1910.0,
+    2652.5
+   ],
+   "kind": "block",
+   "child_cells": 12
+  },
+  {
+   "cell": "pfet$2$2",
+   "parent": "matched_interface_trap_charge_pumps",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    16.86,
+    11.36
+   ],
+   "first_placement_box_um": [
+    442.625,
+    927.82,
+    459.485,
+    939.18
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "hbm_guard_sense_esd_diodes",
+   "parent": "hbm_guard_sense_full_unit_a",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    67.51,
+    118.42
+   ],
+   "first_placement_box_um": [
+    744.32,
+    4869.39,
+    811.825,
+    4987.815
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "hbm_esd_diodes",
+   "parent": "hbm_guard_sense_full_unit_a",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    61.82,
+    109.91
+   ],
+   "first_placement_box_um": [
+    744.185,
+    4750.235,
+    806.005,
+    4860.145
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "diodevss_lvs",
+   "parent": "hbm_esd_diodes",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    61.82,
+    35.78
+   ],
+   "first_placement_box_um": [
+    1232.63,
+    4831.28,
+    1294.45,
+    4867.06
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "diodevdd",
+   "parent": "hbm_esd_diodes",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    61.31,
+    35.27
+   ],
+   "first_placement_box_um": [
+    1232.885,
+    4868.645,
+    1294.195,
+    4903.915
+   ],
+   "kind": "block",
+   "child_cells": 8
+  },
+  {
+   "cell": "connection_unit_hbm",
+   "parent": "hbm_esd_diodes",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    11.5,
+    109.23
+   ],
+   "first_placement_box_um": [
+    1276.96,
+    4794.475,
+    1288.46,
+    4903.7
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "isolated_diodevss_noguard",
+   "parent": "hbm_guard_esd_diodes",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    63.82,
+    37.78
+   ],
+   "first_placement_box_um": [
+    1231.625,
+    4912.63,
+    1295.445,
+    4950.41
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "diodevdd",
+   "parent": "hbm_guard_esd_diodes",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    61.31,
+    35.27
+   ],
+   "first_placement_box_um": [
+    1232.88,
+    4952.93,
+    1294.19,
+    4988.2
+   ],
+   "kind": "block",
+   "child_cells": 8
+  },
+  {
+   "cell": "hbm_guard_esd_diodes_connection_unit",
+   "parent": "hbm_guard_esd_diodes",
+   "depth": 4,
+   "count_in_parent": 8,
+   "size_um": [
+    5.6,
+    73.89
+   ],
+   "first_placement_box_um": [
+    1282.86,
+    4914.1,
+    1288.46,
+    4987.985
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "4LM_METAL_RAIL$3$1",
+   "parent": "5LM_METAL_RAIL$1$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    75.32,
+    284.51
+   ],
+   "first_placement_box_um": [
+    1520.0,
+    2575.84,
+    1804.515,
+    2651.16
+   ],
+   "kind": "block",
+   "child_cells": 4
+  },
+  {
+   "cell": "M5_M4_CDNS_4066195314560$3$1",
+   "parent": "5LM_METAL_RAIL$1$1$1",
+   "depth": 4,
+   "count_in_parent": 9,
+   "size_um": [
+    73.57,
+    14.64
+   ],
+   "first_placement_box_um": [
+    1785.215,
+    2576.725,
+    1799.855,
+    2650.295
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "M4_M3_CDNS_4066195314558$4$1",
+   "parent": "5LM_METAL_RAIL$1$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    73.51,
+    14.58
+   ],
+   "first_placement_box_um": [
+    1769.245,
+    2576.755,
+    1783.825,
+    2650.265
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "M5_M4_CDNS_4066195314559$3$1",
+   "parent": "5LM_METAL_RAIL$1$1$1",
+   "depth": 4,
+   "count_in_parent": 16,
+   "size_um": [
+    73.57,
+    6.83
+   ],
+   "first_placement_box_um": [
+    1745.105,
+    2576.725,
+    1751.935,
+    2650.295
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "M4_M3_CDNS_4066195314557$4$1",
+   "parent": "5LM_METAL_RAIL$1$1$1",
+   "depth": 4,
+   "count_in_parent": 8,
+   "size_um": [
+    73.51,
+    6.77
+   ],
+   "first_placement_box_um": [
+    1745.135,
+    2576.755,
+    1751.905,
+    2650.265
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "M5_M4_CDNS_4066195314561$3$1",
+   "parent": "5LM_METAL_RAIL$1$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    73.57,
+    6.12
+   ],
+   "first_placement_box_um": [
+    1521.735,
+    2576.725,
+    1527.855,
+    2650.295
+   ],
+   "kind": "block",
+   "child_cells": 0
+  }
+ ],
+ "labels": [
+  {
+   "text": "MINUS",
+   "layer": "34/0",
+   "layer_name": "Metal1",
+   "xy_um": [
+    1481.45,
+    2625.41
+   ]
+  },
+  {
+   "text": "PLUS",
+   "layer": "34/0",
+   "layer_name": "Metal1",
+   "xy_um": [
+    1481.45,
+    2499.34
+   ]
+  },
+  {
+   "text": "",
+   "layer": "34/10",
+   "layer_name": "Metal1_Label",
+   "xy_um": [
+    796.98,
+    4686.82
+   ]
+  },
+  {
+   "text": "VDD",
+   "layer": "34/10",
+   "layer_name": "Metal1_Label",
+   "xy_um": [
+    1503.18,
+    1248.48
+   ]
+  },
+  {
+   "text": "VSS",
+   "layer": "34/10",
+   "layer_name": "Metal1_Label",
+   "xy_um": [
+    1503.18,
+    1563.48
+   ]
+  },
+  {
+   "text": "VSS",
+   "layer": "42/10",
+   "layer_name": "Metal3_Label",
+   "xy_um": [
+    1161.5,
+    4806.69
+   ]
+  },
+  {
+   "text": "VDD",
+   "layer": "42/10",
+   "layer_name": "Metal3_Label",
+   "xy_um": [
+    1161.5,
+    4799.52
+   ]
+  },
+  {
+   "text": "DVDD",
+   "layer": "42/10",
+   "layer_name": "Metal3_Label",
+   "xy_um": [
+    1161.5,
+    4834.97
+   ]
+  },
+  {
+   "text": "DVSS",
+   "layer": "42/10",
+   "layer_name": "Metal3_Label",
+   "xy_um": [
+    1161.5,
+    4818.83
+   ]
+  },
+  {
+   "text": "pad_guard",
+   "layer": "42/10",
+   "layer_name": "Metal3_Label",
+   "xy_um": [
+    1229.53,
+    4705.35
+   ]
+  },
+  {
+   "text": "guard",
+   "layer": "42/10",
+   "layer_name": "Metal3_Label",
+   "xy_um": [
+    1508.03,
+    1242.95
+   ]
+  },
+  {
+   "text": "",
+   "layer": "46/10",
+   "layer_name": "Metal4_Label",
+   "xy_um": [
+    735.16,
+    2561.0
+   ]
+  },
+  {
+   "text": "DVSS",
+   "layer": "46/10",
+   "layer_name": "Metal4_Label",
+   "xy_um": [
+    1299.33,
+    4978.04
+   ]
+  },
+  {
+   "text": "VDD",
+   "layer": "46/10",
+   "layer_name": "Metal4_Label",
+   "xy_um": [
+    1299.33,
+    4799.5
+   ]
+  },
+  {
+   "text": "VSS",
+   "layer": "46/10",
+   "layer_name": "Metal4_Label",
+   "xy_um": [
+    1299.33,
+    4806.68
+   ]
+  },
+  {
+   "text": "DVDD",
+   "layer": "46/10",
+   "layer_name": "Metal4_Label",
+   "xy_um": [
+    1299.33,
+    4935.37
+   ]
+  },
+  {
+   "text": "SENSE_RES_DEBUG",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    820.43,
+    4694.03
+   ]
+  },
+  {
+   "text": "PAD_RES_DEBUG",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    800.46,
+    4694.03
+   ]
+  },
+  {
+   "text": "padres",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    1230.48,
+    4705.33
+   ]
+  },
+  {
+   "text": "pad",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    1520.44,
+    2613.4
+   ]
+  },
+  {
+   "text": "pad_guard",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    810.52,
+    4706.28
+   ]
+  },
+  {
+   "text": "sense_res",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    813.3,
+    4706.28
+   ]
+  },
+  {
+   "text": "pad_res",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    807.75,
+    4706.28
+   ]
+  },
+  {
+   "text": "source",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    1519.41,
+    1143.18
+   ]
+  },
+  {
+   "text": "drain",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    1519.41,
+    1353.43
+   ]
+  },
+  {
+   "text": "gate",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    1519.13,
+    1248.44
+   ]
+  },
+  {
+   "text": "hv_nfet_W075L070_drain_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    1668.5
+   ]
+  },
+  {
+   "text": "GUARD_IMPORTANCE_INPUT_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    4293.49
+   ]
+  },
+  {
+   "text": "lv_pfet_W075L070_gate_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    1248.5
+   ]
+  },
+  {
+   "text": "TOFILL31_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    1248.5
+   ]
+  },
+  {
+   "text": "CAPACITORS_MIM_GUARD1_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    2403.49
+   ]
+  },
+  {
+   "text": "CHARGE_PUMP_VW_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    1143.5
+   ]
+  },
+  {
+   "text": "TOFILL50_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    4293.49
+   ]
+  },
+  {
+   "text": "TOFILL38_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    3033.49
+   ]
+  },
+  {
+   "text": "PAD_ESD_TEST_GUARD_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1441.89,
+    5052.19
+   ]
+  },
+  {
+   "text": "PAD_ESD_GUARDSENSE_SENSE_IN_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    706.89,
+    5052.19
+   ]
+  },
+  {
+   "text": "TOFILL47_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    3978.49
+   ]
+  },
+  {
+   "text": "TOFILL11_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    3558.49
+   ]
+  },
+  {
+   "text": "CAPACITORS_MIM_2p0FF_8192FF_MAX_PERIM_1_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    2613.49
+   ]
+  },
+  {
+   "text": "lv_nfet_W075L070_gate_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    933.5
+   ]
+  },
+  {
+   "text": "TOFILL44_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    3663.49
+   ]
+  },
+  {
+   "text": "TOFILL10_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    3663.49
+   ]
+  },
+  {
+   "text": "TOFILL12_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    3453.49
+   ]
+  },
+  {
+   "text": "TOFILL26_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    1773.5
+   ]
+  },
+  {
+   "text": "PAD_ESD_GUARDSENSE_ASIG_OUT_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    601.89,
+    5052.19
+   ]
+  },
+  {
+   "text": "CAPACITORS_MIM_GUARD2_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    2928.49
+   ]
+  },
+  {
+   "text": "GUARD_IMPORTANCE_BOTTOM_GUARD_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    4083.49
+   ]
+  },
+  {
+   "text": "CHARGE_PUMP_G2_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    828.5
+   ]
+  },
+  {
+   "text": "CAPACITORS_MIM_2p0FF_8192FF_MAX_PERIM_2_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    2508.49
+   ]
+  },
+  {
+   "text": "ESD_DIODES_GUARD_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    2403.49
+   ]
+  },
+  {
+   "text": "GUARD_IMPORTANCE_TOP_GUARD_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    3978.49
+   ]
+  },
+  {
+   "text": "PAD_ESD_ASIG_GUARD_OUT_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1021.89,
+    5052.19
+   ]
+  },
+  {
+   "text": "TOFILL43_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    3558.49
+   ]
+  },
+  {
+   "text": "VSS",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    513.5
+   ]
+  },
+  {
+   "text": "hv_pfet_W075L070_drain_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    1983.5
+   ]
+  },
+  {
+   "text": "TOFILL16_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    3033.49
+   ]
+  },
+  {
+   "text": "TOFILL49_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    4188.49
+   ]
+  },
+  {
+   "text": "GUARD_IMPORTANCE_SIDE_GUARD_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    4188.49
+   ]
+  },
+  {
+   "text": "hv_nfet_W075L070_source_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    1458.5
+   ]
+  },
+  {
+   "text": "ESD_DIODES_FOUNDRY_VDD_ANODE_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    2503.49
+   ]
+  },
+  {
+   "text": "TOFILL24_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    1983.5
+   ]
+  },
+  {
+   "text": "TOFILL39_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    3138.49
+   ]
+  },
+  {
+   "text": "PAD_ESD_GUARDSENSE_ASIG_IN_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    916.89,
+    5052.19
+   ]
+  },
+  {
+   "text": "TOFILL41_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    3348.49
+   ]
+  },
+  {
+   "text": "TOFILL25_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    1878.5
+   ]
+  },
+  {
+   "text": "PAD_GUARD_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    493.0,
+    78.66
+   ]
+  },
+  {
+   "text": "TOFILL8_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    3873.49
+   ]
+  },
+  {
+   "text": "TOFILL51_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    4398.49
+   ]
+  },
+  {
+   "text": "TOFILL45_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    3768.49
+   ]
+  },
+  {
+   "text": "TOFILL29_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    1458.5
+   ]
+  },
+  {
+   "text": "TOFILL15_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    3138.49
+   ]
+  },
+  {
+   "text": "TOFILL42_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    3453.49
+   ]
+  },
+  {
+   "text": "TOFILL46_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    3873.49
+   ]
+  },
+  {
+   "text": "TOFILL37_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    2928.49
+   ]
+  },
+  {
+   "text": "TOFILL28_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    1563.5
+   ]
+  },
+  {
+   "text": "TOFILL9_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    3768.49
+   ]
+  },
+  {
+   "text": "TOFILL36_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    2823.49
+   ]
+  },
+  {
+   "text": "TOFILL30_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    1353.5
+   ]
+  },
+  {
+   "text": "EMPTY_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1333.0,
+    79.86
+   ]
+  },
+  {
+   "text": "CHARGE_PUMP_GUARD_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    723.5
+   ]
+  },
+  {
+   "text": "TOFILL23_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    2088.49
+   ]
+  },
+  {
+   "text": "lv_pfet_W030L070_source_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    1143.5
+   ]
+  },
+  {
+   "text": "CHARGE_PUMP_G1_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    1038.5
+   ]
+  },
+  {
+   "text": "ASIG_FOUNDRY_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    598.0,
+    78.66
+   ]
+  },
+  {
+   "text": "hv_nfet_W075L070_gate_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    1563.5
+   ]
+  },
+  {
+   "text": "GUARD_IMPORTANCE_PAD_GUARD_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    4398.49
+   ]
+  },
+  {
+   "text": "guard_transistors_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    723.5
+   ]
+  },
+  {
+   "text": "PAD_ESD_ASIG_GUARD_IN_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1231.89,
+    5052.19
+   ]
+  },
+  {
+   "text": "VDD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    513.5
+   ]
+  },
+  {
+   "text": "TOFILL27_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    1668.5
+   ]
+  },
+  {
+   "text": "CHARGE_PUMP_VS_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    933.5
+   ]
+  },
+  {
+   "text": "lv_pfet_W075L070_drain_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    1353.5
+   ]
+  },
+  {
+   "text": "TOFILL14_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    3243.49
+   ]
+  },
+  {
+   "text": "ESD_DIODES_FOUNDRY_VSS_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    2608.49
+   ]
+  },
+  {
+   "text": "ESD_DIODES_FOUNDRY_VDD_CATHODE_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    2713.49
+   ]
+  },
+  {
+   "text": "hv_pfet_W075L070_source_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    1773.5
+   ]
+  },
+  {
+   "text": "GUARDSENSE_SENSE_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1228.0,
+    78.66
+   ]
+  },
+  {
+   "text": "ASIG_GUARD_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    808.0,
+    78.66
+   ]
+  },
+  {
+   "text": "GUARDSENSE_ASIG_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1018.0,
+    78.66
+   ]
+  },
+  {
+   "text": "TOFILL40_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    3243.49
+   ]
+  },
+  {
+   "text": "CAPACITORS_MIM_2p0FF_8192FF_2_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    2718.49
+   ]
+  },
+  {
+   "text": "CAPACITORS_MIM_2p0FF_8192FF_1_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    78.66,
+    2823.49
+   ]
+  },
+  {
+   "text": "hv_pfet_W075L070_gate_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    1878.5
+   ]
+  },
+  {
+   "text": "lv_nfet_W075L070_drain_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    1038.5
+   ]
+  },
+  {
+   "text": "TOFILL48_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    4083.49
+   ]
+  },
+  {
+   "text": "lv_nfet_W075L070_source_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1857.34,
+    828.5
+   ]
+  },
+  {
+   "text": "PAD_ESD_GUARDSENSE_SENSE_OUT_PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    496.89,
+    5052.19
+   ]
+  },
+  {
+   "text": "",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    606.86,
+    2561.0
+   ]
+  },
+  {
+   "text": "PAD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1230.66,
+    5025.83
+   ]
+  },
+  {
+   "text": "DVSS",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1299.33,
+    4978.03
+   ]
+  },
+  {
+   "text": "DVDD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1299.33,
+    4935.36
+   ]
+  },
+  {
+   "text": "sense",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    708.97,
+    5050.7
+   ]
+  },
+  {
+   "text": "pad",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    914.24,
+    5050.7
+   ]
+  }
+ ],
+ "labels_truncated": false
+}

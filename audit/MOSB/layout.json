@@ -1,0 +1,5096 @@
+{
+ "run": "ws-run1",
+ "code": "MOSB",
+ "reticle_cell": "MOSB_chip_top_4_2",
+ "size_um": [
+  3932.0,
+  5122.0
+ ],
+ "origin_um": [
+  0.0,
+  0.0
+ ],
+ "dbu_um": 0.001,
+ "placements_on_reticle": [
+  {
+   "x_mm": 8.044,
+   "y_mm": 5.242,
+   "rotation": "r0"
+  },
+  {
+   "x_mm": 8.044,
+   "y_mm": 0.06,
+   "rotation": "r0"
+  }
+ ],
+ "distinct_cells": 1101,
+ "standard_cells": [
+  {
+   "library": "mcu9t5v0",
+   "kind": "fill",
+   "placements": 8134
+  },
+  {
+   "library": "mcu9t5v0",
+   "kind": "logic",
+   "placements": 17889
+  }
+ ],
+ "standard_cell_types_top40": [
+  {
+   "library": "mcu9t5v0",
+   "type": "inv_1",
+   "placements": 6546
+  },
+  {
+   "library": "mcu9t5v0",
+   "type": "latq_1",
+   "placements": 6500
+  },
+  {
+   "library": "mcu9t5v0",
+   "type": "nand2_1",
+   "placements": 3252
+  },
+  {
+   "library": "mcu9t5v0",
+   "type": "inv_20",
+   "placements": 400
+  },
+  {
+   "library": "mcu9t5v0",
+   "type": "inv_8",
+   "placements": 397
+  },
+  {
+   "library": "mcu9t5v0",
+   "type": "inv_4",
+   "placements": 396
+  },
+  {
+   "library": "mcu9t5v0",
+   "type": "inv_12",
+   "placements": 394
+  },
+  {
+   "library": "mcu9t5v0",
+   "type": "dffrnq_4",
+   "placements": 2
+  },
+  {
+   "library": "mcu9t5v0",
+   "type": "nand2_4",
+   "placements": 2
+  }
+ ],
+ "sram_macros": [],
+ "io_cells": [
+  {
+   "cell": "gf180mcu_fd_io__asig_5p0",
+   "placements": 68
+  },
+  {
+   "cell": "gf180mcu_fd_io__cor",
+   "placements": 4
+  },
+  {
+   "cell": "gf180mcu_fd_io__dvss",
+   "placements": 4
+  },
+  {
+   "cell": "gf180mcu_fd_io__fill1",
+   "placements": 58
+  },
+  {
+   "cell": "gf180mcu_fd_io__fill10",
+   "placements": 906
+  },
+  {
+   "cell": "gf180mcu_fd_io__fill5",
+   "placements": 78
+  },
+  {
+   "cell": "gf180mcu_fd_io__fillnc",
+   "placements": 20
+  },
+  {
+   "cell": "gf180mcu_ws_io__dvdd",
+   "placements": 2
+  }
+ ],
+ "fill_and_sealring_placements": 3595564,
+ "other_cells_by_placements_top80": [
+  {
+   "cell": "via_dev$872$1",
+   "placements": 146250,
+   "size_um": [
+    0.4,
+    1.1
+   ]
+  },
+  {
+   "cell": "via_dev$871$1",
+   "placements": 26000,
+   "size_um": [
+    0.4,
+    1.1
+   ]
+  },
+  {
+   "cell": "via_dev$881$1",
+   "placements": 16250,
+   "size_um": [
+    0.4,
+    1.1
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_406619531453$10",
+   "placements": 15402,
+   "size_um": [
+    9.06,
+    5.96
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_406619531450$10",
+   "placements": 15402,
+   "size_um": [
+    9.12,
+    6.02
+   ]
+  },
+  {
+   "cell": "POLY_SUB_FILL_1$10",
+   "placements": 14496,
+   "size_um": [
+    9.75,
+    18.06
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_406619531459$10",
+   "placements": 12948,
+   "size_um": [
+    0.38,
+    5.66
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_4066195314518$10",
+   "placements": 10920,
+   "size_um": [
+    0.38,
+    0.38
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_4066195314510$10",
+   "placements": 8856,
+   "size_um": [
+    0.38,
+    12.92
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_406619531452$10",
+   "placements": 8154,
+   "size_um": [
+    9.06,
+    13.4
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_406619531451$10",
+   "placements": 8154,
+   "size_um": [
+    9.12,
+    13.46
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145393$3",
+   "placements": 7344,
+   "size_um": [
+    2.24,
+    2.86
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_4066195314596$10",
+   "placements": 6158,
+   "size_um": [
+    2.24,
+    6.58
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_40661953145496$10",
+   "placements": 5432,
+   "size_um": [
+    20.24,
+    0.44
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_40661953145598$10",
+   "placements": 5432,
+   "size_um": [
+    20.18,
+    0.38
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_4066195314598$10",
+   "placements": 4924,
+   "size_um": [
+    2.24,
+    14.64
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_40661953145443$10",
+   "placements": 4244,
+   "size_um": [
+    9.02,
+    0.44
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_40661953145578$10",
+   "placements": 4244,
+   "size_um": [
+    8.96,
+    0.38
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_406619531456$10",
+   "placements": 3632,
+   "size_um": [
+    1.0,
+    5.96
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_406619531454$10",
+   "placements": 3624,
+   "size_um": [
+    1.0,
+    5.96
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_4066195314574$10",
+   "placements": 3422,
+   "size_um": [
+    2.54,
+    1.46
+   ]
+  },
+  {
+   "cell": "DFF_2phase_1$5$1",
+   "placements": 3250,
+   "size_um": [
+    26.36,
+    6.44
+   ]
+  },
+  {
+   "cell": "via_dev$880$1",
+   "placements": 3250,
+   "size_um": [
+    0.4,
+    1.1
+   ]
+  },
+  {
+   "cell": "via_dev$879$1",
+   "placements": 3250,
+   "size_um": [
+    0.4,
+    1.1
+   ]
+  },
+  {
+   "cell": "via_dev$882$1",
+   "placements": 3250,
+   "size_um": [
+    1.1,
+    15.0
+   ]
+  },
+  {
+   "cell": "swmatrix_Tgate$4$1",
+   "placements": 3250,
+   "size_um": [
+    32.48,
+    46.0
+   ]
+  },
+  {
+   "cell": "via_dev$875$1",
+   "placements": 3250,
+   "size_um": [
+    0.5,
+    13.0
+   ]
+  },
+  {
+   "cell": "via_dev$870$1",
+   "placements": 3250,
+   "size_um": [
+    -2.0,
+    -2.0
+   ]
+  },
+  {
+   "cell": "via_dev$878$1",
+   "placements": 3250,
+   "size_um": [
+    25.0,
+    2.0
+   ]
+  },
+  {
+   "cell": "via_dev$877$1",
+   "placements": 3250,
+   "size_um": [
+    0.4,
+    0.4
+   ]
+  },
+  {
+   "cell": "nfet$51$1",
+   "placements": 3250,
+   "size_um": [
+    5.84,
+    8.97
+   ]
+  },
+  {
+   "cell": "via_dev$874$1",
+   "placements": 3250,
+   "size_um": [
+    0.5,
+    30.0
+   ]
+  },
+  {
+   "cell": "pfet$55$1",
+   "placements": 3250,
+   "size_um": [
+    16.06,
+    9.12
+   ]
+  },
+  {
+   "cell": "via_dev$873$1",
+   "placements": 3250,
+   "size_um": [
+    0.4,
+    1.1
+   ]
+  },
+  {
+   "cell": "via_dev$876$1",
+   "placements": 3250,
+   "size_um": [
+    0.5,
+    8.0
+   ]
+  },
+  {
+   "cell": "POLY_SUB_FILL$10",
+   "placements": 2730,
+   "size_um": [
+    4.23,
+    8.46
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_4066195314512$10",
+   "placements": 2652,
+   "size_um": [
+    4.1,
+    5.96
+   ]
+  },
+  {
+   "cell": "nmoscap_6p0_CDNS_406619531450$10",
+   "placements": 2472,
+   "size_um": [
+    17.8,
+    18.11
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145141$10",
+   "placements": 2470,
+   "size_um": [
+    2.54,
+    0.92
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145392$3",
+   "placements": 2448,
+   "size_um": [
+    0.38,
+    15.5
+   ]
+  },
+  {
+   "cell": "via_dev$883$1",
+   "placements": 2210,
+   "size_um": [
+    1.1,
+    0.4
+   ]
+  },
+  {
+   "cell": "M1_PSUB_CDNS_406619531455$10",
+   "placements": 2116,
+   "size_um": [
+    0.77,
+    284.27
+   ]
+  },
+  {
+   "cell": "M1_PSUB_CDNS_406619531458$10",
+   "placements": 1812,
+   "size_um": [
+    8.77,
+    1.27
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_406619531457$10",
+   "placements": 1812,
+   "size_um": [
+    1.04,
+    6.32
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_4066195314557$10",
+   "placements": 1776,
+   "size_um": [
+    73.51,
+    6.77
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_4066195314552$10",
+   "placements": 1554,
+   "size_um": [
+    59.31,
+    1.09
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_4066195314556$10",
+   "placements": 1554,
+   "size_um": [
+    59.37,
+    1.15
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_4066195314551$10",
+   "placements": 1554,
+   "size_um": [
+    59.31,
+    1.09
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_4066195314514$10",
+   "placements": 1404,
+   "size_um": [
+    4.1,
+    14.02
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145158$10",
+   "placements": 1392,
+   "size_um": [
+    9.02,
+    0.38
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145413$3",
+   "placements": 1360,
+   "size_um": [
+    2.24,
+    2.24
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_4066195314511$10",
+   "placements": 1326,
+   "size_um": [
+    4.16,
+    6.02
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145151$10",
+   "placements": 1256,
+   "size_um": [
+    0.38,
+    14.96
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_4066195314559$10",
+   "placements": 1184,
+   "size_um": [
+    73.57,
+    6.83
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145386$3",
+   "placements": 1088,
+   "size_um": [
+    2.0,
+    1.46
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145394$3",
+   "placements": 1088,
+   "size_um": [
+    1.46,
+    2.54
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145359$10",
+   "placements": 1088,
+   "size_um": [
+    1.62,
+    2.86
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145140$10",
+   "placements": 1072,
+   "size_um": [
+    10.1,
+    0.38
+   ]
+  },
+  {
+   "cell": "via_dev$869$1",
+   "placements": 1056,
+   "size_um": [
+    10.0,
+    10.0
+   ]
+  },
+  {
+   "cell": "via_dev$884$1",
+   "placements": 1040,
+   "size_um": [
+    1.1,
+    8.8
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_4066195314586$10",
+   "placements": 1016,
+   "size_um": [
+    0.92,
+    0.38
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_4066195314558$10",
+   "placements": 962,
+   "size_um": [
+    73.51,
+    14.58
+   ]
+  },
+  {
+   "cell": "M1_PSUB_CDNS_40661953145674$10",
+   "placements": 960,
+   "size_um": [
+    0.77,
+    0.77
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145391$3",
+   "placements": 952,
+   "size_um": [
+    1.62,
+    15.88
+   ]
+  },
+  {
+   "cell": "M4_M3_CDNS_4066195314522$10",
+   "placements": 928,
+   "size_um": [
+    0.38,
+    6.54
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_4066195314519$10",
+   "placements": 928,
+   "size_um": [
+    0.44,
+    6.6
+   ]
+  },
+  {
+   "cell": "GF_NI_FILL10_0$10",
+   "placements": 906,
+   "size_um": [
+    10.32,
+    350.0
+   ]
+  },
+  {
+   "cell": "GF_NI_FILL10_1$10",
+   "placements": 906,
+   "size_um": [
+    10.32,
+    350.0
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_4066195314594$10",
+   "placements": 832,
+   "size_um": [
+    1.0,
+    6.58
+   ]
+  },
+  {
+   "cell": "cap_nmos$6$1",
+   "placements": 804,
+   "size_um": [
+    12.16,
+    12.91
+   ]
+  },
+  {
+   "cell": "via_dev$784$1",
+   "placements": 720,
+   "size_um": [
+    10.0,
+    10.0
+   ]
+  },
+  {
+   "cell": "cap_nmos$7$1",
+   "placements": 720,
+   "size_um": [
+    12.16,
+    10.93
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_4066195314513$10",
+   "placements": 702,
+   "size_um": [
+    4.16,
+    14.08
+   ]
+  },
+  {
+   "cell": "M1_PSUB_CDNS_4066195314565$10",
+   "placements": 692,
+   "size_um": [
+    70.33,
+    0.77
+   ]
+  },
+  {
+   "cell": "M3_M2_CDNS_40661953145387$3",
+   "placements": 680,
+   "size_um": [
+    1.62,
+    6.58
+   ]
+  },
+  {
+   "cell": "M2_M1_CDNS_40661953145787$10",
+   "placements": 672,
+   "size_um": [
+    5.24,
+    0.38
+   ]
+  },
+  {
+   "cell": "via_dev$748$1",
+   "placements": 672,
+   "size_um": [
+    0.5,
+    1.1
+   ]
+  },
+  {
+   "cell": "M5_M4_CDNS_4066195314560$10",
+   "placements": 666,
+   "size_um": [
+    73.57,
+    14.64
+   ]
+  },
+  {
+   "cell": "via_dev$888$1",
+   "placements": 650,
+   "size_um": [
+    1.1,
+    0.4
+   ]
+  },
+  {
+   "cell": "M1_PSUB_CDNS_4066195314567$10",
+   "placements": 592,
+   "size_um": [
+    41.19,
+    0.77
+   ]
+  }
+ ],
+ "layers": [
+  {
+   "layer": "0/0",
+   "name": "PR_bndry",
+   "shapes": 29444
+  },
+  {
+   "layer": "21/0",
+   "name": "Nwell",
+   "shapes": 50163
+  },
+  {
+   "layer": "21/10",
+   "name": "",
+   "shapes": 17889
+  },
+  {
+   "layer": "22/0",
+   "name": "COMP",
+   "shapes": 362843
+  },
+  {
+   "layer": "23/5",
+   "name": "ISOSUB",
+   "shapes": 236
+  },
+  {
+   "layer": "30/0",
+   "name": "Poly2",
+   "shapes": 426049
+  },
+  {
+   "layer": "31/0",
+   "name": "Pplus",
+   "shapes": 64606
+  },
+  {
+   "layer": "32/0",
+   "name": "Nplus",
+   "shapes": 87905
+  },
+  {
+   "layer": "33/0",
+   "name": "Contact",
+   "shapes": 7853405
+  },
+  {
+   "layer": "34/0",
+   "name": "Metal1",
+   "shapes": 2039171
+  },
+  {
+   "layer": "34/10",
+   "name": "Metal1_Label",
+   "shapes": 124304
+  },
+  {
+   "layer": "35/0",
+   "name": "Via1",
+   "shapes": 2465971
+  },
+  {
+   "layer": "36/0",
+   "name": "Metal2",
+   "shapes": 1166423
+  },
+  {
+   "layer": "36/10",
+   "name": "Metal2_Label",
+   "shapes": 831
+  },
+  {
+   "layer": "37/0",
+   "name": "Pad",
+   "shapes": 82
+  },
+  {
+   "layer": "38/0",
+   "name": "Via2",
+   "shapes": 2879428
+  },
+  {
+   "layer": "40/0",
+   "name": "Via3",
+   "shapes": 11017139
+  },
+  {
+   "layer": "41/0",
+   "name": "Via4",
+   "shapes": 9180334
+  },
+  {
+   "layer": "42/0",
+   "name": "Metal3",
+   "shapes": 822332
+  },
+  {
+   "layer": "42/10",
+   "name": "Metal3_Label",
+   "shapes": 117948
+  },
+  {
+   "layer": "46/0",
+   "name": "Metal4",
+   "shapes": 668241
+  },
+  {
+   "layer": "46/10",
+   "name": "Metal4_Label",
+   "shapes": 59363
+  },
+  {
+   "layer": "49/0",
+   "name": "SAB",
+   "shapes": 188
+  },
+  {
+   "layer": "55/0",
+   "name": "Dualgate",
+   "shapes": 76039
+  },
+  {
+   "layer": "58/0",
+   "name": "",
+   "shapes": 3008
+  },
+  {
+   "layer": "63/63",
+   "name": "VTEXT",
+   "shapes": 108652
+  },
+  {
+   "layer": "81/0",
+   "name": "Metal5",
+   "shapes": 587936
+  },
+  {
+   "layer": "81/10",
+   "name": "Metal5_Label",
+   "shapes": 32334
+  },
+  {
+   "layer": "110/5",
+   "name": "RES_MK",
+   "shapes": 242
+  },
+  {
+   "layer": "112/1",
+   "name": "V5_XTOR",
+   "shapes": 26023
+  },
+  {
+   "layer": "115/5",
+   "name": "DIODE_MK",
+   "shapes": 1792
+  },
+  {
+   "layer": "137/5",
+   "name": "Latchup_MK",
+   "shapes": 544
+  },
+  {
+   "layer": "152/5",
+   "name": "PMNDMY",
+   "shapes": 2
+  },
+  {
+   "layer": "166/5",
+   "name": "MOS_CAP_MK",
+   "shapes": 38840
+  },
+  {
+   "layer": "167/5",
+   "name": "GUARD_RING_MK",
+   "shapes": 1
+  },
+  {
+   "layer": "204/0",
+   "name": "LVPWELL",
+   "shapes": 79631
+  },
+  {
+   "layer": "204/10",
+   "name": "",
+   "shapes": 17889
+  }
+ ],
+ "blocks": [
+  {
+   "cell": "padframe$1",
+   "parent": "MOSB_chip_top_4_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    3932.0,
+    5122.0
+   ],
+   "first_placement_box_um": [
+    0.0,
+    0.0,
+    3932.0,
+    5122.0
+   ],
+   "kind": "block",
+   "child_cells": 11
+  },
+  {
+   "cell": "top_analog_plus_esd$1",
+   "parent": "MOSB_chip_top_4_2",
+   "depth": 1,
+   "count_in_parent": 1,
+   "size_um": [
+    3180.0,
+    4370.04
+   ],
+   "first_placement_box_um": [
+    376.0,
+    376.0,
+    3556.0,
+    4746.04
+   ],
+   "kind": "block",
+   "child_cells": 10
+  },
+  {
+   "cell": "gf180mcu_fd_io__cor$10",
+   "parent": "padframe$1",
+   "depth": 2,
+   "count_in_parent": 4,
+   "size_um": [
+    355.16,
+    355.16
+   ],
+   "first_placement_box_um": [
+    3550.84,
+    4740.84,
+    3906.0,
+    5096.0
+   ],
+   "kind": "io",
+   "child_cells": 2
+  },
+  {
+   "cell": "gf180mcu_ws_io__dvdd$10",
+   "parent": "padframe$1",
+   "depth": 2,
+   "count_in_parent": 2,
+   "size_um": [
+    75.32,
+    357.0
+   ],
+   "first_placement_box_um": [
+    1928.34,
+    26.0,
+    2003.66,
+    383.0
+   ],
+   "kind": "io",
+   "child_cells": 1
+  },
+  {
+   "cell": "gf180mcu_fd_io__asig_5p0$2",
+   "parent": "padframe$1",
+   "depth": 2,
+   "count_in_parent": 68,
+   "size_um": [
+    75.32,
+    350.0
+   ],
+   "first_placement_box_um": [
+    1928.34,
+    4746.0,
+    2003.66,
+    5096.0
+   ],
+   "kind": "io",
+   "child_cells": 2
+  },
+  {
+   "cell": "gf180mcu_fd_io__dvss$10",
+   "parent": "padframe$1",
+   "depth": 2,
+   "count_in_parent": 4,
+   "size_um": [
+    75.32,
+    350.0
+   ],
+   "first_placement_box_um": [
+    3556.0,
+    4527.84,
+    3906.0,
+    4603.16
+   ],
+   "kind": "io",
+   "child_cells": 2
+  },
+  {
+   "cell": "gf180mcu_ws_ip__logo$10",
+   "parent": "padframe$1",
+   "depth": 2,
+   "count_in_parent": 1,
+   "size_um": [
+    143.25,
+    143.25
+   ],
+   "first_placement_box_um": [
+    3762.75,
+    4952.75,
+    3906.0,
+    5096.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "gf180mcu_ws_ip__id$10",
+   "parent": "padframe$1",
+   "depth": 2,
+   "count_in_parent": 1,
+   "size_um": [
+    142.8,
+    142.8
+   ],
+   "first_placement_box_um": [
+    26.0,
+    26.0,
+    168.8,
+    168.8
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "gf180mcu_fd_io__fill10$10",
+   "parent": "padframe$1",
+   "depth": 2,
+   "count_in_parent": 906,
+   "size_um": [
+    10.32,
+    350.0
+   ],
+   "first_placement_box_um": [
+    3556.0,
+    2552.84,
+    3906.0,
+    2563.16
+   ],
+   "kind": "io",
+   "child_cells": 3
+  },
+  {
+   "cell": "gf180mcu_fd_io__fill5$10",
+   "parent": "padframe$1",
+   "depth": 2,
+   "count_in_parent": 78,
+   "size_um": [
+    5.32,
+    350.0
+   ],
+   "first_placement_box_um": [
+    3543.34,
+    4746.0,
+    3548.66,
+    5096.0
+   ],
+   "kind": "io",
+   "child_cells": 5
+  },
+  {
+   "cell": "gf180mcu_fd_io__fill1$10",
+   "parent": "padframe$1",
+   "depth": 2,
+   "count_in_parent": 58,
+   "size_um": [
+    1.32,
+    350.0
+   ],
+   "first_placement_box_um": [
+    3556.0,
+    4738.84,
+    3906.0,
+    4740.16
+   ],
+   "kind": "io",
+   "child_cells": 4
+  },
+  {
+   "cell": "gf180mcu_fd_io__fillnc$10",
+   "parent": "padframe$1",
+   "depth": 2,
+   "count_in_parent": 20,
+   "size_um": [
+    0.42,
+    350.0
+   ],
+   "first_placement_box_um": [
+    3550.44,
+    4746.0,
+    3550.86,
+    5096.0
+   ],
+   "kind": "io",
+   "child_cells": 1
+  },
+  {
+   "cell": "fanout$1",
+   "parent": "top_analog_plus_esd$1",
+   "depth": 2,
+   "count_in_parent": 1,
+   "size_um": [
+    3180.0,
+    4370.0
+   ],
+   "first_placement_box_um": [
+    376.0,
+    376.0,
+    3556.0,
+    4746.0
+   ],
+   "kind": "block",
+   "child_cells": 4
+  },
+  {
+   "cell": "top_analog$1",
+   "parent": "top_analog_plus_esd$1",
+   "depth": 2,
+   "count_in_parent": 1,
+   "size_um": [
+    1325.0,
+    3735.92
+   ],
+   "first_placement_box_um": [
+    1290.0,
+    656.14,
+    2615.0,
+    4392.055
+   ],
+   "kind": "block",
+   "child_cells": 11
+  },
+  {
+   "cell": "artwork$1",
+   "parent": "top_analog_plus_esd$1",
+   "depth": 2,
+   "count_in_parent": 1,
+   "size_um": [
+    627.0,
+    430.2
+   ],
+   "first_placement_box_um": [
+    1655.0,
+    2455.8,
+    2282.0,
+    2886.0
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "power_rail_m2_m3_corner$1",
+   "parent": "top_analog_plus_esd$1",
+   "depth": 2,
+   "count_in_parent": 4,
+   "size_um": [
+    210.0,
+    285.0
+   ],
+   "first_placement_box_um": [
+    3309.0,
+    4426.0,
+    3519.0,
+    4711.0
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "power_rail_m3_h$1",
+   "parent": "top_analog_plus_esd$1",
+   "depth": 2,
+   "count_in_parent": 152,
+   "size_um": [
+    180.0,
+    70.0
+   ],
+   "first_placement_box_um": [
+    415.0,
+    4265.0,
+    485.0,
+    4445.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "pad_landing_power$1",
+   "parent": "top_analog_plus_esd$1",
+   "depth": 2,
+   "count_in_parent": 6,
+   "size_um": [
+    72.28,
+    30.0
+   ],
+   "first_placement_box_um": [
+    1929.86,
+    383.0,
+    2002.14,
+    413.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$925$1",
+   "parent": "top_analog_plus_esd$1",
+   "depth": 2,
+   "count_in_parent": 36,
+   "size_um": [
+    20.0,
+    20.0
+   ],
+   "first_placement_box_um": [
+    1956.0,
+    415.0,
+    1976.0,
+    435.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$939$1",
+   "parent": "top_analog_plus_esd$1",
+   "depth": 2,
+   "count_in_parent": 12,
+   "size_um": [
+    18.0,
+    18.0
+   ],
+   "first_placement_box_um": [
+    3529.0,
+    4533.0,
+    3547.0,
+    4551.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$938$1",
+   "parent": "top_analog_plus_esd$1",
+   "depth": 2,
+   "count_in_parent": 72,
+   "size_um": [
+    10.0,
+    20.0
+   ],
+   "first_placement_box_um": [
+    2442.0,
+    4532.0,
+    2452.0,
+    4552.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$941$1",
+   "parent": "top_analog_plus_esd$1",
+   "depth": 2,
+   "count_in_parent": 3,
+   "size_um": [
+    6.0,
+    2.0
+   ],
+   "first_placement_box_um": [
+    1952.0,
+    703.0,
+    1958.0,
+    705.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "io_secondary_3p3$1$1",
+   "parent": "fanout$1",
+   "depth": 3,
+   "count_in_parent": 68,
+   "size_um": [
+    94.41,
+    163.99
+   ],
+   "first_placement_box_um": [
+    3358.695,
+    376.0,
+    3453.105,
+    539.99
+   ],
+   "kind": "block",
+   "child_cells": 12
+  },
+  {
+   "cell": "via_dev$935$1",
+   "parent": "fanout$1",
+   "depth": 3,
+   "count_in_parent": 5,
+   "size_um": [
+    24.0,
+    24.0
+   ],
+   "first_placement_box_um": [
+    1601.0,
+    4398.94,
+    1625.0,
+    4422.94
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$936$1",
+   "parent": "fanout$1",
+   "depth": 3,
+   "count_in_parent": 3,
+   "size_um": [
+    10.0,
+    10.0
+   ],
+   "first_placement_box_um": [
+    1781.0,
+    605.0,
+    1791.0,
+    615.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$937$1",
+   "parent": "fanout$1",
+   "depth": 3,
+   "count_in_parent": 3,
+   "size_um": [
+    6.0,
+    10.0
+   ],
+   "first_placement_box_um": [
+    1952.0,
+    605.0,
+    1958.0,
+    615.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "full_switch_matrix_130_by_25_no_probes$1$1",
+   "parent": "top_analog$1",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    986.98,
+    3735.92
+   ],
+   "first_placement_box_um": [
+    1451.5,
+    656.14,
+    2438.48,
+    4392.055
+   ],
+   "kind": "block",
+   "child_cells": 8
+  },
+  {
+   "cell": "top_mosbius_devices_int_nmos$1$1",
+   "parent": "top_analog$1",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    194.0,
+    842.0
+   ],
+   "first_placement_box_um": [
+    1290.0,
+    3479.0,
+    1484.0,
+    4321.0
+   ],
+   "kind": "block",
+   "child_cells": 6
+  },
+  {
+   "cell": "top_mosbius_devices_int_pmos$1$1",
+   "parent": "top_analog$1",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    194.0,
+    842.0
+   ],
+   "first_placement_box_um": [
+    2418.0,
+    959.0,
+    2612.0,
+    1801.0
+   ],
+   "kind": "block",
+   "child_cells": 6
+  },
+  {
+   "cell": "top_mosbius_devices_v1_nmos$1$1",
+   "parent": "top_analog$1",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    194.0,
+    842.0
+   ],
+   "first_placement_box_um": [
+    1290.0,
+    2639.0,
+    1484.0,
+    3481.0
+   ],
+   "kind": "block",
+   "child_cells": 54
+  },
+  {
+   "cell": "top_mosbius_devices_v1_pmos$1$1",
+   "parent": "top_analog$1",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    194.0,
+    842.0
+   ],
+   "first_placement_box_um": [
+    2418.0,
+    1799.0,
+    2612.0,
+    2641.0
+   ],
+   "kind": "block",
+   "child_cells": 18
+  },
+  {
+   "cell": "top_mosbius_devices_int_dff$1$1",
+   "parent": "top_analog$1",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    194.0,
+    226.0
+   ],
+   "first_placement_box_um": [
+    2418.0,
+    735.0,
+    2612.0,
+    961.0
+   ],
+   "kind": "block",
+   "child_cells": 7
+  },
+  {
+   "cell": "decap_left_single$1$1",
+   "parent": "top_analog$1",
+   "depth": 3,
+   "count_in_parent": 67,
+   "size_um": [
+    213.07,
+    28.0
+   ],
+   "first_placement_box_um": [
+    1290.0,
+    743.25,
+    1503.065,
+    771.25
+   ],
+   "kind": "block",
+   "child_cells": 5
+  },
+  {
+   "cell": "swmatrix_pin_power_rails$23$1",
+   "parent": "top_analog$1",
+   "depth": 3,
+   "count_in_parent": 130,
+   "size_um": [
+    194.0,
+    30.0
+   ],
+   "first_placement_box_um": [
+    1290.0,
+    735.0,
+    1484.0,
+    765.0
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "swmatrix_pin_power_rails$24$1",
+   "parent": "top_analog$1",
+   "depth": 3,
+   "count_in_parent": 2,
+   "size_um": [
+    194.0,
+    30.0
+   ],
+   "first_placement_box_um": [
+    1290.0,
+    4319.0,
+    1484.0,
+    4349.0
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "decap_right_single$1$1",
+   "parent": "top_analog$1",
+   "depth": 3,
+   "count_in_parent": 60,
+   "size_um": [
+    175.52,
+    23.86
+   ],
+   "first_placement_box_um": [
+    2436.48,
+    2642.35,
+    2612.0,
+    2666.21
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "via_dev$918$1",
+   "parent": "top_analog$1",
+   "depth": 3,
+   "count_in_parent": 16,
+   "size_um": [
+    10.0,
+    5.0
+   ],
+   "first_placement_box_um": [
+    2442.0,
+    4331.5,
+    2452.0,
+    4336.5
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "mosbius_logo$1$1",
+   "parent": "artwork$1",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    588.0,
+    254.0
+   ],
+   "first_placement_box_um": [
+    1655.0,
+    2632.0,
+    2243.0,
+    2886.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TEXT$2$1",
+   "parent": "artwork$1",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    590.0,
+    70.0
+   ],
+   "first_placement_box_um": [
+    1655.0,
+    2532.0,
+    2245.0,
+    2602.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TEXT$3$1",
+   "parent": "artwork$1",
+   "depth": 3,
+   "count_in_parent": 1,
+   "size_um": [
+    627.0,
+    46.2
+   ],
+   "first_placement_box_um": [
+    1655.0,
+    2455.8,
+    2282.0,
+    2502.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$940$1",
+   "parent": "power_rail_m2_m3_corner$1",
+   "depth": 3,
+   "count_in_parent": 24,
+   "size_um": [
+    20.0,
+    20.0
+   ],
+   "first_placement_box_um": [
+    3497.0,
+    4687.0,
+    3517.0,
+    4707.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "pad_landing$1$1",
+   "parent": "io_secondary_3p3$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    44.32,
+    34.0
+   ],
+   "first_placement_box_um": [
+    3383.84,
+    376.0,
+    3428.16,
+    410.0
+   ],
+   "kind": "block",
+   "child_cells": 2
+  },
+  {
+   "cell": "ppolyf_s_resistor$1$1",
+   "parent": "io_secondary_3p3$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    12.26,
+    20.6
+   ],
+   "first_placement_box_um": [
+    3395.58,
+    380.625,
+    3416.18,
+    392.885
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$931$1",
+   "parent": "io_secondary_3p3$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    18.0,
+    10.0
+   ],
+   "first_placement_box_um": [
+    3363.0,
+    493.885,
+    3381.0,
+    503.885
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$934$1",
+   "parent": "io_secondary_3p3$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    20.0,
+    8.0
+   ],
+   "first_placement_box_um": [
+    3430.825,
+    404.03,
+    3450.825,
+    412.03
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "diode_pd2nw$3$1",
+   "parent": "io_secondary_3p3$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    11.55,
+    10.86
+   ],
+   "first_placement_box_um": [
+    3438.87,
+    377.79,
+    3449.73,
+    389.34
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "diode_nd2ps$1$1",
+   "parent": "io_secondary_3p3$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    11.16,
+    10.32
+   ],
+   "first_placement_box_um": [
+    3371.49,
+    377.94,
+    3381.81,
+    389.1
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$926$1",
+   "parent": "io_secondary_3p3$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    20.0,
+    5.0
+   ],
+   "first_placement_box_um": [
+    3395.76,
+    394.105,
+    3415.76,
+    399.105
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$933$1",
+   "parent": "io_secondary_3p3$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    20.0,
+    3.0
+   ],
+   "first_placement_box_um": [
+    3395.76,
+    383.1,
+    3415.76,
+    386.1
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "diode_pd2nw$2$1",
+   "parent": "io_secondary_3p3$1$1",
+   "depth": 4,
+   "count_in_parent": 6,
+   "size_um": [
+    6.55,
+    5.86
+   ],
+   "first_placement_box_um": [
+    3398.2,
+    405.125,
+    3404.75,
+    410.985
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$929$1",
+   "parent": "io_secondary_3p3$1$1",
+   "depth": 4,
+   "count_in_parent": 8,
+   "size_um": [
+    5.0,
+    5.0
+   ],
+   "first_placement_box_um": [
+    3442.13,
+    380.505,
+    3447.13,
+    385.505
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$932$1",
+   "parent": "io_secondary_3p3$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    1.2,
+    3.0
+   ],
+   "first_placement_box_um": [
+    3381.82,
+    387.61,
+    3383.02,
+    390.61
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$930$1",
+   "parent": "io_secondary_3p3$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    1.8,
+    1.2
+   ],
+   "first_placement_box_um": [
+    3381.845,
+    379.285,
+    3383.045,
+    381.085
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "swmatrix_25_by_130_no_probe$2$1",
+   "parent": "full_switch_matrix_130_by_25_no_probes$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    968.98,
+    3658.0
+   ],
+   "first_placement_box_um": [
+    1469.5,
+    734.055,
+    2438.48,
+    4392.055
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "digital_interface_and_clock_gen$2$1",
+   "parent": "full_switch_matrix_130_by_25_no_probes$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    332.22,
+    80.14
+   ],
+   "first_placement_box_um": [
+    1501.475,
+    656.14,
+    1833.695,
+    736.28
+   ],
+   "kind": "block",
+   "child_cells": 16
+  },
+  {
+   "cell": "PHI_CLK_buf$2$1",
+   "parent": "full_switch_matrix_130_by_25_no_probes$1$1",
+   "depth": 4,
+   "count_in_parent": 3,
+   "size_um": [
+    102.78,
+    5.94
+   ],
+   "first_placement_box_um": [
+    1667.385,
+    658.59,
+    1770.165,
+    664.53
+   ],
+   "kind": "block",
+   "child_cells": 6
+  },
+  {
+   "cell": "via_dev$893$1",
+   "parent": "full_switch_matrix_130_by_25_no_probes$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    20.0,
+    5.0
+   ],
+   "first_placement_box_um": [
+    1451.5,
+    4380.5,
+    1471.5,
+    4385.5
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$915$1",
+   "parent": "full_switch_matrix_130_by_25_no_probes$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    20.0,
+    3.34
+   ],
+   "first_placement_box_um": [
+    1507.5,
+    659.89,
+    1527.5,
+    663.23
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$916$1",
+   "parent": "full_switch_matrix_130_by_25_no_probes$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    6.0,
+    3.0
+   ],
+   "first_placement_box_um": [
+    1546.7,
+    708.115,
+    1552.7,
+    711.115
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$917$1",
+   "parent": "full_switch_matrix_130_by_25_no_probes$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    3.0,
+    3.0
+   ],
+   "first_placement_box_um": [
+    1535.39,
+    656.4,
+    1538.39,
+    659.4
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$914$1",
+   "parent": "full_switch_matrix_130_by_25_no_probes$1$1",
+   "depth": 4,
+   "count_in_parent": 30,
+   "size_um": [
+    1.1,
+    0.4
+   ],
+   "first_placement_box_um": [
+    1670.7,
+    659.89,
+    1671.1,
+    660.99
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "swmatrix_pin_power_rails$16$1",
+   "parent": "top_mosbius_devices_int_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 30,
+   "size_um": [
+    194.0,
+    30.0
+   ],
+   "first_placement_box_um": [
+    1290.0,
+    3479.0,
+    1484.0,
+    3509.0
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "swmatrix_pin_adaptor$10$1",
+   "parent": "top_mosbius_devices_int_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 30,
+   "size_um": [
+    34.0,
+    5.0
+   ],
+   "first_placement_box_um": [
+    1450.0,
+    3491.5,
+    1484.0,
+    3496.5
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$57$1",
+   "parent": "top_mosbius_devices_int_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 18,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1347.0,
+    3554.05,
+    1357.0,
+    3563.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H_dummy$6$1",
+   "parent": "top_mosbius_devices_int_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 18,
+   "size_um": [
+    8.9,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1347.55,
+    3545.05,
+    1356.45,
+    3554.95
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "via_dev$699$1",
+   "parent": "top_mosbius_devices_int_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 30,
+   "size_um": [
+    5.0,
+    5.0
+   ],
+   "first_placement_box_um": [
+    1385.5,
+    3491.5,
+    1390.5,
+    3496.5
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$700$1",
+   "parent": "top_mosbius_devices_int_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 30,
+   "size_um": [
+    5.0,
+    1.2
+   ],
+   "first_placement_box_um": [
+    1385.5,
+    3555.4,
+    1390.5,
+    3556.6
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "swmatrix_pin_power_rails$22$1",
+   "parent": "top_mosbius_devices_int_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 30,
+   "size_um": [
+    194.0,
+    30.0
+   ],
+   "first_placement_box_um": [
+    2418.0,
+    959.0,
+    2612.0,
+    989.0
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "swmatrix_pin_adaptor$14$1",
+   "parent": "top_mosbius_devices_int_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 30,
+   "size_um": [
+    34.0,
+    5.0
+   ],
+   "first_placement_box_um": [
+    2418.0,
+    971.5,
+    2452.0,
+    976.5
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$83$1",
+   "parent": "top_mosbius_devices_int_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 54,
+   "size_um": [
+    10.0,
+    11.0
+   ],
+   "first_placement_box_um": [
+    2537.0,
+    1006.5,
+    2547.0,
+    1017.5
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_PMOS_L0P5_W5_NF6_H_dummy$8$1",
+   "parent": "top_mosbius_devices_int_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 30,
+   "size_um": [
+    10.0,
+    11.0
+   ],
+   "first_placement_box_um": [
+    2537.0,
+    997.5,
+    2547.0,
+    1008.5
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "via_dev$863$1",
+   "parent": "top_mosbius_devices_int_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 30,
+   "size_um": [
+    5.0,
+    5.0
+   ],
+   "first_placement_box_um": [
+    2511.5,
+    971.5,
+    2516.5,
+    976.5
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$864$1",
+   "parent": "top_mosbius_devices_int_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 30,
+   "size_um": [
+    5.0,
+    1.2
+   ],
+   "first_placement_box_um": [
+    2511.5,
+    1035.4,
+    2516.5,
+    1036.6
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "current_mirror_array_nmos$2$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    76.0,
+    188.0
+   ],
+   "first_placement_box_um": [
+    1348.0,
+    3286.0,
+    1424.0,
+    3474.0
+   ],
+   "kind": "block",
+   "child_cells": 5
+  },
+  {
+   "cell": "inv_16x$5$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    98.0,
+    77.0
+   ],
+   "first_placement_box_um": [
+    1326.0,
+    2642.0,
+    1424.0,
+    2719.0
+   ],
+   "kind": "block",
+   "child_cells": 6
+  },
+  {
+   "cell": "swmatrix_pin_power_rails$21$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 30,
+   "size_um": [
+    194.0,
+    30.0
+   ],
+   "first_placement_box_um": [
+    1290.0,
+    2639.0,
+    1484.0,
+    2669.0
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "swmatrix_pin_power_rails$19$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 30,
+   "size_um": [
+    194.0,
+    30.0
+   ],
+   "first_placement_box_um": [
+    1290.0,
+    2639.0,
+    1484.0,
+    2669.0
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "swmatrix_pin_power_rails$20$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 30,
+   "size_um": [
+    194.0,
+    30.0
+   ],
+   "first_placement_box_um": [
+    1290.0,
+    2639.0,
+    1484.0,
+    2669.0
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "ota_nmos$2$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    98.0,
+    31.0
+   ],
+   "first_placement_box_um": [
+    1326.0,
+    3282.0,
+    1424.0,
+    3313.0
+   ],
+   "kind": "block",
+   "child_cells": 8
+  },
+  {
+   "cell": "swmatrix_fanout_adaptor$7$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 30,
+   "size_um": [
+    141.0,
+    16.0
+   ],
+   "first_placement_box_um": [
+    1318.0,
+    2646.0,
+    1459.0,
+    2662.0
+   ],
+   "kind": "block",
+   "child_cells": 2
+  },
+  {
+   "cell": "swmatrix_fanout_adaptor$8$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 30,
+   "size_um": [
+    141.0,
+    16.0
+   ],
+   "first_placement_box_um": [
+    1318.0,
+    2646.0,
+    1459.0,
+    2662.0
+   ],
+   "kind": "block",
+   "child_cells": 2
+  },
+  {
+   "cell": "swmatrix_pin_adaptor$13$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 30,
+   "size_um": [
+    34.0,
+    5.0
+   ],
+   "first_placement_box_um": [
+    1450.0,
+    2651.5,
+    1484.0,
+    2656.5
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$837$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    10.0,
+    16.0
+   ],
+   "first_placement_box_um": [
+    1386.0,
+    2674.0,
+    1396.0,
+    2690.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TILE_PMOS_L0P5_W5_NF6_H_dummy$7$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 18,
+   "size_um": [
+    10.0,
+    11.0
+   ],
+   "first_placement_box_um": [
+    1360.0,
+    3283.5,
+    1370.0,
+    3294.5
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$66$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    3190.05,
+    1381.0,
+    3199.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$67$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    3190.05,
+    1381.0,
+    3199.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$75$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    3190.05,
+    1381.0,
+    3199.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$76$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    3078.05,
+    1381.0,
+    3087.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$71$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    3190.05,
+    1381.0,
+    3199.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$60$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 12,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    3078.05,
+    1381.0,
+    3087.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$65$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    3190.05,
+    1381.0,
+    3199.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$74$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    3190.05,
+    1381.0,
+    3199.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$63$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    3190.05,
+    1381.0,
+    3199.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$68$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    3190.05,
+    1381.0,
+    3199.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$73$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    3190.05,
+    1381.0,
+    3199.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$78$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    3078.05,
+    1381.0,
+    3087.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$80$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    3078.05,
+    1381.0,
+    3087.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$70$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    3190.05,
+    1381.0,
+    3199.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$77$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    3078.05,
+    1381.0,
+    3087.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$64$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    3190.05,
+    1381.0,
+    3199.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$69$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    3190.05,
+    1381.0,
+    3199.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$72$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    3190.05,
+    1381.0,
+    3199.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$79$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    3078.05,
+    1381.0,
+    3087.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H$81$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 8,
+   "size_um": [
+    10.0,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1371.0,
+    2919.05,
+    1381.0,
+    2928.95
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H_dummy$8$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 32,
+   "size_um": [
+    8.9,
+    9.9
+   ],
+   "first_placement_box_um": [
+    1396.55,
+    3284.05,
+    1405.45,
+    3293.95
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "via_dev$793$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 19,
+   "size_um": [
+    5.0,
+    16.0
+   ],
+   "first_placement_box_um": [
+    1403.5,
+    3066.0,
+    1408.5,
+    3082.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$836$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    4.0,
+    16.0
+   ],
+   "first_placement_box_um": [
+    1364.0,
+    2646.0,
+    1368.0,
+    2662.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$815$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    2.0,
+    16.0
+   ],
+   "first_placement_box_um": [
+    1387.0,
+    3262.0,
+    1389.0,
+    3278.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$794$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    10.0,
+    2.0
+   ],
+   "first_placement_box_um": [
+    1414.0,
+    3191.0,
+    1424.0,
+    3193.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$834$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 6,
+   "size_um": [
+    10.0,
+    2.0
+   ],
+   "first_placement_box_um": [
+    1414.0,
+    2759.0,
+    1424.0,
+    2761.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$785$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 15,
+   "size_um": [
+    5.0,
+    1.2
+   ],
+   "first_placement_box_um": [
+    1385.5,
+    3079.4,
+    1390.5,
+    3080.6
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$835$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 12,
+   "size_um": [
+    5.0,
+    1.2
+   ],
+   "first_placement_box_um": [
+    1385.5,
+    2744.4,
+    1390.5,
+    2745.6
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$833$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 24,
+   "size_um": [
+    5.0,
+    1.2
+   ],
+   "first_placement_box_um": [
+    1385.5,
+    2884.5,
+    1390.5,
+    2885.7
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6$55$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    -2.0,
+    -2.0
+   ],
+   "first_placement_box_um": [
+    1.0,
+    1.0,
+    -1.0,
+    -1.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6$58$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    -2.0,
+    -2.0
+   ],
+   "first_placement_box_um": [
+    1.0,
+    1.0,
+    -1.0,
+    -1.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6$50$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    -2.0,
+    -2.0
+   ],
+   "first_placement_box_um": [
+    1.0,
+    1.0,
+    -1.0,
+    -1.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6$57$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    -2.0,
+    -2.0
+   ],
+   "first_placement_box_um": [
+    1.0,
+    1.0,
+    -1.0,
+    -1.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6$54$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    -2.0,
+    -2.0
+   ],
+   "first_placement_box_um": [
+    1.0,
+    1.0,
+    -1.0,
+    -1.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6$56$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    -2.0,
+    -2.0
+   ],
+   "first_placement_box_um": [
+    1.0,
+    1.0,
+    -1.0,
+    -1.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6$65$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    -2.0,
+    -2.0
+   ],
+   "first_placement_box_um": [
+    1.0,
+    1.0,
+    -1.0,
+    -1.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6$62$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    -2.0,
+    -2.0
+   ],
+   "first_placement_box_um": [
+    1.0,
+    1.0,
+    -1.0,
+    -1.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6$66$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    -2.0,
+    -2.0
+   ],
+   "first_placement_box_um": [
+    1.0,
+    1.0,
+    -1.0,
+    -1.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6$59$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    -2.0,
+    -2.0
+   ],
+   "first_placement_box_um": [
+    1.0,
+    1.0,
+    -1.0,
+    -1.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6$60$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    -2.0,
+    -2.0
+   ],
+   "first_placement_box_um": [
+    1.0,
+    1.0,
+    -1.0,
+    -1.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6$61$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    -2.0,
+    -2.0
+   ],
+   "first_placement_box_um": [
+    1.0,
+    1.0,
+    -1.0,
+    -1.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6$64$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    -2.0,
+    -2.0
+   ],
+   "first_placement_box_um": [
+    1.0,
+    1.0,
+    -1.0,
+    -1.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6$63$1",
+   "parent": "top_mosbius_devices_v1_nmos$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    -2.0,
+    -2.0
+   ],
+   "first_placement_box_um": [
+    1.0,
+    1.0,
+    -1.0,
+    -1.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "current_mirror_array_pmos$2$1",
+   "parent": "top_mosbius_devices_v1_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    70.0,
+    188.0
+   ],
+   "first_placement_box_um": [
+    2506.0,
+    2447.0,
+    2576.0,
+    2635.0
+   ],
+   "kind": "block",
+   "child_cells": 5
+  },
+  {
+   "cell": "inv_16x$4$1",
+   "parent": "top_mosbius_devices_v1_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    98.0,
+    77.0
+   ],
+   "first_placement_box_um": [
+    2478.0,
+    1802.0,
+    2576.0,
+    1879.0
+   ],
+   "kind": "block",
+   "child_cells": 6
+  },
+  {
+   "cell": "swmatrix_pin_power_rails$17$1",
+   "parent": "top_mosbius_devices_v1_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 30,
+   "size_um": [
+    194.0,
+    30.0
+   ],
+   "first_placement_box_um": [
+    2418.0,
+    1799.0,
+    2612.0,
+    1829.0
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "ota_pmos$2$1",
+   "parent": "top_mosbius_devices_v1_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    98.0,
+    33.0
+   ],
+   "first_placement_box_um": [
+    2478.0,
+    2443.0,
+    2576.0,
+    2476.0
+   ],
+   "kind": "block",
+   "child_cells": 8
+  },
+  {
+   "cell": "swmatrix_fanout_adaptor$6$1",
+   "parent": "top_mosbius_devices_v1_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 60,
+   "size_um": [
+    141.0,
+    16.0
+   ],
+   "first_placement_box_um": [
+    2443.0,
+    1806.0,
+    2584.0,
+    1822.0
+   ],
+   "kind": "block",
+   "child_cells": 2
+  },
+  {
+   "cell": "swmatrix_pin_adaptor$11$1",
+   "parent": "top_mosbius_devices_v1_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 30,
+   "size_um": [
+    34.0,
+    5.0
+   ],
+   "first_placement_box_um": [
+    2418.0,
+    1811.5,
+    2452.0,
+    1816.5
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$756$1",
+   "parent": "top_mosbius_devices_v1_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    10.0,
+    16.0
+   ],
+   "first_placement_box_um": [
+    2506.0,
+    1834.0,
+    2516.0,
+    1850.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "TILE_PMOS_L0P5_W5_NF6_H_dummy$6$1",
+   "parent": "top_mosbius_devices_v1_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 63,
+   "size_um": [
+    10.0,
+    11.0
+   ],
+   "first_placement_box_um": [
+    2530.0,
+    2543.5,
+    2540.0,
+    2554.5
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "TILE_PMOS_L0P5_W5_NF6_H$18$1",
+   "parent": "top_mosbius_devices_v1_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 48,
+   "size_um": [
+    10.0,
+    11.0
+   ],
+   "first_placement_box_um": [
+    2537.0,
+    2246.5,
+    2547.0,
+    2257.5
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_PMOS_L0P5_W5_NF6_H$22$1",
+   "parent": "top_mosbius_devices_v1_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 12,
+   "size_um": [
+    10.0,
+    11.0
+   ],
+   "first_placement_box_um": [
+    2537.0,
+    1938.5,
+    2547.0,
+    1949.5
+   ],
+   "kind": "block",
+   "child_cells": 3
+  },
+  {
+   "cell": "TILE_NMOS_L0P5_W5_NF6_H_dummy$7$1",
+   "parent": "top_mosbius_devices_v1_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    8.9,
+    9.9
+   ],
+   "first_placement_box_um": [
+    2492.55,
+    2445.05,
+    2501.45,
+    2454.95
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "via_dev$716$1",
+   "parent": "top_mosbius_devices_v1_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 19,
+   "size_um": [
+    5.0,
+    16.0
+   ],
+   "first_placement_box_um": [
+    2493.5,
+    2226.0,
+    2498.5,
+    2242.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$777$1",
+   "parent": "top_mosbius_devices_v1_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    4.0,
+    16.0
+   ],
+   "first_placement_box_um": [
+    2495.0,
+    1862.0,
+    2499.0,
+    1878.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$738$1",
+   "parent": "top_mosbius_devices_v1_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    3.0,
+    16.0
+   ],
+   "first_placement_box_um": [
+    2522.5,
+    2422.0,
+    2525.5,
+    2438.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$717$1",
+   "parent": "top_mosbius_devices_v1_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    10.0,
+    2.0
+   ],
+   "first_placement_box_um": [
+    2568.0,
+    2351.0,
+    2578.0,
+    2353.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$757$1",
+   "parent": "top_mosbius_devices_v1_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 6,
+   "size_um": [
+    10.0,
+    2.0
+   ],
+   "first_placement_box_um": [
+    2568.0,
+    1910.0,
+    2578.0,
+    1912.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$708$1",
+   "parent": "top_mosbius_devices_v1_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 42,
+   "size_um": [
+    5.0,
+    1.2
+   ],
+   "first_placement_box_um": [
+    2511.5,
+    2239.4,
+    2516.5,
+    2240.6
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$776$1",
+   "parent": "top_mosbius_devices_v1_pmos$1$1",
+   "depth": 4,
+   "count_in_parent": 9,
+   "size_um": [
+    5.0,
+    1.2
+   ],
+   "first_placement_box_um": [
+    2493.5,
+    2050.4,
+    2498.5,
+    2051.6
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "swmatrix_pin_power_rails$18$1",
+   "parent": "top_mosbius_devices_int_dff$1$1",
+   "depth": 4,
+   "count_in_parent": 8,
+   "size_um": [
+    194.0,
+    30.0
+   ],
+   "first_placement_box_um": [
+    2418.0,
+    735.0,
+    2612.0,
+    765.0
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "swmatrix_pin_adaptor$12$1",
+   "parent": "top_mosbius_devices_int_dff$1$1",
+   "depth": 4,
+   "count_in_parent": 8,
+   "size_um": [
+    34.0,
+    5.0
+   ],
+   "first_placement_box_um": [
+    2418.0,
+    747.5,
+    2452.0,
+    752.5
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$781$1",
+   "parent": "top_mosbius_devices_int_dff$1$1",
+   "depth": 4,
+   "count_in_parent": 8,
+   "size_um": [
+    1.2,
+    5.0
+   ],
+   "first_placement_box_um": [
+    2518.0,
+    747.5,
+    2519.2,
+    752.5
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$779$1",
+   "parent": "top_mosbius_devices_int_dff$1$1",
+   "depth": 4,
+   "count_in_parent": 6,
+   "size_um": [
+    1.2,
+    0.5
+   ],
+   "first_placement_box_um": [
+    2518.0,
+    789.75,
+    2519.2,
+    790.25
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$780$1",
+   "parent": "top_mosbius_devices_int_dff$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    0.5,
+    0.5
+   ],
+   "first_placement_box_um": [
+    2528.375,
+    789.75,
+    2528.875,
+    790.25
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "decap_top$2$1",
+   "parent": "decap_left_single$1$1",
+   "depth": 4,
+   "count_in_parent": 3,
+   "size_um": [
+    25.08,
+    28.0
+   ],
+   "first_placement_box_um": [
+    1362.515,
+    743.25,
+    1387.59,
+    771.25
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "via_dev$919$1",
+   "parent": "decap_left_single$1$1",
+   "depth": 4,
+   "count_in_parent": 4,
+   "size_um": [
+    8.0,
+    5.0
+   ],
+   "first_placement_box_um": [
+    1342.3,
+    753.22,
+    1347.3,
+    761.22
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$922$1",
+   "parent": "decap_left_single$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    8.0,
+    5.0
+   ],
+   "first_placement_box_um": [
+    1391.385,
+    753.22,
+    1396.385,
+    761.22
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$920$1",
+   "parent": "decap_left_single$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    4.5,
+    4.9
+   ],
+   "first_placement_box_um": [
+    1464.14,
+    766.35,
+    1468.64,
+    771.25
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$921$1",
+   "parent": "decap_left_single$1$1",
+   "depth": 4,
+   "count_in_parent": 2,
+   "size_um": [
+    4.5,
+    1.8
+   ],
+   "first_placement_box_um": [
+    1464.14,
+    743.25,
+    1468.64,
+    745.05
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$869$1",
+   "parent": "swmatrix_pin_power_rails$23$1",
+   "depth": 4,
+   "count_in_parent": 8,
+   "size_um": [
+    10.0,
+    10.0
+   ],
+   "first_placement_box_um": [
+    1290.0,
+    745.0,
+    1300.0,
+    755.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$869$1",
+   "parent": "swmatrix_pin_power_rails$24$1",
+   "depth": 4,
+   "count_in_parent": 8,
+   "size_um": [
+    10.0,
+    10.0
+   ],
+   "first_placement_box_um": [
+    1290.0,
+    4329.0,
+    1300.0,
+    4339.0
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "decap_top_R$2$1",
+   "parent": "decap_right_single$1$1",
+   "depth": 4,
+   "count_in_parent": 3,
+   "size_um": [
+    25.67,
+    23.86
+   ],
+   "first_placement_box_um": [
+    2513.625,
+    2642.35,
+    2539.295,
+    2666.21
+   ],
+   "kind": "block",
+   "child_cells": 1
+  },
+  {
+   "cell": "via_dev$923$1",
+   "parent": "decap_right_single$1$1",
+   "depth": 4,
+   "count_in_parent": 6,
+   "size_um": [
+    5.0,
+    5.0
+   ],
+   "first_placement_box_um": [
+    2493.705,
+    2651.775,
+    2498.705,
+    2656.775
+   ],
+   "kind": "block",
+   "child_cells": 0
+  },
+  {
+   "cell": "via_dev$924$1",
+   "parent": "decap_right_single$1$1",
+   "depth": 4,
+   "count_in_parent": 1,
+   "size_um": [
+    2.5,
+    5.0
+   ],
+   "first_placement_box_um": [
+    2436.48,
+    2643.835,
+    2438.98,
+    2648.835
+   ],
+   "kind": "block",
+   "child_cells": 0
+  }
+ ],
+ "labels": [
+  {
+   "text": "ANALOG_PAD[53]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3046.0,
+    5063.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[46]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3873.5,
+    3510.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[9]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    58.5,
+    2455.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[45]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3873.5,
+    3299.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[44]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3873.5,
+    3088.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[0]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    58.5,
+    4354.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[43]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3873.5,
+    2877.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[40]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3873.5,
+    2244.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[1]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    58.5,
+    4143.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[58]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    2146.0,
+    5063.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[36]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3873.5,
+    1400.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[7]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    58.5,
+    2877.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[24]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1606.0,
+    58.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[2]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    58.5,
+    3932.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[51]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3406.0,
+    5063.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[8]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    58.5,
+    2666.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[11]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    58.5,
+    2033.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[39]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3873.5,
+    2033.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[62]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1426.0,
+    5063.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[65]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    886.0,
+    5063.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[32]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3406.0,
+    58.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[55]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    2686.0,
+    5063.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[4]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    58.5,
+    3510.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[50]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3873.5,
+    4354.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[34]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3873.5,
+    978.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[41]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3873.5,
+    2455.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[21]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1066.0,
+    58.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[42]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3873.5,
+    2666.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[25]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1786.0,
+    58.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[12]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    58.5,
+    1822.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[54]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    2866.0,
+    5063.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[38]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3873.5,
+    1822.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[63]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1246.0,
+    5063.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[23]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1426.0,
+    58.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[35]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3873.5,
+    1189.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[59]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1966.0,
+    5063.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[13]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    58.5,
+    1611.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[67]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    526.0,
+    5063.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[28]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    2686.0,
+    58.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[17]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    58.5,
+    767.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[60]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1786.0,
+    5063.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[57]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    2326.0,
+    5063.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[20]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    886.0,
+    58.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[37]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3873.5,
+    1611.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[56]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    2506.0,
+    5063.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[15]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    58.5,
+    1189.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[33]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3873.5,
+    767.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[26]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    2326.0,
+    58.5
+   ]
+  },
+  {
+   "text": "VSS",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    58.5,
+    556.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[6]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    58.5,
+    3088.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[5]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    58.5,
+    3299.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[61]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1606.0,
+    5063.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[66]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    706.0,
+    5063.5
+   ]
+  },
+  {
+   "text": "VDD",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1966.0,
+    58.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[48]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3873.5,
+    3932.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[18]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    526.0,
+    58.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[27]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    2506.0,
+    58.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[30]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3046.0,
+    58.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[14]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    58.5,
+    1400.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[10]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    58.5,
+    2244.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[29]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    2866.0,
+    58.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[52]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3226.0,
+    5063.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[31]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3226.0,
+    58.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[22]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1246.0,
+    58.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[47]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3873.5,
+    3721.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[16]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    58.5,
+    978.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[49]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    3873.5,
+    4143.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[64]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    1066.0,
+    5063.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[19]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    706.0,
+    58.5
+   ]
+  },
+  {
+   "text": "ANALOG_PAD[3]",
+   "layer": "81/10",
+   "layer_name": "Metal5_Label",
+   "xy_um": [
+    58.5,
+    3721.5
+   ]
+  },
+  {
+   "text": "NMOS_DP_4X_A_G",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    376.6,
+    1843.43
+   ]
+  },
+  {
+   "text": "VDDd",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    1934.52,
+    384.26
+   ]
+  },
+  {
+   "text": "PMOS_DP_4X_B_D",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3555.2,
+    999.47
+   ]
+  },
+  {
+   "text": "PMOS_CM_IOUT",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3555.2,
+    3531.44
+   ]
+  },
+  {
+   "text": "PMOS_OTA_OUT",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3555.2,
+    3953.44
+   ]
+  },
+  {
+   "text": "PMOS_CM_ARRAY_IOUT_2X",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3024.94,
+    4745.51
+   ]
+  },
+  {
+   "text": "NMOS_CM_ARRAY_IOUT_1X",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    684.99,
+    4745.51
+   ]
+  },
+  {
+   "text": "NMOS_CS_4X_B_D",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    684.9,
+    376.48
+   ]
+  },
+  {
+   "text": "VSSd",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    376.82,
+    4596.89
+   ]
+  },
+  {
+   "text": "PMOS_CS_4X_A_G",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3385.24,
+    376.48
+   ]
+  },
+  {
+   "text": "NMOS_CM_ARRAY_IOUT_4X",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    1045.01,
+    4745.51
+   ]
+  },
+  {
+   "text": "PMOS_CM_ARRAY_IOUT_16X",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    2484.95,
+    4745.51
+   ]
+  },
+  {
+   "text": "PMOS_DP_1X_B_D",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3555.2,
+    2265.49
+   ]
+  },
+  {
+   "text": "PMOS_DP_1X_A_S",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3555.2,
+    2898.33
+   ]
+  },
+  {
+   "text": "PMOS_DP_1X_A_D",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3555.2,
+    3320.43
+   ]
+  },
+  {
+   "text": "EN",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    2304.97,
+    376.48
+   ]
+  },
+  {
+   "text": "NMOS_CM_IOUT",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    376.6,
+    3531.44
+   ]
+  },
+  {
+   "text": "INV_16X_B_INP",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    2485.03,
+    376.48
+   ]
+  },
+  {
+   "text": "NMOS_CS_4X_B_G",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    865.11,
+    376.48
+   ]
+  },
+  {
+   "text": "NMOS_CS_4X_A_G",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    504.87,
+    376.48
+   ]
+  },
+  {
+   "text": "CLK",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    1585.04,
+    376.48
+   ]
+  },
+  {
+   "text": "BUS2",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    1764.98,
+    4745.51
+   ]
+  },
+  {
+   "text": "NMOS_DP_4X_B_S",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    376.6,
+    1421.57
+   ]
+  },
+  {
+   "text": "PMOS_CM_ARRAY_IOUT_1X",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3204.94,
+    4745.51
+   ]
+  },
+  {
+   "text": "NMOS_DP_4X_B_D",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    376.6,
+    999.47
+   ]
+  },
+  {
+   "text": "NMOS_DP_4X_A_D",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    376.6,
+    2054.41
+   ]
+  },
+  {
+   "text": "NMOS_OTA_INN",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    376.6,
+    4164.39
+   ]
+  },
+  {
+   "text": "NMOS_OTA_OUT",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    376.6,
+    3953.44
+   ]
+  },
+  {
+   "text": "NMOS_CM_ARRAY_IREF",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    504.97,
+    4745.51
+   ]
+  },
+  {
+   "text": "PMOS_CM_IREF",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3555.2,
+    3742.3
+   ]
+  },
+  {
+   "text": "NMOS_CM_ARRAY_IOUT_16X",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    1404.98,
+    4745.51
+   ]
+  },
+  {
+   "text": "PMOS_DP_4X_A_G",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3555.2,
+    1843.43
+   ]
+  },
+  {
+   "text": "INV_16X_A_OUT",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    1225.03,
+    376.48
+   ]
+  },
+  {
+   "text": "PMOS_CS_4X_A_D",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3555.2,
+    788.39
+   ]
+  },
+  {
+   "text": "NMOS_CS_4X_A_D",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    376.6,
+    788.39
+   ]
+  },
+  {
+   "text": "NMOS_CM_ARRAY_IOUT_8X",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    1225.05,
+    4745.51
+   ]
+  },
+  {
+   "text": "PMOS_DP_1X_B_G",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3555.2,
+    2476.61
+   ]
+  },
+  {
+   "text": "PMOS_CS_4X_B_G",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3024.99,
+    376.48
+   ]
+  },
+  {
+   "text": "BUS1",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    1585.04,
+    4745.51
+   ]
+  },
+  {
+   "text": "NMOS_CM_IREF",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    376.6,
+    3742.3
+   ]
+  },
+  {
+   "text": "DATA",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    1765.02,
+    376.48
+   ]
+  },
+  {
+   "text": "PMOS_DP_4X_A_D",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3555.2,
+    2054.41
+   ]
+  },
+  {
+   "text": "NMOS_OTA_INP",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    376.6,
+    4375.39
+   ]
+  },
+  {
+   "text": "PMOS_DP_4X_A_S",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3555.2,
+    1632.31
+   ]
+  },
+  {
+   "text": "PMOS_DP_1X_B_S",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3555.2,
+    2687.59
+   ]
+  },
+  {
+   "text": "NMOS_DP_1X_A_S",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    376.6,
+    2898.33
+   ]
+  },
+  {
+   "text": "NMOS_DP_1X_A_D",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    376.6,
+    3320.43
+   ]
+  },
+  {
+   "text": "PMOS_CM_ARRAY_IREF",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3384.96,
+    4745.51
+   ]
+  },
+  {
+   "text": "INV_16X_B_INN",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    2845.03,
+    376.48
+   ]
+  },
+  {
+   "text": "PMOS_CM_ARRAY_IOUT_4X",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    2844.93,
+    4745.51
+   ]
+  },
+  {
+   "text": "NMOS_CM_ARRAY_IOUT_2X",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    864.99,
+    4745.51
+   ]
+  },
+  {
+   "text": "PMOS_DP_4X_B_S",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3555.2,
+    1421.57
+   ]
+  },
+  {
+   "text": "PMOS_CM_ARRAY_IOUT_8X",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    2664.88,
+    4745.51
+   ]
+  },
+  {
+   "text": "PMOS_OTA_INN",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3555.2,
+    4164.39
+   ]
+  },
+  {
+   "text": "INV_16X_B_OUT",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    2664.95,
+    376.48
+   ]
+  },
+  {
+   "text": "NMOS_DP_1X_B_G",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    376.6,
+    2476.61
+   ]
+  },
+  {
+   "text": "NMOS_DP_4X_B_G",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    376.6,
+    1210.59
+   ]
+  },
+  {
+   "text": "BUS3",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    1944.98,
+    4745.51
+   ]
+  },
+  {
+   "text": "PMOS_OTA_INP",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3555.2,
+    4375.39
+   ]
+  },
+  {
+   "text": "NMOS_DP_1X_B_D",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    376.6,
+    2265.49
+   ]
+  },
+  {
+   "text": "PMOS_CS_4X_B_D",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3205.2,
+    376.48
+   ]
+  },
+  {
+   "text": "BUS5",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    2304.97,
+    4745.51
+   ]
+  },
+  {
+   "text": "PMOS_DP_1X_A_G",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3555.2,
+    3109.45
+   ]
+  },
+  {
+   "text": "INV_16X_A_INP",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    1404.95,
+    376.48
+   ]
+  },
+  {
+   "text": "NMOS_DP_1X_A_G",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    376.6,
+    3109.45
+   ]
+  },
+  {
+   "text": "PMOS_DP_4X_B_G",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    3555.2,
+    1210.59
+   ]
+  },
+  {
+   "text": "BUS4",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    2125.01,
+    4745.51
+   ]
+  },
+  {
+   "text": "NMOS_DP_1X_B_S",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    376.6,
+    2687.59
+   ]
+  },
+  {
+   "text": "NMOS_DP_4X_A_S",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    376.6,
+    1632.31
+   ]
+  },
+  {
+   "text": "INV_16X_A_INN",
+   "layer": "36/10",
+   "layer_name": "Metal2_Label",
+   "xy_um": [
+    1044.94,
+    376.48
+   ]
+  }
+ ],
+ "labels_truncated": false
+}
