@@ -3,7 +3,7 @@
 One directory per public project on this run. Each has an analysis (`summary.md`) of the
 project's repository, the manifest row (`project.json`), the commit that was analysed
 (`clone.json`) and measurements of the layout extracted from the reticle (`layout.json`).
-18 of the 30 summaries have also been checked against that taped-out layout and carry
+19 of the 30 summaries have also been checked against that taped-out layout and carry
 renders of it (`images/`); they are marked in the "Layout checked" column.
 
 `tools/` documents how all of this was made. The scripts run in the original workspace,
@@ -56,7 +56,7 @@ Verdict = value for GF180MCU characterisation and PDK development, as judged in 
 | GD02 | Racquet Half r1p0 (1/2 slot) | 0p5x1 | Low | Racquet half-slot: 9 SERV RISC-V cores each with a foundry SRAM, 7-track 5 V cells | Greg Davill (Australia; affiliation not stated) | Apache-2.0 | TEMPLATE | no | [summary](GD02/summary.md) |
 | GD03 | Racquet r2p0 - 23 core SoC | 1x1 | Low | Racquet full slot: 23 SERV cores with 23 foundry SRAMs, 7-track 5 V cells | Greg Davill | Apache-2.0 | TEMPLATE | no | [summary](GD03/summary.md) |
 | GD04 | Racquet Wide 1x0.5 | 1x0p5 | Medium | Racquet 1x0.5: 6 SERV cores on 9-track 5 V cells with a Difetto-inserted DFT scan chain | Greg Davill | Apache-2.0 | TEMPLATE | no | [summary](GD04/summary.md) |
-| HZ80 | FOSSi open-source replacement for Z80 classic 8-bit CPU (0.5 x 1 slot) | 0p5x1 | Low | Same Z80, half-width slot | Renaldas Zioma (rejunity) | Apache-2.0 | TEMPLATE+NOTE | no | [summary](HZ80/summary.md) |
+| HZ80 | FOSSi open-source replacement for Z80 classic 8-bit CPU (0.5 x 1 slot) | 0p5x1 | Low | FOSSi Z80 replacement (TV80 core, rejunity) in the half-width 0p5x1 slot; 5143 mcu9t5v0 5 V cells, 367 flops, no macros | Renaldas Zioma (rejunity) | Apache-2.0 | TEMPLATE+NOTE | yes | [summary](HZ80/summary.md) |
 | ISHI | ISHI-KAI's Multiple Users Project | 1x1 | High | Hand-assembled full-custom analog multi-project die with 15 circuits: 5 inverters, 4 op-amps, dynamic comparator, 6-bit SAR ADC, LDO, PLL, bandgap, current source, each with its own 7-pad probe row; taped-out layout is geometrically identical to the repo GDS | ISHI-KAI community (Japan); integrator Noritsuna Imamura (SIProp.org); Akira Tsuchiya, Mizuki Mori, Miho Yamada and others | Apache-2.0 | OK | yes | [summary](ISHI/summary.md) |
 | JKU1 | gf180mcu-jku-projects | 1x1 | Low | Multi-project digital chip: 14 hardened macros (RISC-V MCU, decimation filter, DDS, Tetris, small student designs incl. a SAR-ADC controller) sharing a pad ring; taped-out layout (3932x5122 um, 74 pads) verified identical to the repo's release GDS apart from wafer.space COMP fill; all 7T 5 V Dualgate standard cells, no analog/MIM/resistor/DNWELL content | Simon Dorrer and students (JKU Linz IICQC); Jonathan Hager (JMU Wuerzburg); HTL Leonding; LiTec | SHL-2.1 | OK | yes | [summary](JKU1/summary.md) |
 | JKU2 | gf180mcu-jku-atbs-adc | 1x0p5 | Low | Digital core only (tbs_core_board, 2700x1300 um, 9T 5 V Dualgate cells, VHDL-derived) of a threshold-based-sampling ADC for biosignals; layout confirms no comparator, capacitor DAC, resistor or MIM on the die, comparators/DACs external on 12 digital inputs and 33 outputs; 72 pads | Simon Dorrer (JKU Linz IICQC) | SHL-2.1 | OK | yes | [summary](JKU2/summary.md) |
