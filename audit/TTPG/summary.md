@@ -7,6 +7,7 @@
 | Top cell | tt_gf_wrapper |
 | Licence in repo | Apache-2.0 (`LICENSE`; no licence claim on the platform) |
 | README | Thin: 75 words, links out to tinytapeout.com and the multiplexer docs; does not mention the power-gated variant |
+| Taped-out layout | TTPG_tt_gf_wrapper_6_2, 3932 x 5122 um, 1 placement on the G801 reticle (x 12.036 mm, y 5.242 mm) |
 
 ## What the repo actually contains
 
@@ -14,7 +15,7 @@
 
 TTPG is the power-gated build: release `tapeout-ws2512-powergate` ("Tapeout with Power Gating and Split rail I/O"), built from commit ff701ba, the one commit on branch `powergate` on top of the TTP2 commit. That commit sets `no_power_gating: false`, moves `tt-multiplexer` to b6bed69 and the PDK submodule to cae6f09, and changes the testbench supply names to `dvdd`/`dvss`. The resulting differences from TTP2, read from the two release netlists:
 
-- Every one of the 52 projects gets its own PMOS header switch between the core rail and its local `GPWR` rail: 26 x `tt_pg_3v3_hp_1`, 21 x `tt_pg_3v3_hp_2`, 5 x `tt_pg_3v3_hp_4` (11.2 um wide, 160.72 / 325.36 / 736.96 um tall, sized to the project height). The mux forces the high-performance (`hp`) variant for all sizes (`py/tt/placer.py`). The macro GDS uses no Dualgate layer, so the switches are 3.3 V thin-oxide devices while the logic they feed is thick-oxide 7t5v0 cells (device type inferred from layers and from the schematic in the gf-0p3 copy of tt-multiplexer).
+- Every one of the 52 projects gets its own PMOS header switch between the core rail and its local `GPWR` rail: 26 x `tt_pg_3v3_hp_1`, 21 x `tt_pg_3v3_hp_2`, 5 x `tt_pg_3v3_hp_4` (11.2 um wide, 160.72 / 325.36 / 736.96 um tall, sized to the project height). The mux forces the high-performance (`hp`) variant for all sizes (`py/tt/placer.py`). The placed macros contain no Dualgate or V5_XTOR shapes (measured in the taped-out layout), so the switches are 3.3 V thin-oxide devices (0.28 um gates) while the logic they feed is thick-oxide 7t5v0 cells; see `## Taped-out layout`.
 - The pad ring is `gf180mcu_ocd_io` instead of `gf180mcu_fd_io`, cell for cell (16 `bi_24t`, 10 `in_c`, 3 `in_s`, 29 `asig_5p0`), with split rails: 4 `dvdd` + 6 `dvss` for the IO ring and 2 `vdd` + 4 `vss` for the core, on separate nets (`dvdd`/`dvss` versus `vdpwr`/`vgnd` in `odb_power.py`).
 - Per-module Metal5 power straps are generated (`ModulePowerStrapper` enabled in `odb_route.py`).
 - The project macros, `tt_mux` and `tt_ctrl` are the same designs (identical GDS sizes in the two `macros.zip` archives, except `tt_um_chip_rom`, whose ROM is regenerated per build); `shuttle_index.json` differs only in the commit fields.
@@ -119,6 +120,75 @@ Projects relevant to process characterisation, individually:
 - **`tt_um_essen`** (addr 129, Julia Desmazes). 2x2 MAC systolic array with a scan chain/JTAG ("with DFT"); a structural-test data point rather than a device structure.
 - **`tt_um_lisa`** (addr 197, Ken Pettit). Microcontroller with a 128-byte flip-flop/latch RAM (no SRAM macro).
 
+## Taped-out layout
+
+| Measured in `layout/TTPG.oas` | |
+|---|---|
+| Die (top cell `TTPG_tt_gf_wrapper_6_2`) | 3932 x 5122 um, same as TTP2 |
+| Top-cell children | 1274 instances: the 1222 of TTP2 plus 52 `tt_pg_3v3_hp_*` power gates (26 `hp_1`, 21 `hp_2`, 5 `hp_4`); 52 tiles, 15 `tt_mux`, 1 `tt_ctrl`, 74 pads, 1062 IO fill cells |
+| Pads | 74 `gf180mcu_ocd_io` cells at the same 74 positions as TTP2: 16 `bi_24t`, 10 `in_c`, 3 `in_s`, 29 `asig_5p0`, 4 `dvdd`, 6 `dvss`, 2 `vdd`, 4 `vss`; 4 `cor` corners (355.02 um) |
+| Standard cells | `mcu7t5v0`: 200,155 logic, 360,323 fill/tap; `mcu9t5v0`: 3,625 logic, 5,988 fill/tap. Differs from TTP2 by one logic cell (`tt_um_chip_rom` is regenerated per build) and 22 fill/tap placements |
+| SRAM macros | none |
+| Power gates | 52 `tt_pg_3v3_hp_1/2/4`, one per tile, see below |
+| Layers present | As TTP2: no DNWELL, no MIM. Poly resistors (`tie_poly_res*`, `ppolyf`) and MOS caps only in pad-ring cells |
+| Custom or analog content | None in tiles. The only non-library, non-tile cells are the 52 power gates and the pad library |
+
+### Does it match the repository?
+
+- Release `tapeout-ws2512-powergate` (`foundry_submission.zip/README.md`: generated from tinytapeout-gf-0p2 at ff701baa3a12..., i.e. the `powergate` branch, not 7416232 which both tags point at). The release `tt_gf_wrapper.oas` and the reticle cell have identical bounding box and identical top-cell children by name (1274, after stripping `$n`): 52 tiles, 52 power gates, 15 mux, 1 ctrl, 74 pads, 1062 IO fill. This agrees with the netlist-based description in this summary (26/21/5 gates, 16/10/3/29 pads, 4+6 `dvdd/dvss`, 2+4 `vdd/vss`).
+- Tile spot check: all 52 tile bounding boxes equal `repo/projects/<tile>/<tile>.oas` (except `tt_um_chip_rom`, which has no OAS in `projects/`). Per-layer XOR over 17 layers of the flattened placed cells `tt_um_dlmiles_ringosc_5inv`, `tt_um_algofoogle_vgaringosc`, `tt_um_htfab_cells` and `tt_um_zacky1972_PVTMonitorSuite` against their repo OAS: zero area difference. The same four tiles are also identical in TTP2, as are the placements (position and orientation) of all 52 tiles, the 15 mux, `tt_ctrl` and the logos. A full-die XOR was not run.
+- The `gf180mcu_ocd_io` cell layouts could not be compared against a source (the `cae6f09` submodule commit is not in the local clone); only their measured content is given below.
+
+![TTPG whole die](images/overview.webp)
+
+Whole die at 2.8 um/px; tiles, mux spine and pad ring are in the same places as in TTP2. Marked: `tt_um_zacky1972_PVTMonitorSuite` (466-813, 4453-4614 um), `tt_um_algofoogle_vgaringosc` (3119-3465, 4206-4367 um), `tt_um_dlmiles_ringosc_5inv` (830-1177, 502-662 um), `tt_um_htfab_cells` (3119-3465, 502-662 um), `tt_ctrl` (1910-2022, 2477-2638 um). The power gates are 11 um wide strips and are not resolvable at this scale.
+
+### What differs between TTPG and TTP2 in the layout
+
+| | TTP2 | TTPG |
+|---|---|---|
+| Power gates | none | 52 (26 `hp_1`, 21 `hp_2`, 5 `hp_4`) |
+| Pad library | `gf180mcu_fd_io` | `gf180mcu_ocd_io`, same footprints (75.32 x 350 um) |
+| Supply pads (16 positions) | 6 `dvdd`, 10 `dvss` | 4 `dvdd`, 6 `dvss`, 2 `vdd`, 4 `vss`; the six changed slots are the same positions in both dies: (26,941), (26,1152), (26,2840), (3906,2418), (3906,3895), (3906,4106) um (pad cell origins) |
+| Top-level Metal5 | 173 shapes, 5.06 mm2 | 554 shapes, 7.87 mm2 (per-module power straps) |
+| Top-level Metal4 | 10312 shapes, 1.08 mm2 | 10361 shapes, 1.15 mm2 |
+| Thick-oxide markers in IO cells (`bi_24t`) | Dualgate 10958 um2, no V5_XTOR | Dualgate 7888 um2, V5_XTOR 3227 um2 |
+| Tiles, mux, ctrl, logos | same | same position and content |
+
+The `V5_XTOR` marker appears on the `bi_24t`, `in_c` and `in_s` cells of the `ocd` library and on none of the `fd` IO cells (geometry difference only; I did not evaluate what the marker does in the foundry deck for these cells).
+
+### The power-gate macros
+
+| Property | `tt_pg_3v3_hp_1` | `tt_pg_3v3_hp_2` | `tt_pg_3v3_hp_4` |
+|---|---|---|---|
+| Count | 26 | 21 | 5 |
+| Size (um) | 11.2 x 160.76 | 11.2 x 325.40 | 11.2 x 736.96 |
+| PMOS gates (poly over COMP in Nwell and Pplus) | 191 | 397 | 906 |
+| Main array: gates of 8.5 um width, 0.28 um length | 190 | 395 | 902 |
+| Total W of the 8.5 um gates | 1615 um | 3357.5 um | 7667 um |
+| NMOS gates (control buffer) | 9 | 10 | 20 |
+| Dualgate, V5_XTOR | none | none | none |
+| Labels | `VPWR`, `VGND`, `GPWR`, `ctrl` (Metal4) | same | same |
+
+- Device type: thin-oxide 3.3 V. None of the three macros has a single Dualgate or V5_XTOR shape (area 0), while the logic they feed is the 5 V/6 V-library `mcu7t5v0` on Dualgate and V5_XTOR. The gate length is 0.28 um, the 3.3 V pfet minimum, and the `hp_2` count (395 gates x 8.5 um = 3357.5 um) equals the `pfet_03v3` W=3357.5u nf=395 of the schematic in the gf-0p3 copy. This is geometric evidence, not an extracted netlist.
+- Structure: a long column of PMOS gates 8.5 um wide and 0.28 um long (the main array) with, at the bottom end, a small stage of NMOS and PMOS fingers (the `ctrl` buffer); see the detail render.
+- Where they sit: each strip abuts a tile of identical height (same bottom and top within 0.04 um) with a 3.36 um gap to the tile edge, outside the tile, in the channel between tiles. Left of the tile for 16 tiles and right of it for 15; in the other 21 cases two same-height tiles are adjacent and the strip sits exactly between them, so geometry cannot say which tile it serves (that needs connectivity, not extracted). The strips sit at x about 451-463 um and 3104-3115 um for the tall tiles, and elsewhere inside the tile columns for the single-row tiles.
+- `hp_4` is used for every 736.96 um tile (kianV, BLE_RX, tinyQV, raybox_zero, lisa), `hp_2` for 325.36 um tiles, `hp_1` for 160.72 um tiles.
+- Example of scale: the 346.64 x 160.72 um tiles (ring oscillators, cells mux, PVT monitor) have an `hp_1` with 1615 um of PMOS gate width in series with their supply.
+- `ctrl` pin wiring to `tt_mux`/`um_pg_ena` and the connection of `GPWR` to the tile rails were not traced.
+
+![power gate next to a tile](images/powergate_edge.webp)
+
+TTPG, x 3060-3140, y 2790-2850 um: the bottom end of the `hp_4` gate (11.2 um wide, x 3104-3115 um) in the channel to the right of the `tt_um_BLE_RX` tile (left, ends x 3100.7 um), with the next tile to the right. The control stage is at the bottom of the strip (y about 2807-2815 um).
+
+![power gate detail](images/powergate_detail.webp)
+
+Same macro at x 3098-3120, y 2806-2822 um in detail style: the control stage (small NMOS/PMOS groups in the middle and lower part) and the first rows of the big PMOS finger array above it. There is no Dualgate (thick oxide) shading anywhere.
+
+![same region in TTP2](../TTP2/images/same_edge_no_pg.webp)
+
+The same box in TTP2: only straps in the channel, no gate.
+
 ## Authors and affiliations
 
 | Person or organisation | Role | Affiliation | Source |
@@ -157,7 +227,7 @@ Everything below runs on the 3.3 V core supply using `gf180mcu_fd_sc_mcu7t5v0` c
 | 256-bit latch PUF | Local mismatch of `nor2_1`/`or2_1`/`latq_1` | addr 612 | `projects/tt_um_multi_bit_puf_wrapper/` |
 | 9-track cells in one project | Only `gf180mcu_fd_sc_mcu9t5v0` usage on the die; functional data point | addr 134 (VGA demo) | `projects/tt_um_rejunity_vga_test01/` |
 | IO cells: `bi_24t`, `in_c`, `in_s`, `asig_5p0`, supply cells | Pad drive strength (set to the 24 mA code), input thresholds (CMOS and Schmitt), ESD, pad leakage on the 29 unused `asig_5p0` pads | pads directly | `tt-multiplexer/rtl/tt_gf_gpio.v`, `ol2/tt_top/tt_gf_wrapper.v` |
-| TTPG only: 52 PMOS power gates `tt_pg_3v3_hp_1/2/4` | 3.3 V thin-oxide `pfet_03v3` on-resistance and off-state leakage (the macro GDS has no Dualgate layer; the schematic in the gf-0p3 copy of tt-multiplexer shows `pfet_03v3` L=0.28u, W=3357.5u, nf=395 for `hp_2`) | Not individually pinned out. Observable as core supply current with a project selected versus deselected, and as the frequency difference of the same ring oscillators between TTP2 and TTPG | macros in `macros.zip` of the powergate release; LEF sizes 11.2 x 160.72, 325.36, 736.96 um |
+| TTPG only: 52 PMOS power gates `tt_pg_3v3_hp_1/2/4` | 3.3 V thin-oxide `pfet_03v3` on-resistance and off-state leakage (measured in the placed layout: no Dualgate or V5_XTOR, 0.28 um gates, `hp_2` = 395 x 8.5 um; same as the schematic in the gf-0p3 copy of tt-multiplexer) | Not individually pinned out. Observable as core supply current with a project selected versus deselected, and as the frequency difference of the same ring oscillators between TTP2 and TTPG | `tt_pg_3v3_hp_*` cells, 52 placements, one in the channel beside each tile (see `## Taped-out layout`) |
 | TTPG only: `gf180mcu_ocd_io` pad library with separate IO (`DVDD`/`DVSS`) and core (`VDD`/`VSS`) rails | Same pad functions as `gf180mcu_fd_io` in a different cell library; allows core and IO to be supplied and measured separately | supply pads | powergate release netlist `tt_gf_wrapper.nl.v` |
 
 Simulation results to compare against: the top-level LibreLane STA reports and SPEF for `tt_ctrl`/`tt_mux` are in `GDS.zip`/`macros.zip`; each project's `stats/metrics.csv` holds its own hardening metrics. No SPICE results for the ring oscillators are in this repo (the oscillating-frequency estimates are prose in the project docs). No power-gate simulation results are in this repo.
@@ -185,6 +255,6 @@ Simulation results to compare against: the top-level LibreLane STA reports and S
 - The repo has 96 remote branches; 93 are per-project CI import branches, the others are `main` and `powergate` (`projects/<macro>-<run id>`), not alternative designs.
 - The release directories on disk under `TTP2/releases/` and `TTPG/releases/` are identical copies holding all three releases. The `sha256` in each `project.json` matches the precheck output GDS of the corresponding release (TTP2: `6c2f1172...`, TTPG: `f9e7dee5...`), verified by hashing.
 - `g801-draft-2` is an earlier draft submission (one OAS, tag at 707b0ca) and was not analysed.
-- Project layouts are OASIS with compressed cell tables; their contents were checked through the gate-level netlists, not the layouts.
+- Project contents were first checked through the gate-level netlists; the taped-out layout was then compared per tile (bounding boxes for all 52, per-layer XOR for four tiles) and agrees with the repo OAS files.
 - Mux address to physical position mapping, and which of the 52 gates is `hp_1`, `hp_2` or `hp_4` (26, 21 and 5 instances), is in `cfg/modules_placed.yaml` inside `macros.zip`; not reproduced here.
 - That the power gate is enabled only while its project is selected is inferred from the `um_pg_ena` per-module outputs of `tt_mux`; the control logic was not traced further.
