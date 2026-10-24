@@ -7,10 +7,11 @@
 | Top cell | chip_top |
 | Licence in repo | `LICENSE` is the Solderpad Hardware License v2.1 text with the notice "SPDX-License-Identifier: Apache-2.0 WITH SHL-2.1" (audit: SHL-2.1; GitHub: NOASSERTION). File headers still say Apache-2.0. Details below. |
 | README | OK (1086 words): die photos, bring-up note, project list, template build instructions |
+| Taped-out layout | JKU1_chip_top_10_0, 3932 x 5122 um, 1 placement on the G801 reticle |
 
 ## What the repo actually contains
 
-A multi-project digital chip: 14 independently hardened macros from students and staff around the Institute for Integrated Circuits and Quantum Computing (IICQC) at JKU Linz, one guest design from JMU Würzburg and two school designs, placed in one core and sharing the pad ring. All of it is synthesised RTL on stock cells; there is no analog or custom layout.
+A multi-project digital chip: 14 independently hardened macros from students and staff around the Institute for Integrated Circuits and Quantum Computing (IICQC) at JKU Linz, one guest design from JMU Würzburg and two school designs, placed in one core and sharing the pad ring. All of it is synthesised RTL on stock cells; there is no analog or custom layout (confirmed in the taped-out layout, see below).
 
 Flow: LibreLane (`leo/gf180mcu` branch, Nix shell) with the wafer.space fork of the PDK (`gf180mcuD`, tag 1.6.6). Each macro is hardened with the Classic flow, then `librelane/config.yaml` (Chip flow) places the 14 macros plus four logo/ID cells. Standard cells are `gf180mcu_fd_sc_mcu7t5v0` (the only library named anywhere in configs and reports); signoff corners are tt_025C_5v00, ss_125C_4v50 and ff_n40C_5v50. Pads (`src/chip_top.sv`): `gf180mcu_fd_io__bi_24t` (41 bidirs, all but one hard-wired as outputs), `gf180mcu_fd_io__in_c` (inputs and reset), `gf180mcu_fd_io__in_s` (clock), `gf180mcu_ws_io__dvdd` / `gf180mcu_ws_io__dvss` (the wafer.space supply pads). No SRAM or other hard macros; memories are flip-flops, and TinyWhisper uses an external SPI SRAM.
 
@@ -46,6 +47,60 @@ Completeness: RTL for every macro is present. The hardened macro views (`macros/
 - File-level notices were not updated: the 13 files with SPDX tags (top RTL, scripts, docs, `ip/` scripts) say `Apache-2.0`; several student macros carry the Apache-2.0 boilerplate with personal copyright (Gregor Flachs, Tim Tremetsberger, Maximilian Kernmaier, "TL", Simon Dorrer, Dominik Brandstetter); `macros/tinywhisper_riscv/verilog/src/dsmod.v` and `lo_gen.v` are "SPDX-FileCopyrightText: Harald Pretl", Apache-2.0; most other macro sources have only an author line or nothing. `ip/gf180mcu_ws_ip__*` scripts are "2024 Leo Moser, 2025-2026 Simon Dorrer, Jonathan Hager", Apache-2.0.
 - In practice everything is usable under Apache-2.0; SHL-2.1 is the stated licence for the repository as a whole.
 
+## Taped-out layout
+
+| Measured fact | Value |
+|---|---|
+| Die (reticle cell `JKU1_chip_top_10_0`) | 3932 x 5122 um, one placement at (20.02 mm, 0.06 mm) on the reticle |
+| Pads | 74 labelled pads (Metal5 labels): 41 `gf180mcu_fd_io__bi_24t` (`bidir_PAD[0..40]`), 16 `in_c` (15 `input_PAD[0..14]` plus `rst_n_PAD`), 1 `in_s` (`clk_PAD`), 6 `gf180mcu_ws_io__dvdd`, 10 `gf180mcu_ws_io__dvss`; 4 `fd_io__cor` corner cells |
+| Standard cells | only `gf180mcu_fd_sc_mcu7t5v0`: 174,469 logic cells (top types nand2_1 43,602; clkinv_1 13,598; nand3_1 13,041; dffq_1 8,884; dffrnq_1 4,367; dlyb_1 8,691) and 395,678 fill/tap/endcap cells |
+| SRAM / hard macros | none |
+| Macros | the 14 hardened blocks below, plus four artwork cells (`ws_ip__id`, `ws_ip__logo`, `ws_ip__jku`, `ws_ip__ce`, each about 143 um square, at the die corners) |
+| Devices | every standard cell is thick-oxide: Dualgate (55/0) and V5_XTOR (112/1) each have one shape per well (200,464 in `decimator_ser_top`; 620,713 and 570,147 on the die). In a 200 x 200 um sample of `tetris` all 7,306 merged poly polygons lie inside Dualgate. No 3.3 V thin-oxide devices were found by the layer counts. |
+| Not present | no MIM (no capacitor layer), no DNWELL, no BJT or Schottky markers, no analog or custom device layout. `RES_MK` (1,100), `MOS_CAP_MK` (35,684), `ESD_MK`, `Pad` shapes occur only in the IO ring (none inside the macros). `DIODE_MK` appears inside macros only as antenna diodes (31 in `decimator_ser_top`). |
+| ADC content | `adc_sar_controller` (`sar_adc_spi_oversampling`, 200 x 120 um at (1366,1841)) is purely synthesised control logic. There is no comparator, DAC, S&H or analog pad on the die; the 16 `in_c` and 41 `bi_24t` pads are all digital. |
+
+### Does it match the repository?
+
+Yes. I extracted both GDS files committed at `ebfc69d` (`gds/chip_top.gds.gz`, SHA-256 `467531b9...`, and the release precheck output `b38aac69...`) and compared them with the taped-out OASIS. Top cell bounding box is identical (3932 x 5122 um), the cell count is the same (2,106 each), and the non-fill instances of the top cell (macro, IO and artwork cells, names normalised for the `$n` suffix) are the same 50 cell types with the same counts in both repo files. A geometric XOR of the whole die against the release precheck GDS (23 layers: wells, COMP, poly, contact, M1-M5, vias, Dualgate, V5_XTOR, Pad, ...) gave zero area on every layer except COMP (22/0): 29,842 squares of 5 x 5 um (746,050 um2 over the die), present only in the taped-out file. These are wafer.space's active-area dummy fill. The two repo files are therefore the design as submitted; the file hash in `project.json` (`774a0d2e...`) differs from both file hashes, but the cell lists, instance counts and geometry agree (the reticle file is wafer.space's re-export of the design plus fill; the exact byte-level difference was not investigated). I did not XOR the other repo GDS (`chip_top.gds.gz`): it has identical cell and instance counts to the release GDS and differs from it by only 2,880 bytes.
+
+Block placement (core 3048 x 4238 um; boxes are lower-left to upper-right in um):
+
+| Macro | Placement box | Size |
+|---|---|---|
+| `decimator_ser_top` | (666,3561)-(3266,4561) | 2600 x 1000 |
+| `octowave` | (566,2261)-(1766,3361) | 1200 x 1100 |
+| `tetris` | (1966,2161)-(3366,3361) | 1400 x 1200 |
+| `tinywhisper_riscv` | (1766,561)-(3366,1961) | 1600 x 1400 |
+| `classic_vga_clock` | (766,561)-(1566,1061) | 800 x 500 |
+| `tiny_bf` (`rh_bf_top`) | (766,1461)-(1166,1961) | 400 x 500 |
+| `multiplexer` | (566,561)-(666,1961) | 100 x 1400 |
+| `traffic_light` | (1166,1161)-(1566,1361) | 400 x 200 |
+| `df_digital_filter` | (766,1161)-(1066,1361) | 300 x 200 |
+| `tiny_tonegen` | (1366,1451)-(1596,1591) | 230 x 140 |
+| `led_spinner` | (1366,1641)-(1566,1791) | 200 x 150 |
+| `adc_sar_controller` | (1366,1841)-(1566,1961) | 200 x 120 |
+| `tiny_tone` | (1266,2041)-(1516,2181) | 250 x 140 |
+| `tiny_stack` | (766,2061)-(966,2161) | 200 x 100 |
+
+All 14 sizes equal those in the table above and in the placed layout; none is missing.
+
+![Whole die, style full, with the larger macros outlined](images/overview.webp)
+
+Whole die: pad ring around a 3048 x 4238 um core; `decimator_ser_top` fills the top, `octowave` and `tetris` the middle, `tinywhisper_riscv` and the small blocks the bottom.
+
+![The cluster of small macros](images/small_macros.webp)
+
+The small macros in the box x = 740 to 1640 um, y = 1100 to 2220 um, each outlined and named (`tiny_tone`, `tiny_stack`, `sar_adc_ctrl`, `led_spinner`, `tiny_tonegen`, `traffic_light`, `digital_filter`, `tiny_bf`).
+
+![Standard-cell close-up with Dualgate](images/detail_cells.webp)
+
+60 x 30 um inside `df_digital_filter` at (900,1230): 7-track cells on stock layout with Dualgate (dark purple) covering every row, i.e. all transistors are the 5 V thick-oxide flavour.
+
+![JKU logo cell and a die corner](images/corner_art.webp)
+
+The top-left corner (0-500 um, 4850-5122 um): the `gf180mcu_ws_ip__jku` logo cell at (26,4952) and the chamfered pad-ring corner.
+
 ## Authors and affiliations
 
 | Person / organisation | Role | Affiliation | Source |
@@ -75,7 +130,7 @@ Citation: Dorrer and Hager, DOI 10.5281/zenodo.19654471 (`CITATION.cff`).
 
 ### Verdict: Low
 
-Ordinary synthesised digital on the stock 7-track 5 V library with stock IO cells; nothing was built for characterisation. Its value is as a functional and yield data point, helped by the fact that the chip is confirmed alive at 3.3 V and 5 V and an adapter board exists.
+Ordinary synthesised digital on the stock 7-track 5 V library with stock IO cells; nothing was built for characterisation, and the layout confirms there are no MIM capacitors, resistors, DNWELL or other non-logic devices outside the IO ring. Its value is as a functional and yield data point, helped by the fact that the chip is confirmed alive at 3.3 V and 5 V and an adapter board exists.
 
 ### Test structures and measurable circuits
 
@@ -100,7 +155,7 @@ Packaged or chip-on-board test. The repo has a DIP adapter board (`pcb/dip_adapt
 
 ## Notes and caveats
 
-- Layout hash: neither GDS in the repo matches `project.json` (`774a0d2e…`). `gds/chip_top.gds.gz` decompresses to `467531b9…` and `release/v.1.0.0/gds/chip_top.gds.chip_top.precheck.20251215_081432.output.gds.gz` to `b38aac69…`; earlier committed versions do not match either. I could not establish which file was manufactured.
+- Layout hash: neither GDS in the repo matches `project.json` (`774a0d2e…`) byte for byte (`gds/chip_top.gds.gz` is `467531b9…`, the release precheck output `b38aac69…`). The layout check settles the substance: the taped-out layout equals the release precheck GDS plus 29,842 COMP dummy-fill squares, and has the same cell and instance counts as `gds/chip_top.gds.gz`.
 - "JMU" in the platform description is Julius-Maximilians-Universität (stated in `LICENSE`), not James Madison University.
 - Macro `final/` directories are not committed, so the top level cannot be rebuilt without re-hardening every macro.
 - All 14 macros are clocked and reset together; there is no per-design enable, so power measurements cannot isolate one design.
