@@ -3,7 +3,7 @@
 One directory per public project on this run. Each has an analysis (`summary.md`) of the
 project's repository, the manifest row (`project.json`), the commit that was analysed
 (`clone.json`) and measurements of the layout extracted from the reticle (`layout.json`).
-19 of the 30 summaries have also been checked against that taped-out layout and carry
+20 of the 30 summaries have also been checked against that taped-out layout and carry
 renders of it (`images/`); they are marked in the "Layout checked" column.
 
 `tools/` documents how all of this was made. The scripts run in the original workspace,
@@ -67,7 +67,7 @@ Verdict = value for GF180MCU characterisation and PDK development, as judged in 
 | OCD1 | openframe_caravel_picorv32 | 1x1 | Medium | GF180MCU port of the Caravel "openframe" harness with PicoRV32 (taped-out layout = branch caravel_picorv32 @ 349e17e, verified): first full-chip use of gf180mcu_ocd_io, gf180mcu_ocd_ip_sram (4x512x8 + 4x256x8) and gf180mcu_as_sc_mcu7t3v3 (34k logic cells) | R. Timothy Edwards, Open Circuit Design LLC | none | MISSING | yes | [summary](OCD1/summary.md) |
 | OCD2 | ocd_sram_test | 1x0p5 | High | Break-out test chip for the 3.3 V gf180mcu_ocd_ip_sram macros (1024x8, 512x8, two 256x8) with every SRAM pin on a pad (layout-traced), plus a 5 V simple_por whose por output reaches pad 4 through lvlshift_down | R. Timothy Edwards, Open Circuit Design LLC | none | MISSING | yes | [summary](OCD2/summary.md) |
 | RBOY | RISCBoy-180 | 1x1 | Medium | RISCBoy-180 games console SoC: two Hazard3 cores, PPU, 30 SRAM macros, 9-track 5 V cells | Luke Wren (Cambridge UK; affiliation not stated) | Apache-2.0 | OK | no | [summary](RBOY/summary.md) |
-| RZ80 | FOSSi open-source replacement for Z80 classic 8-bit CPU | 1x1 | Low | Open-source Z80 (TV80 core) with DIP40-style pinout, full slot, 9-track 5 V cells | Renaldas Zioma (rejunity); TV80 by Guy Hutchison | Apache-2.0 | TEMPLATE+NOTE | no | [summary](RZ80/summary.md) |
+| RZ80 | FOSSi open-source replacement for Z80 classic 8-bit CPU | 1x1 | Low | FOSSi Z80 replacement (TV80 core, rejunity) in the full 1x1 slot; 5209 mcu9t5v0 5 V cells, 357 flops, no macros, logic blob in a mostly empty 12.9 mm2 core; two copies on the reticle | Renaldas Zioma (rejunity); TV80 by Guy Hutchison | Apache-2.0 | TEMPLATE+NOTE | yes | [summary](RZ80/summary.md) |
 | RZML | LGN FashionMNIST - Logic Gate Network trained on FashioMNIST | 1x1 | Low | Logic-gate-network FashionMNIST classifier; this repo holds only the final 228 MB GDS and checksums | Renaldas Zioma (rejunity) | none | TEMPLATE | no | [summary](RZML/summary.md) |
 | TQVA | TinyQV - Crowdsourced Risc-V SoC | 0p5x0p5 | Low | TinyQV RV32EC SoC with Tiny Tapeout competition peripherals, quarter slot (1936 x 2531 um): 35.7k logic cells (3,464 flops, 955 latches) of the 5 V 7t5v0 library plus one 512x8 foundry SRAM, all thick-oxide (Dualgate + V5_XTOR) at 3.3 V; 38 bi_24t, 6 input, 4 asig_5p0 pads; matches the repo quarter GDS | Mike Bell (MichaelBell) and ten peripheral authors | Apache-2.0 | OK | yes | [summary](TQVA/summary.md) |
 | TQVB | TinyQV - Crowdsourced Risc-V SoC (0.5x1) | 0p5x1 | Low | TinyQV RV32EC SoC (same RTL as TQVA/TQVC) in the 0.5x1 slot; layout matches repo hwidth GDS (255 child types, identical counts; XOR zero except dummy fill) | Mike Bell (core, SoC integration), Leo Moser (template), TT Risc-V competition peripheral authors | Apache-2.0 | OK | yes | [summary](TQVB/summary.md) |
