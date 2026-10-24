@@ -6,6 +6,7 @@
 | Slot | 1 x 0.5 (half height), `1x0p5` |
 | Top cell | `chip_top` |
 | Licence in repo | `LICENSE` = Apache-2.0 (GitHub detection and file present; no per-file claim recorded by the audit) |
+| Taped-out layout | `TQVC_chip_top_12_8`, 3932 x 2531 um, 2 placements on the G801 reticle (at x 16.028 and 24.012 mm, y 20.788 mm) |
 | README | OK: 1633 words, about 916 of them project-specific on top of the wafer.space template README |
 
 ## What the repo actually contains
@@ -29,6 +30,47 @@ What is **not** in the repo: no LibreLane run logs, STA/DRC/LVS/antenna reports,
 
 Known limitations stated by the author: README (added 2026-08-14, after tape-out): "Due to an implementation bug, multi-word loads and stores can't be used against Scratch RAM." Timing is met at the nominal corner only.
 
+## Taped-out layout
+
+| Measured in `layout/TQVC.oas` | |
+|---|---|
+| Die | 3932 x 2531 um (9.95 mm2), reticle cell `TQVC_chip_top_12_8`, 2 placements on the G801 reticle |
+| Pads / IO cells | 46 `gf180mcu_fd_io__bi_24t` bidir, 5 `in_c` + 1 `in_s` inputs (`clk_PAD` is the `in_s`), 4 `asig_5p0` analog, 8 `gf180mcu_ws_io__dvdd` + 8 `dvss`, 4 `fd_io__cor` corners, 682 IO fill cells (Metal5 pad labels). South edge: `clk_PAD` (x 482 um), `rst_n_PAD` (611), `bidir_PAD[0..17]`; east edge: `bidir_PAD[18..25]`; north edge: `bidir_PAD[26..45]` (x 3449 down to 482); west edge: `analog_PAD[0..3]` and `input_PAD[0..3]` (y 1759 down to 772) |
+| Standard cells | all `gf180mcu_fd_sc_mcu7t5v0`: 173,210 placements, 36,116 logic cells and 137,094 fill, tap, end-cap and decap cells |
+| Main logic cell types | 8,803 `nand2_1`, 3,217 `oai21_1`, 3,157 `clkinv_1`, 2,971 `dffq_1`, 430 `dffrnq_1`, 955 `latq_1` latches, 761 `dlyb_1` delay cells |
+| SRAM | 1 x `gf180mcu_fd_ip_sram__sram512x8m8wm1`, 431.86 x 484.88 um at (490, 1400) to (921.86, 1884.88) |
+| Transistor flavours | 5 V/6 V thick oxide only. In a 400 x 400 um core sample (2000..2400, 1000..1400) all 28,486 merged Poly2 shapes lie inside Dualgate (55/0) and V5_XTOR (112/1), each one polygon over the box. The 7t5v0 library run at the 3.3 V supply |
+| Not present | no DNWELL, MIM, high-resistance poly, BJT or custom (non-library) cells: no DNWELL or MIM layer exists in the file, and there is no resistor or BJT marker outside the IO cells. `RES_MK`, `DIODE_MK`, `MOS_CAP_MK` and `ESD_MK` markers belong to the IO cells and macro (not traced shape by shape) |
+| Wafer.space blocks | `gf180mcu_ws_ip__logo` (143.25 um square) and `gf180mcu_ws_ip__id` (142.8 um square, at (26, 26)-(168.8, 168.8)), seal ring and fill |
+
+The core is a flat sea of placed cells (hierarchy flattened by the flow; only pad names are labelled), so individual peripherals cannot be located. The only identifiable core block is the SRAM. The placed logic occupies a blob around the middle of the 3048 x 1647 um core (see overview); the rest of the core is filler, tap and decap cells, which is why 137k of the 173k placements are fill.
+
+### Does it match the repository?
+
+Yes. The repo's `gds/tinyqv_hheight.gds.gz` at 3a0985e (2025-12-15, last commit touching `gds/`, so the designs.csv commit 2c8630b contains it) is the 1x0p5 build: top cell `chip_top`, 3932 x 2531 um, and the same 265 distinct child cell types with identical placement counts to the taped-out cell once `$n` suffixes are stripped (491,734 top-level placements both). XOR of the taped-out layout against that GDS (flattened, merged) is zero on Contact, Via1-Via4, Pad, Nwell, Pplus, Nplus, Dualgate and V5_XTOR; it is non-zero only on COMP, Poly2 and Metal1-Metal5, where wafer.space regenerated the dummy fill (e.g. COMP 0.39 mm2, Metal2 1.34 mm2). So the layer-level differences are fill, not design. The earlier statement that the slot-to-file mapping was inferred from pad counts is now checked directly.
+
+![Whole die, ws-run1/TQVC. 3932 x 2531 um with a ring of 56 pad cells around a 3048 x 1647 um core (yellow); the placed logic is the lighter cloud in the middle of the core and the 512x8 SRAM is boxed at (490, 1400).](images/overview.webp)
+
+![NW part of the die at (0..1100, 1250..2531) um: the SRAM macro (box about 490..922 x 1400..1885), the core power ring, and the west and north pad cells (analog pads at x 58, bidir pads along the top).](images/sram_and_corner.webp)
+
+![Standard cells in the core at (2000..2060, 1000..1036) um. All transistors sit inside the Dualgate (thick-oxide, dark purple) region, i.e. 5 V/6 V devices of the 7t5v0 library.](images/stdcell_detail.webp)
+
+### What the 1x0.5 variant adds over the quarter slot (ws-run1/TQVA)
+
+The logic and SRAM are the same; the differences are in the floorplan:
+
+| | Quarter (TQVA) | Half height (TQVC) |
+|---|---|---|
+| Die | 1936 x 2531 um | 3932 x 2531 um |
+| Bidir pads | 38 | 46 |
+| Power pad pairs (DVDD + DVSS) | 4 | 8 |
+| Input / analog pads | 5 `in_c` + 1 `in_s` / 4 | same / same |
+| SRAM | 1 x 512x8 | 1 x 512x8 (no extra SRAM) |
+| Logic cells | 35,711 | 36,116 (+405; separate synthesis and placement run, e.g. 2,971 vs 2,987 `dffq_1`, 761 vs 756 `dlyb_1`) |
+| Fill/tap/decap cells | 62,585 | 137,094 |
+
+So the 1x0.5 slot adds no peripherals and no memory: it adds 8 bidir pads over TQVA, 4 more power pad pairs and about 3.3 mm2 more (mostly empty) core (5.02 mm2 against 1.73 mm2). Of the 46 bidir pads only `bidir_PAD[0..32]` are used by the SoC; the 13 pads `bidir_PAD[33..45]` (north edge, x 482..2288) are tied off as inputs with pull-down. The design is the same RTL re-implemented in a larger core, so timing and power numbers are not directly comparable with TQVA (the netlist differs by about 400 cells).
+
 ## Authors and affiliations
 
 | Person | Role / contribution | Affiliation | Source |
@@ -51,7 +93,8 @@ Ordinary synthesised digital on stock `gf180mcu_fd_sc_mcu7t5v0` cells with one f
 | Whole-chip fmax at 3.3 V | 7t5v0 standard-cell delay at VDD = 3.3 V; compare with nom/ss/ff STA (README: met at nominal corner only, target 24 MHz) | CLK pad (`clk_PAD`, Schmitt `in_s`), run code from QSPI flash, UART on `bidir[25]`/`input[0]`, debug UART on `bidir[27]` | `librelane/config.yaml`, `librelane/chip_top.sdc`, `src/chip_core.sv` |
 | Scratch RAM `sram512x8m8wm1` at 3.3 V | foundry 5 V SRAM macro functionality, access time and retention at 3.3 V (liberty `3v30`/`ss`/`ff` views supplied in config) | CPU load/store to 0xFFFFC00-0xFFFFDFF via UART monitor; byte accesses only because of the documented multi-word bug | `src/tinyQV/cpu/internal_ram.v`, config `MACROS` |
 | `bi_24t` pads driving QSPI at up to 24 MHz | IO cell drive/timing at 3.3 V (SCK on `bidir[11]` has a relaxed 18 % output delay in the SDC) | QSPI flash/PSRAM pins `bidir[8..15]` | `librelane/chip_top.sdc` |
-| Latch-based and flop logic mix (about 950 latches, about 3400 flops) | basic functional yield | normal operation | GDS cell names |
+| Latch-based and flop logic mix (955 latches, about 3,400 flops) | basic functional yield; two instances on the reticle (run 1) | normal operation | counted in the taped-out layout |
+| 13 unused `bi_24t` pads (`bidir_PAD[33..45]`, input with pull-down) | spare pad cells; no circuit behind them | pads only | taped-out layout |
 
 Simulation results that silicon could be compared against: none stored in the repo (no STA or SDF output, no logs). The design inputs (SDC, 24 liberty corners) are there, so a run could reproduce them.
 
@@ -65,12 +108,12 @@ Packaged or bonded die on the wafer.space breakout board, 3.3 V supply, a 24 MHz
 
 ## Notes and caveats
 
-- Which GDS file belongs to which project is inferred from pad-cell counts; the platform hashes do not match the repo GDS hashes.
-- Run-1 vs run-2 differences are not documented anywhere in the repo.
-- The repo has no run logs, so DRC/LVS/timing status of the submitted layouts is unverified (the README's "only at nominal corner" statement is the only timing evidence).
+- Which GDS file belongs to which project: now checked. The taped-out layout has the same child-cell counts as `gds/tinyqv_hheight.gds.gz`; the platform hash differs from the repo hash only because wafer.space regenerated the dummy fill (XOR is zero on all non-fill layers).
+- Run-1 vs run-2: ws-run2/TQVC is the same layout apart from the chip-ID block (see that summary).
+- The repo has no run logs, so DRC/LVS/timing status of the submitted layout is unverified (this layout pass did not run DRC or LVS); the README's "only at nominal corner" statement is the only timing evidence.
 - Unused inputs 2 and later on the core side have neither pull-up nor pull-down set in `chip_core.sv` (`input_pu`/`input_pd` are 0), so they float unless driven externally.
 - `AUTHORS.md` is stated by the repo to be non-exhaustive.
 
 ## Variant: this submission
 
-**This submission (ws-run1/TQVC, half-height slot).** Built with `SLOT=1x0p5`: die 3932 x 2531 um, core 442..3490 x 442..2089 um, 8 DVDD + 8 DVSS pad pairs, 4 input pads, 46 bidir pads, 4 analog pads. The matching pre-built layout is `gds/tinyqv_hheight.gds.gz`: `strings` shows 47 `bi_24t` names (46 pads + definition), 5 `asig_5p0` names (4 + definition) and about 173k `mcu7t5v0` cell references (approximate, includes fill/tap). Same logic as the quarter version, with bidir pads 33..45 unused (input, pull-down) and analog pads unconnected. Larger core, same density target, so timing closure differs from TQVA/TQVB. The platform sha256 (`f2b98fbd...09f44a`) does not equal the sha256 of the decompressed repo GDS (`629092197f...03a49c`); same caveat (inferred post-processing, not verified).
+**This submission (ws-run1/TQVC, half-height slot).** Built with `SLOT=1x0p5`: die 3932 x 2531 um, core 442..3490 x 442..2089 um, 8 DVDD + 8 DVSS pad pairs, 4 input pads, 46 bidir pads, 4 analog pads. The matching pre-built layout is `gds/tinyqv_hheight.gds.gz`: `strings` shows 47 `bi_24t` names (46 pads + definition), 5 `asig_5p0` names (4 + definition) and about 173k `mcu7t5v0` cell references (approximate, includes fill/tap). Same RTL as the quarter version, with bidir pads 33..45 unused (input, pull-down) and analog pads unconnected; the netlist is a separate implementation run (36,116 logic cells vs 35,711). The platform sha256 (`f2b98fbd...09f44a`) does not equal the sha256 of the decompressed repo GDS (`629092197f...03a49c`); the layout comparison above shows the difference is regenerated dummy fill only. The reticle carries this die twice.
