@@ -3,7 +3,7 @@
 One directory per public project on this run. Each has an analysis (`summary.md`) of the
 project's repository, the manifest row (`project.json`), the commit that was analysed
 (`clone.json`) and measurements of the layout extracted from the reticle (`layout.json`).
-15 of the 30 summaries have also been checked against that taped-out layout and carry
+16 of the 30 summaries have also been checked against that taped-out layout and carry
 renders of it (`images/`); they are marked in the "Layout checked" column.
 
 `tools/` documents how all of this was made. The scripts run in the original workspace,
@@ -69,7 +69,7 @@ Verdict = value for GF180MCU characterisation and PDK development, as judged in 
 | RBOY | RISCBoy-180 | 1x1 | Medium | RISCBoy-180 games console SoC: two Hazard3 cores, PPU, 30 SRAM macros, 9-track 5 V cells | Luke Wren (Cambridge UK; affiliation not stated) | Apache-2.0 | OK | no | [summary](RBOY/summary.md) |
 | RZ80 | FOSSi open-source replacement for Z80 classic 8-bit CPU | 1x1 | Low | Open-source Z80 (TV80 core) with DIP40-style pinout, full slot, 9-track 5 V cells | Renaldas Zioma (rejunity); TV80 by Guy Hutchison | Apache-2.0 | TEMPLATE+NOTE | no | [summary](RZ80/summary.md) |
 | RZML | LGN FashionMNIST - Logic Gate Network trained on FashioMNIST | 1x1 | Low | Logic-gate-network FashionMNIST classifier; this repo holds only the final 228 MB GDS and checksums | Renaldas Zioma (rejunity) | none | TEMPLATE | no | [summary](RZML/summary.md) |
-| TQVA | TinyQV - Crowdsourced Risc-V SoC | 0p5x0p5 | Low | TinyQV RV32EC SoC with Tiny Tapeout competition peripherals, quarter slot; 5 V cells and one foundry SRAM run at 3.3 V | Mike Bell (MichaelBell) and ten peripheral authors | Apache-2.0 | OK | no | [summary](TQVA/summary.md) |
+| TQVA | TinyQV - Crowdsourced Risc-V SoC | 0p5x0p5 | Low | TinyQV RV32EC SoC with Tiny Tapeout competition peripherals, quarter slot (1936 x 2531 um): 35.7k logic cells (3,464 flops, 955 latches) of the 5 V 7t5v0 library plus one 512x8 foundry SRAM, all thick-oxide (Dualgate + V5_XTOR) at 3.3 V; 38 bi_24t, 6 input, 4 asig_5p0 pads; matches the repo quarter GDS | Mike Bell (MichaelBell) and ten peripheral authors | Apache-2.0 | OK | yes | [summary](TQVA/summary.md) |
 | TQVB | TinyQV - Crowdsourced Risc-V SoC (0.5x1) | 0p5x1 | Low | Same TinyQV SoC, half-width slot | Mike Bell | Apache-2.0 | OK | no | [summary](TQVB/summary.md) |
 | TQVC | TinyQV - Crowdsourced Risc-V SoC (1x0.5) | 1x0p5 | Low | Same TinyQV SoC, half-height slot | Mike Bell | Apache-2.0 | OK | no | [summary](TQVC/summary.md) |
 | TRID | gf180mcu-project-trident-gf180-teststructure | 0p5x1 | High | Full-custom analog chip of leakage test structures for pA-level measurement: single transistors, MIM capacitors, ESD diodes, foundry and custom guarded pads, guarded metal line, charge-pump current source; taped-out OAS matches the repo GDS (f81200d) apart from wafer.space COMP fill | Clyde Laforge (Scafir), CERN PhD student in a CERN + JKU Linz collaboration; copyright CERN; name also drawn as artwork on the die | Apache-2.0, CC-BY-4.0, CERN-OHL-W-2.0, LPPL-1.3c, LicenseRef-CERNLogo | THIN | yes | [summary](TRID/summary.md) |
