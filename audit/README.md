@@ -3,7 +3,7 @@
 One directory per public project on this run. Each has an analysis (`summary.md`) of the
 project's repository, the manifest row (`project.json`), the commit that was analysed
 (`clone.json`) and measurements of the layout extracted from the reticle (`layout.json`).
-21 of the 30 summaries have also been checked against that taped-out layout and carry
+23 of the 30 summaries have also been checked against that taped-out layout and carry
 renders of it (`images/`); they are marked in the "Layout checked" column.
 
 `tools/` documents how all of this was made. The scripts run in the original workspace,
@@ -53,8 +53,8 @@ Verdict = value for GF180MCU characterisation and PDK development, as judged in 
 | BTAP | BreakingTTAPs | 1x1 | Low | Transport-triggered-architecture processor with 28 foundry SRAMs on 9-track 5 V cells | Zachary Tong (polyfractal), affiliation not stated | Apache-2.0 | TEMPLATE | no | [summary](BTAP/summary.md) |
 | CAFE | FazyRV Hachure | 1x1 | Medium | FazyRV Hachure: seven bit-serial RISC-V core variants as separate macros with individual enables and clock gates | Meinhard Kissich, TU Graz | Apache-2.0 | OK | no | [summary](CAFE/summary.md) |
 | CHES | chess-move-generator | 1x1 | Low | Chess move generator (64 square modules) with USB/ULPI on 9-track 5 V cells, 60 MHz target | Hannah Ravensloft (Ravenslofty), affiliation not stated | Apache-2.0 | TEMPLATE | no | [summary](CHES/summary.md) |
-| GD02 | Racquet Half r1p0 (1/2 slot) | 0p5x1 | Low | Racquet half-slot: 9 SERV RISC-V cores each with a foundry SRAM, 7-track 5 V cells | Greg Davill (Australia; affiliation not stated) | Apache-2.0 | TEMPLATE | no | [summary](GD02/summary.md) |
-| GD03 | Racquet r2p0 - 23 core SoC | 1x1 | Low | Racquet full slot: 23 SERV cores with 23 foundry SRAMs, 7-track 5 V cells | Greg Davill | Apache-2.0 | TEMPLATE | no | [summary](GD03/summary.md) |
+| GD02 | Racquet Half r1p0 (1/2 slot) | 0p5x1 | Low | Racquet half-slot (1936 x 5122 um): 9 SERV RISC-V cores each with a foundry SRAM, 34,564 logic cells (4,241 plain flops) on 7-track 5 V cells; layout is the r1p1 release | Greg Davill (Australia; affiliation not stated) | Apache-2.0 | TEMPLATE | yes | [summary](GD02/summary.md) |
+| GD03 | Racquet r2p0 - 23 core SoC | 1x1 | Low | Racquet full slot (3932 x 5122 um): 23 SERV cores with 23 foundry SRAMs, 78,208 logic cells (7,640 plain flops) on 7-track 5 V cells; layout is the r2p1 release | Greg Davill | Apache-2.0 | TEMPLATE | yes | [summary](GD03/summary.md) |
 | GD04 | Racquet Wide 1x0.5 | 1x0p5 | Medium | Racquet Wide 1x0.5: 6 SERV cores, 6 sram512x8m8wm1, 35.5k logic cells on 9-track 5 V (mcu9t5v0) with a Difetto scan chain; layout matches the r1p0 release GDS | Greg Davill | Apache-2.0 | TEMPLATE | yes | [summary](GD04/summary.md) |
 | HZ80 | FOSSi open-source replacement for Z80 classic 8-bit CPU (0.5 x 1 slot) | 0p5x1 | Low | FOSSi Z80 replacement (TV80 core, rejunity) in the half-width 0p5x1 slot; 5143 mcu9t5v0 5 V cells, 367 flops, no macros | Renaldas Zioma (rejunity) | Apache-2.0 | TEMPLATE+NOTE | yes | [summary](HZ80/summary.md) |
 | ISHI | ISHI-KAI's Multiple Users Project | 1x1 | High | Hand-assembled full-custom analog multi-project die with 15 circuits: 5 inverters, 4 op-amps, dynamic comparator, 6-bit SAR ADC, LDO, PLL, bandgap, current source, each with its own 7-pad probe row; taped-out layout is geometrically identical to the repo GDS | ISHI-KAI community (Japan); integrator Noritsuna Imamura (SIProp.org); Akira Tsuchiya, Mizuki Mori, Miho Yamada and others | Apache-2.0 | OK | yes | [summary](ISHI/summary.md) |
